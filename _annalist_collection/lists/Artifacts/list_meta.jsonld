@@ -1,12 +1,12 @@
 {
-  "rdfs:label": "ist of artitacts",
+  "annal:display_type": "List",
+  "rdfs:label": "List of artifacts",
   "rdfs:comment": "This list displays known artifacts.",
-  "annal:default_view": "Artifact",
+  "annal:id": "Artifacts",
   "annal:default_type": "Artifact",
-  "annal:record_type": "prov:Entity",
   "annal:type_id": "_list",
   "annal:list_entity_selector": "\"prov:Entity\" in [@type]",
-  "annal:display_type": "List",
+  "annal:record_type": "prov:Entity",
   "annal:list_fields": [
     {
       "annal:field_placement": "small:0,3",
@@ -17,7 +17,7 @@
       "annal:field_id": "Entity_label"
     }
   ],
-  "annal:id": "Artifacts",
+  "annal:default_view": "Artifact",
   "@id": "./",
   "@type": [
     "annal:List"

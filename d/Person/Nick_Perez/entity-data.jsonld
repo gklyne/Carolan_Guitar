@@ -1,0 +1,18 @@
+{
+  "rdfs:label": "",
+  "rdfs:comment": "Nick Perez is a luthier, and also a guitarist and teacher at the Newark School of Instrument Crafts. He has built the Carolan Guitar.",
+  "entity:seeAlso_r": [
+    {
+      "rdfs:seeAlso": "http://www.nperezguitars.com/"
+    }
+  ],
+  "annal:type_id": "Person",
+  "foaf:name": "Nick Perez",
+  "annal:id": "Nick_Perez",
+  "@id": "./",
+  "@type": [
+    "prov:Agent",
+    "annal:EntityData"
+  ],
+  "annal:type": "annal:EntityData"
+}

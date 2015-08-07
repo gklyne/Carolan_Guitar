@@ -1,0 +1,36 @@
+{
+  "rdfs:label": "Carolan Guitar",
+  "rdfs:comment": "The Carolan Guitar is an acoustic guitar that tells its life story.\r\n\r\nThe Carolan Guitar project is hosted at the University of Nottingham\u2018s Mixed Reality Laboratory.  MRL is a technology research lab dedicated to exploring new ways of interacting with computers. Our research focuses on the boundaries between the physical and the digital \u2013 hence the name mixed reality \u2013 and we have a particular interest in cultural and creative applications of computers, including music.",
+  "entity:seeAlso_r": [
+    {
+      "rdfs:seeAlso": "http://carolanguitar.com"
+    },
+    {
+      "rdfs:seeAlso": "http://www.nottingham.ac.uk/ComputerScience/Outreach/Carolan-Guitar.aspx"
+    },
+    {
+      "rdfs:seeAlso": "https://twitter.com/carolanguitar"
+    },
+    {
+      "rdfs:seeAlso": "http://carolanguitar.com/2014/07/25/team/"
+    }
+  ],
+  "rdfs:seeAlso": "http://carolanguitar.com",
+  "annal:type_id": "Artifact",
+  "annal:member": [
+    {
+      "crm:P12i_was_present_at": "Carolan_guitar_conception"
+    },
+    {
+      "crm:P12i_was_present_at": "Design_brainstorming"
+    }
+  ],
+  "crm:P12i_was_present_at": [],
+  "annal:id": "Carolan_Guitar",
+  "@id": "./",
+  "@type": [
+    "prov:Entity",
+    "annal:EntityData"
+  ],
+  "annal:type": "annal:EntityData"
+}

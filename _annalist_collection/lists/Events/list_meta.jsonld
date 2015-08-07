@@ -1,0 +1,26 @@
+{
+  "rdfs:label": "List of events",
+  "rdfs:comment": "List of events and activities",
+  "annal:default_view": "Event",
+  "annal:default_type": "Event",
+  "annal:record_type": "prov:Event",
+  "annal:type_id": "_list",
+  "annal:list_entity_selector": "\"prov:Activity\" in [@type]",
+  "annal:display_type": "List",
+  "annal:list_fields": [
+    {
+      "annal:field_placement": "small:0,3",
+      "annal:field_id": "Entity_id"
+    },
+    {
+      "annal:field_placement": "small:3,9",
+      "annal:field_id": "Entity_label"
+    }
+  ],
+  "annal:id": "Events",
+  "@id": "./",
+  "@type": [
+    "annal:List"
+  ],
+  "annal:type": "annal:List"
+}

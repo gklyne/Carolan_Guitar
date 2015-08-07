@@ -1,0 +1,12 @@
+{
+  "rdfs:label": "Project lead",
+  "rdfs:comment": "Overall project lead",
+  "annal:type_id": "Role",
+  "annal:id": "Project_lead",
+  "@id": "./",
+  "@type": [
+    "prov:Role",
+    "annal:EntityData"
+  ],
+  "annal:type": "annal:EntityData"
+}

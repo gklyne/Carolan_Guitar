@@ -1,0 +1,39 @@
+{
+  "rdfs:label": "Design brainstorming",
+  "rdfs:comment": "Our team gathered for an intense brainstorming session so as to come up with an overall design for the Carolan guitar and to establish some principles for decorating it with Aestheticodes and mapping these to different interactive functions.\r\n",
+  "entity:seeAlso_r": [
+    {
+      "rdfs:seeAlso": "http://carolanguitar.com/2014/07/28/questions/"
+    }
+  ],
+  "annal:type_id": "Event",
+  "prov:qualifiedAssociation": [
+    {
+      "prov:hadRole": "Project_lead",
+      "prov:agent": "Steve_Benford"
+    },
+    {
+      "prov:hadRole": "Luthier",
+      "prov:agent": "Nick_Perez"
+    },
+    {
+      "prov:hadRole": "Design_integrator",
+      "prov:agent": "Adrian_Hazzard"
+    },
+    {
+      "prov:hadRole": "Graphic_designer",
+      "prov:agent": "Liz_Jeal"
+    },
+    {
+      "prov:hadRole": "Software_developer",
+      "prov:agent": "Liming_Xu"
+    }
+  ],
+  "annal:id": "Design_brainstorming",
+  "@id": "./",
+  "@type": [
+    "prov:Activity",
+    "annal:EntityData"
+  ],
+  "annal:type": "annal:EntityData"
+}

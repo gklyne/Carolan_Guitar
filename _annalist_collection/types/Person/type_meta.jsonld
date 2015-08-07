@@ -1,0 +1,20 @@
+{
+  "rdfs:label": "Person",
+  "rdfs:comment": "Person or agent",
+  "annal:field_aliases": [
+    {
+      "annal:alias_target": "foaf:name",
+      "annal:alias_source": "rdfs:label"
+    }
+  ],
+  "annal:type_id": "_type",
+  "annal:uri": "prov:Agent",
+  "annal:type_list": "People",
+  "annal:id": "Person",
+  "@id": "./",
+  "@type": [
+    "annal:Type"
+  ],
+  "annal:type": "annal:Type",
+  "annal:type_view": "Person"
+}

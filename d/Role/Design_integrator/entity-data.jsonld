@@ -1,0 +1,12 @@
+{
+  "rdfs:label": "Design integrator",
+  "rdfs:comment": "Integrating graphic designs with the physical artifact and supporting software",
+  "annal:type_id": "Role",
+  "annal:id": "Design_integrator",
+  "@id": "./",
+  "@type": [
+    "prov:Role",
+    "annal:EntityData"
+  ],
+  "annal:type": "annal:EntityData"
+}

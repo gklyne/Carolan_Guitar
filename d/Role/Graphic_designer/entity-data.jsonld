@@ -1,0 +1,12 @@
+{
+  "rdfs:label": "Graphic designer",
+  "rdfs:comment": "Providing designs for graphic theme and particular decorations.",
+  "annal:type_id": "Role",
+  "annal:id": "Graphic_designer",
+  "@id": "./",
+  "@type": [
+    "prov:Role",
+    "annal:EntityData"
+  ],
+  "annal:type": "annal:EntityData"
+}

@@ -1,0 +1,12 @@
+{
+  "rdfs:label": "Luthier",
+  "rdfs:comment": "Performed physical design and construction of the guitar",
+  "annal:type_id": "Role",
+  "annal:id": "Luthier",
+  "@id": "./",
+  "@type": [
+    "prov:Role",
+    "annal:EntityData"
+  ],
+  "annal:type": "annal:EntityData"
+}

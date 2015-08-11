@@ -1,0 +1,18 @@
+{
+  "rdfs:label": "Wenge",
+  "rdfs:comment": "Piece of wenge wood used for graphic design prototyping\r\n",
+  "entity:seeAlso_r": [
+    {
+      "rdfs:seeAlso": "http://www.wood-database.com/lumber-identification/hardwoods/wenge/"
+    }
+  ],
+  "annal:type_id": "Entity",
+  "annal:member": [],
+  "annal:id": "Wenge_1",
+  "@id": "./",
+  "@type": [
+    "/annalist/c/Carolan_Guitar/d/_type/Entity/",
+    "annal:EntityData"
+  ],
+  "annal:type": "annal:EntityData"
+}

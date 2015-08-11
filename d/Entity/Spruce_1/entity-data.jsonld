@@ -1,0 +1,14 @@
+{
+  "rdfs:label": "Spruce",
+  "rdfs:comment": "Piece of spruce wood used for graphic design prototyping\r\n",
+  "entity:seeAlso_r": [],
+  "annal:type_id": "Entity",
+  "annal:type": "annal:EntityData",
+  "annal:id": "Spruce_1",
+  "@id": "./",
+  "@type": [
+    "/annalist/c/Carolan_Guitar/d/_type/Entity/",
+    "annal:EntityData"
+  ],
+  "annal:member": []
+}

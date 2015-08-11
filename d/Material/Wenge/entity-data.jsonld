@@ -1,0 +1,18 @@
+{
+  "rdfs:label": "Wenge",
+  "rdfs:comment": "Wenge wood\r\n",
+  "entity:seeAlso_r": [
+    {
+      "rdfs:seeAlso": "http://www.wood-database.com/lumber-identification/hardwoods/wenge/"
+    }
+  ],
+  "annal:type_id": "Material",
+  "annal:type": "annal:EntityData",
+  "annal:id": "Wenge",
+  "@id": "./",
+  "@type": [
+    "crm:E57_Material",
+    "annal:EntityData"
+  ],
+  "annal:member": []
+}

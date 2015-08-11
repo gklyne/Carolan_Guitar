@@ -23,6 +23,12 @@
     },
     {
       "crm:P12i_was_present_at": "Design_brainstorming"
+    },
+    {
+      "crm:P12i_was_present_at": "Artcode_graphic_design"
+    },
+    {
+      "crm:P12i_was_present_at": "Design_graphic_prototyping"
     }
   ],
   "crm:P12i_was_present_at": [],

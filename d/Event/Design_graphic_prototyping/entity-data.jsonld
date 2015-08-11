@@ -1,0 +1,50 @@
+{
+  "rdfs:label": "Prototyping graphic designs",
+  "rdfs:comment": "A trip to the Nottinghack hack space to use their laser cutter, with the extremely generous help of members Toby Jackson and Rob Miles, allowed us to explore various ways in which Liz\u2019s celtic knot designs might be embedded into our guitar.",
+  "entity:seeAlso_r": [
+    {
+      "rdfs:seeAlso": "http://carolanguitar.com/2014/08/03/etchings/"
+    },
+    {
+      "rdfs:seeAlso": "http://nottinghack.org.uk"
+    }
+  ],
+  "annal:type_id": "Event",
+  "crm:P7_took_place_at": "Nottinghack",
+  "prov:qualifiedAssociation": [
+    {
+      "prov:hadRole": "Maker",
+      "prov:agent": "Toby_Jackson"
+    },
+    {
+      "prov:hadRole": "Maker",
+      "prov:agent": "Rob_Miles"
+    }
+  ],
+  "crm:P126_employed_r": [
+    {
+      "crm:P126_employed": "Flamed_maple"
+    },
+    {
+      "crm:P126_employed": "Plywood"
+    },
+    {
+      "crm:P126_employed": "Wenge"
+    },
+    {
+      "crm:P126_employed": "Spruce"
+    }
+  ],
+  "prov:used_r": [
+    {
+      "prov:used": "Nottinghack_laser_cutter"
+    }
+  ],
+  "annal:id": "Design_graphic_prototyping",
+  "@id": "./",
+  "@type": [
+    "prov:Activity",
+    "annal:EntityData"
+  ],
+  "annal:type": "annal:EntityData"
+}

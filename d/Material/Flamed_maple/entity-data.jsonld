@@ -1,0 +1,14 @@
+{
+  "rdfs:label": "Flamed maple",
+  "rdfs:comment": "Flamed maple wood\r\n\r\n",
+  "entity:seeAlso_r": [],
+  "annal:type_id": "Material",
+  "annal:type": "annal:EntityData",
+  "annal:id": "Flamed_maple",
+  "@id": "./",
+  "@type": [
+    "crm:E57_Material",
+    "annal:EntityData"
+  ],
+  "annal:member": []
+}

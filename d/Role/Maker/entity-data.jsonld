@@ -1,0 +1,12 @@
+{
+  "rdfs:label": "Maker",
+  "rdfs:comment": "Role applicable to anyone involved in prototyping or construction efforts",
+  "annal:type_id": "Role",
+  "annal:id": "Maker",
+  "@id": "./",
+  "@type": [
+    "prov:Role",
+    "annal:EntityData"
+  ],
+  "annal:type": "annal:EntityData"
+}

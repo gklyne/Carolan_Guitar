@@ -1,0 +1,14 @@
+{
+  "rdfs:label": "Spruce",
+  "rdfs:comment": "Spruce wood\r\n",
+  "entity:seeAlso_r": [],
+  "annal:type_id": "Material",
+  "annal:member": [],
+  "annal:id": "Spruce",
+  "@id": "./",
+  "@type": [
+    "crm:E57_Material",
+    "annal:EntityData"
+  ],
+  "annal:type": "annal:EntityData"
+}

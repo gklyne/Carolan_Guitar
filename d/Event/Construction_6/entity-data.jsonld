@@ -1,0 +1,37 @@
+{
+  "rdfs:label": "Removable sound home",
+  "rdfs:comment": "Design and creation of removable sound hole (with its own aestheticode).",
+  "entity:seeAlso_r": [
+    {
+      "rdfs:seeAlso": "http://carolanguitar.com/2014/09/27/19-smell/"
+    }
+  ],
+  "annal:type_id": "Event",
+  "crm:P7_took_place_at": "",
+  "prov:qualifiedAssociation": [
+    {
+      "prov:hadRole": "Luthier",
+      "prov:agent": "Nick_Perez"
+    }
+  ],
+  "crm:P126_employed_r": [
+    {
+      "crm:P126_employed": "Flamed_maple"
+    },
+    {
+      "crm:P126_employed": "Indian_rosewood"
+    }
+  ],
+  "prov:used_r": [
+    {
+      "prov:used": "Nottinghack_laser_cutter"
+    }
+  ],
+  "annal:id": "Construction_6",
+  "@id": "./",
+  "@type": [
+    "prov:Activity",
+    "annal:EntityData"
+  ],
+  "annal:type": "annal:EntityData"
+}

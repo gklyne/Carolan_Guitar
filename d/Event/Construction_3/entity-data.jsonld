@@ -1,0 +1,40 @@
+{
+  "rdfs:label": "Constructing the back of the guitar",
+  "rdfs:comment": "Constructing and etching the back of the Carolan Guitar\r\n",
+  "entity:seeAlso_r": [
+    {
+      "rdfs:seeAlso": "http://carolanguitar.com/2014/09/06/14-back/"
+    }
+  ],
+  "annal:type_id": "Event",
+  "crm:P7_took_place_at": "Nottinghack",
+  "prov:qualifiedAssociation": [
+    {
+      "prov:hadRole": "Luthier",
+      "prov:agent": "Nick_Perez"
+    }
+  ],
+  "crm:P126_employed_r": [
+    {
+      "crm:P126_employed": "Flamed_maple"
+    },
+    {
+      "crm:P126_employed": "Indian_rosewood"
+    },
+    {
+      "crm:P126_employed": "Mobile_phone"
+    }
+  ],
+  "prov:used_r": [
+    {
+      "prov:used": "Nottinghack_laser_cutter"
+    }
+  ],
+  "annal:id": "Construction_3",
+  "@id": "./",
+  "@type": [
+    "prov:Activity",
+    "annal:EntityData"
+  ],
+  "annal:type": "annal:EntityData"
+}

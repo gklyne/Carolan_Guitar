@@ -1,0 +1,23 @@
+{
+  "rdfs:label": "Indian rosewood",
+  "rdfs:comment": "Indian Rosewood, a lovely dark wood which will contrast with the maple used for the back opf the Carolan Guitar.",
+  "entity:seeAlso_r": [
+    {
+      "rdfs:seeAlso": "https://en.wikipedia.org/wiki/Rosewood"
+    },
+    {
+      "rdfs:seeAlso": "http://www.wood-database.com/lumber-identification/hardwoods/east-indian-rosewood/"
+    },
+    {
+      "rdfs:seeAlso": "http://www.lmii.com/products/mostly-wood/backs-sides/east-indian-rosewood"
+    }
+  ],
+  "annal:type_id": "Material",
+  "annal:id": "Indian_rosewood",
+  "@id": "./",
+  "@type": [
+    "crm:E57_Material",
+    "annal:EntityData"
+  ],
+  "annal:type": "annal:EntityData"
+}

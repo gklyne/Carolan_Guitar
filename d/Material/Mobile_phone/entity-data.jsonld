@@ -1,0 +1,13 @@
+{
+  "rdfs:label": "Mobile phone",
+  "rdfs:comment": "One of several unspecified mobile phones used to test aestheticode pattern scanning.\r\n\r\n## Commentary (meta)\r\n\r\nThe modelling of mobile phone as a material rather than an entity reflects its non-specific nature; i.e. this is not any specific identified mobile phone (actually, it seems several were used).",
+  "entity:seeAlso_r": [],
+  "annal:type_id": "Material",
+  "annal:id": "Mobile_phone",
+  "@id": "./",
+  "@type": [
+    "crm:E57_Material",
+    "annal:EntityData"
+  ],
+  "annal:type": "annal:EntityData"
+}

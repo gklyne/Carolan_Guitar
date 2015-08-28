@@ -1,0 +1,12 @@
+{
+  "rdfs:label": "Researcher",
+  "rdfs:comment": "A role that involves development and evaluation of designs, techniques, etc.",
+  "annal:type_id": "Role",
+  "annal:id": "Researcher",
+  "@id": "./",
+  "@type": [
+    "prov:Role",
+    "annal:EntityData"
+  ],
+  "annal:type": "annal:EntityData"
+}

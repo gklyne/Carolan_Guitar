@@ -1,0 +1,17 @@
+{
+  "rdfs:label": "Configuration file for Carolan Guitar aestheticodes",
+  "rdfs:comment": "A configuration file that describes mappings between aestheticodes used to decorate the Carolan Guitar and resources on the web that are part of the guitar's \"digital footprint\"\r\n",
+  "entity:seeAlso_r": [
+    {
+      "rdfs:seeAlso": "http://carolanguitar.com/2014/09/13/16-config/"
+    }
+  ],
+  "annal:type_id": "Material",
+  "annal:id": "Config_file",
+  "@id": "./",
+  "@type": [
+    "crm:E57_Material",
+    "annal:EntityData"
+  ],
+  "annal:type": "annal:EntityData"
+}

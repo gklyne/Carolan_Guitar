@@ -1,0 +1,18 @@
+{
+  "rdfs:label": "",
+  "rdfs:comment": "Artist, co-director of Proboscis",
+  "entity:seeAlso_r": [
+    {
+      "rdfs:seeAlso": "http://proboscis.org.uk/about/people/alice-angus/"
+    }
+  ],
+  "annal:type_id": "Person",
+  "foaf:name": "Alice Angus",
+  "annal:id": "Alice_Angus",
+  "@id": "./",
+  "@type": [
+    "prov:Agent",
+    "annal:EntityData"
+  ],
+  "annal:type": "annal:EntityData"
+}

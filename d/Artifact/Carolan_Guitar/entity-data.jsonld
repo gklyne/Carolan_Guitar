@@ -29,6 +29,57 @@
     },
     {
       "crm:P12i_was_present_at": "Design_graphic_prototyping"
+    },
+    {
+      "crm:P12i_was_present_at": "Digital_characteristics_design"
+    },
+    {
+      "crm:P12i_was_present_at": "Physical_design"
+    },
+    {
+      "crm:P12i_was_present_at": "Physical_digital_mapping"
+    },
+    {
+      "crm:P12i_was_present_at": "Construction_1"
+    },
+    {
+      "crm:P12i_was_present_at": "Mockup"
+    },
+    {
+      "crm:P12i_was_present_at": "Construction_2"
+    },
+    {
+      "crm:P12i_was_present_at": "Historical_research_Berlin"
+    },
+    {
+      "crm:P12i_was_present_at": "Construction_3"
+    },
+    {
+      "crm:P12i_was_present_at": "Construction_4"
+    },
+    {
+      "crm:P12i_was_present_at": "Linking_to_web_resources"
+    },
+    {
+      "crm:P12i_was_present_at": "Construction_5"
+    },
+    {
+      "crm:P12i_was_present_at": "Artcode_training"
+    },
+    {
+      "crm:P12i_was_present_at": "Construction_6"
+    },
+    {
+      "crm:P12i_was_present_at": "Construction_7"
+    },
+    {
+      "crm:P12i_was_present_at": "Construction_8"
+    },
+    {
+      "crm:P12i_was_present_at": "Construction_9"
+    },
+    {
+      "crm:P12i_was_present_at": "First_performance"
     }
   ],
   "crm:P12i_was_present_at": [],

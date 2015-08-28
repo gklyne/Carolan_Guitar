@@ -1,0 +1,26 @@
+{
+  "rdfs:label": "Historical research in Berlin",
+  "rdfs:comment": "A visit to  \"Staatliches Institut f\u00fcr Musikforschung\"  (the Berlin Musical Instrument Museum) to investigate, among other things, the history and evolution of decorations on musical instruments, especially guitars.\r\n\r\n## Commentary (meta)\r\n\r\nWould it be relevant to identify particular instruments as \"Entities used\" correspopnding to the images in the blog post?\r\n",
+  "entity:seeAlso_r": [
+    {
+      "rdfs:seeAlso": "http://carolanguitar.com/2014/09/02/13-berlin/"
+    }
+  ],
+  "annal:type_id": "Event",
+  "crm:P7_took_place_at": "Berlin_SIM_MIM",
+  "prov:qualifiedAssociation": [
+    {
+      "prov:hadRole": "Researcher",
+      "prov:agent": "Steve_Benford"
+    }
+  ],
+  "crm:P126_employed_r": [],
+  "prov:used_r": [],
+  "annal:id": "Historical_research_Berlin",
+  "@id": "./",
+  "@type": [
+    "prov:Activity",
+    "annal:EntityData"
+  ],
+  "annal:type": "annal:EntityData"
+}

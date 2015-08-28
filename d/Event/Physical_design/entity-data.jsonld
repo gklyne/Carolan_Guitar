@@ -1,0 +1,33 @@
+{
+  "rdfs:label": "Design of physical outline and details",
+  "rdfs:comment": "Guided by Nick, we\u2019ve now come up with a design for the Carolan guitar. The body shape is broadly based on the popular Dreadnought (or \u2018Dread\u2019) style. In our case, we\u2019ve extended both upper and lower bouts to make some extra space for aesthteticode patterning, leading to a slightly asymmetric shape.\r\n\r\nWe\u2019ve also opted for a small cutaway, both for the traditional musical reason of providing easier access to the upper reaches of the fretboard, but also to provide an extra hidden nook for decoration .\r\n\r\nPerhaps the most distinctive features of our design are the sound holes. Inspired by our earlier tests, we plan to experiment with cutting a series of sound holes into the instrument that form part of its interactive decoration.\r\n\r\n",
+  "entity:seeAlso_r": [
+    {
+      "rdfs:seeAlso": "http://carolanguitar.com/2014/08/11/dread/"
+    }
+  ],
+  "annal:type_id": "Event",
+  "crm:P7_took_place_at": "",
+  "prov:qualifiedAssociation": [
+    {
+      "prov:hadRole": "Luthier",
+      "prov:agent": "Nick_Perez"
+    }
+  ],
+  "crm:P126_employed_r": [],
+  "prov:used_r": [
+    {
+      "prov:used": "Dreadnought_design"
+    },
+    {
+      "prov:used": "Corel_draw"
+    }
+  ],
+  "annal:id": "Physical_design",
+  "@id": "./",
+  "@type": [
+    "prov:Activity",
+    "annal:EntityData"
+  ],
+  "annal:type": "annal:EntityData"
+}

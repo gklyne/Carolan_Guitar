@@ -1,0 +1,21 @@
+{
+  "rdfs:label": "Sunday session at the Hop Pole, Beeston",
+  "rdfs:comment": "The Hop Pole in Besston is a longstanding traditional music session\r\n\r\n@@TODO: the [players are described as \"Hope Pole Session\", but are not individually named.  Should I extend the idea of person to include groups such as this?  Or extend performance event to indicate an ensemble as well as individuals.\r\n@@TODO: need performance evet to include composition.\r\n",
+  "entity:seeAlso_r": [
+    {
+      "rdfs:seeAlso": "https://www.youtube.com/watch?list=UUAGIvRcC5dznyR1Fz3vojfw&v=HmOHO8vYFoM#t=16"
+    }
+  ],
+  "annal:type_id": "Event",
+  "crm:P7_took_place_at": "Hop_Pole_Beeston",
+  "prov:qualifiedAssociation": [],
+  "crm:P126_employed_r": [],
+  "prov:used_r": [],
+  "annal:id": "Hop_jam",
+  "@id": "./",
+  "@type": [
+    "prov:Activity",
+    "annal:EntityData"
+  ],
+  "annal:type": "annal:EntityData"
+}

@@ -80,6 +80,12 @@
     },
     {
       "crm:P12i_was_present_at": "First_performance"
+    },
+    {
+      "crm:P12i_was_present_at": "Stairway"
+    },
+    {
+      "crm:P12i_was_present_at": "Hop_jam"
     }
   ],
   "crm:P12i_was_present_at": [],

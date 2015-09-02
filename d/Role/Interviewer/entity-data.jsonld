@@ -1,0 +1,12 @@
+{
+  "rdfs:label": "Interviewer",
+  "rdfs:comment": "",
+  "annal:type_id": "Role",
+  "annal:id": "Interviewer",
+  "@id": "./",
+  "@type": [
+    "prov:Role",
+    "annal:EntityData"
+  ],
+  "annal:type": "annal:EntityData"
+}

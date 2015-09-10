@@ -17,77 +17,7 @@
   ],
   "rdfs:seeAlso": "http://carolanguitar.com",
   "annal:type_id": "Artifact",
-  "annal:member": [
-    {
-      "crm:P12i_was_present_at": "Carolan_guitar_conception"
-    },
-    {
-      "crm:P12i_was_present_at": "Design_brainstorming"
-    },
-    {
-      "crm:P12i_was_present_at": "Artcode_graphic_design"
-    },
-    {
-      "crm:P12i_was_present_at": "Design_graphic_prototyping"
-    },
-    {
-      "crm:P12i_was_present_at": "Digital_characteristics_design"
-    },
-    {
-      "crm:P12i_was_present_at": "Physical_design"
-    },
-    {
-      "crm:P12i_was_present_at": "Physical_digital_mapping"
-    },
-    {
-      "crm:P12i_was_present_at": "Construction_1"
-    },
-    {
-      "crm:P12i_was_present_at": "Mockup"
-    },
-    {
-      "crm:P12i_was_present_at": "Construction_2"
-    },
-    {
-      "crm:P12i_was_present_at": "Historical_research_Berlin"
-    },
-    {
-      "crm:P12i_was_present_at": "Construction_3"
-    },
-    {
-      "crm:P12i_was_present_at": "Construction_4"
-    },
-    {
-      "crm:P12i_was_present_at": "Linking_to_web_resources"
-    },
-    {
-      "crm:P12i_was_present_at": "Construction_5"
-    },
-    {
-      "crm:P12i_was_present_at": "Artcode_training"
-    },
-    {
-      "crm:P12i_was_present_at": "Construction_6"
-    },
-    {
-      "crm:P12i_was_present_at": "Construction_7"
-    },
-    {
-      "crm:P12i_was_present_at": "Construction_8"
-    },
-    {
-      "crm:P12i_was_present_at": "Construction_9"
-    },
-    {
-      "crm:P12i_was_present_at": "First_performance"
-    },
-    {
-      "crm:P12i_was_present_at": "Stairway"
-    },
-    {
-      "crm:P12i_was_present_at": "Hop_jam"
-    }
-  ],
+  "annal:type": "annal:EntityData",
   "crm:P12i_was_present_at": [],
   "annal:id": "Carolan_Guitar",
   "@id": "./",
@@ -95,5 +25,75 @@
     "prov:Entity",
     "annal:EntityData"
   ],
-  "annal:type": "annal:EntityData"
+  "annal:member": [
+    {
+      "crm:P12i_was_present_at": "Event/Carolan_guitar_conception"
+    },
+    {
+      "crm:P12i_was_present_at": "Event/Design_brainstorming"
+    },
+    {
+      "crm:P12i_was_present_at": "Event/Artcode_graphic_design"
+    },
+    {
+      "crm:P12i_was_present_at": "Construction/Design_graphic_prototyping"
+    },
+    {
+      "crm:P12i_was_present_at": "Event/Digital_characteristics_design"
+    },
+    {
+      "crm:P12i_was_present_at": "Event/Physical_design"
+    },
+    {
+      "crm:P12i_was_present_at": "Event/Physical_digital_mapping"
+    },
+    {
+      "crm:P12i_was_present_at": "Construction/Construction_1"
+    },
+    {
+      "crm:P12i_was_present_at": "Construction/Mockup"
+    },
+    {
+      "crm:P12i_was_present_at": "Construction/Construction_2"
+    },
+    {
+      "crm:P12i_was_present_at": "Event/Historical_research_Berlin"
+    },
+    {
+      "crm:P12i_was_present_at": "Construction/Construction_3"
+    },
+    {
+      "crm:P12i_was_present_at": "Construction/Construction_4"
+    },
+    {
+      "crm:P12i_was_present_at": "Event/Linking_to_web_resources"
+    },
+    {
+      "crm:P12i_was_present_at": "Construction/Construction_5"
+    },
+    {
+      "crm:P12i_was_present_at": "Event/Artcode_training"
+    },
+    {
+      "crm:P12i_was_present_at": "Construction/Construction_6"
+    },
+    {
+      "crm:P12i_was_present_at": "Construction/Construction_7"
+    },
+    {
+      "crm:P12i_was_present_at": "Construction/Construction_8"
+    },
+    {
+      "crm:P12i_was_present_at": "Construction/Construction_9"
+    },
+    {
+      "crm:P12i_was_present_at": "Performance/First_performance"
+    },
+    {
+      "crm:P12i_was_present_at": "Performance/Stairway"
+    },
+    {
+      "crm:P12i_was_present_at": "Performance/Hop_jam"
+    }
+  ]
 }

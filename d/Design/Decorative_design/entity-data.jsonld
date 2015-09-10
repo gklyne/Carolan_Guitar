@@ -1,0 +1,29 @@
+{
+  "rdfs:label": "Decorative design of Carolan Guitar",
+  "rdfs:comment": "\"Celtic Knot\" designs with embedded Aestehticodes used to decorate the Carolan Guitar",
+  "entity:seeAlso_r": [
+    {
+      "rdfs:seeAlso": "http://carolanguitar.com/2014/07/25/aestheticodes/"
+    },
+    {
+      "rdfs:seeAlso": ""
+    }
+  ],
+  "annal:type_id": "Design",
+  "annal:type": "annal:EntityData",
+  "annal:id": "Decorative_design",
+  "@id": "./",
+  "@type": [
+    "coll:Design",
+    "prov:Entity",
+    "crm:E70_Thing",
+    "crm:E71_Man-Made_Thing",
+    "crm:E28_Conceptual_Object",
+    "annal:EntityData"
+  ],
+  "annal:member": [
+    {
+      "crm:P12i_was_present_at": "Event/Artcode_graphic_design"
+    }
+  ]
+}

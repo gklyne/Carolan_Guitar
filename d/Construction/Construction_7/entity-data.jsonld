@@ -1,0 +1,35 @@
+{
+  "rdfs:label": "Sound board bracing",
+  "rdfs:comment": "Fix internal wooden struts to Carolan\u2019s Soundboard and back panel to strengthen and reinforce them against the enormous tension exerted by the strings and the neck.",
+  "entity:seeAlso_r": [
+    {
+      "rdfs:seeAlso": "http://carolanguitar.com/2014/10/02/20-brace-yourself/"
+    }
+  ],
+  "annal:type_id": "Construction",
+  "crm:P7_took_place_at": "",
+  "prov:qualifiedAssociation": [
+    {
+      "prov:hadRole": "Role/Luthier",
+      "prov:agent": "Person/Nick_Perez"
+    }
+  ],
+  "crm:P126_employed_r": [
+    {
+      "crm:P126_employed": "Material/Wooden_struts"
+    }
+  ],
+  "prov:used_r": [
+    {
+      "prov:used": "Artifact/Carolan_guitar_soundboard"
+    }
+  ],
+  "annal:id": "Construction_7",
+  "@id": "./",
+  "@type": [
+    "crm:E12_Production",
+    "prov:Activity",
+    "annal:EntityData"
+  ],
+  "annal:type": "annal:EntityData"
+}

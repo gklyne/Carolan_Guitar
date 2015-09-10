@@ -7,7 +7,7 @@
     {
       "annal:property_uri": "",
       "annal:field_placement": "small:0,12",
-      "annal:field_id": "Event_m"
+      "annal:field_id": "_field/Event_m"
     }
   ],
   "annal:id": "Event_r",

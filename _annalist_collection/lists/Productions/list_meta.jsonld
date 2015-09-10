@@ -1,0 +1,26 @@
+{
+  "annal:display_type": "List",
+  "rdfs:label": "List construction events",
+  "rdfs:comment": "List of production events",
+  "annal:id": "Productions",
+  "annal:default_type": "Construction",
+  "annal:type_id": "_list",
+  "annal:list_entity_selector": "\"frbroo:Performance\" in [@type]",
+  "annal:record_type": "frbroo:F31_Performance",
+  "annal:list_fields": [
+    {
+      "annal:field_placement": "small:0,3",
+      "annal:field_id": "Entity_id"
+    },
+    {
+      "annal:field_placement": "small:3,9",
+      "annal:field_id": "Entity_label"
+    }
+  ],
+  "annal:default_view": "Event",
+  "@id": "./",
+  "@type": [
+    "annal:List"
+  ],
+  "annal:type": "annal:List"
+}

@@ -6,13 +6,18 @@
   "annal:group_fields": [
     {
       "annal:property_uri": "",
-      "annal:field_placement": "small:0,12;medium:0,6",
-      "annal:field_id": "Entity_id"
+      "annal:field_placement": "small:0,12;medium:0,3",
+      "annal:field_id": "_field/Entity_id"
+    },
+    {
+      "annal:property_uri": "",
+      "annal:field_placement": "small:0,12;medium:3,3",
+      "annal:field_id": "_field/Entity_type"
     },
     {
       "annal:property_uri": "",
       "annal:field_placement": "small:0,12;medium:6,6",
-      "annal:field_id": "Entity_label"
+      "annal:field_id": "_field/Entity_label"
     }
   ],
   "annal:id": "Event_m",

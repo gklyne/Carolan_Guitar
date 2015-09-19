@@ -13,6 +13,9 @@
     },
     {
       "rdfs:seeAlso": "http://carolanguitar.com/2014/07/25/team/"
+    },
+    {
+      "rdfs:seeAlso": "http://carolanguitar.com/players/"
     }
   ],
   "rdfs:seeAlso": "http://carolanguitar.com",
@@ -22,7 +25,12 @@
   "annal:id": "Carolan_Guitar",
   "@id": "./",
   "@type": [
+    "crm:E24_Physical_Man-Made_Thing",
     "prov:Entity",
+    "crm:E70_Thing",
+    "crm:E71_Man-Made_Thing",
+    "crm:E18_Physical_Thing",
+    "frbroo:F7_Object",
     "annal:EntityData"
   ],
   "annal:member": [
@@ -94,6 +102,18 @@
     },
     {
       "crm:P12i_was_present_at": "Performance/Hop_jam"
+    },
+    {
+      "crm:P12i_was_present_at": "Event/Photo_shoot"
+    },
+    {
+      "crm:P12i_was_present_at": "Composition/Catch_the_moment"
+    },
+    {
+      "crm:P12i_was_present_at": "Event/Shoreditch"
+    },
+    {
+      "crm:P12i_was_present_at": "Event/OxJam"
     }
   ]
 }

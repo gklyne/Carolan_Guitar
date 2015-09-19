@@ -1,10 +1,10 @@
 {
-  "rdfs:label": "Kev Glover",
-  "rdfs:comment": "Aestheticodes platform developer.",
+  "rdfs:label": "",
+  "rdfs:comment": "Musicians",
   "entity:seeAlso_r": [],
   "annal:type_id": "Person",
-  "foaf:name": "Kev Glover",
-  "annal:id": "Kev_Glover",
+  "foaf:name": "Paul and Anna Heery",
+  "annal:id": "Paul_Anna_Heery",
   "@id": "./",
   "@type": [
     "prov:Agent",

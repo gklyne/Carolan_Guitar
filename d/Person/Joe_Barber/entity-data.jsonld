@@ -1,0 +1,18 @@
+{
+  "rdfs:label": "",
+  "rdfs:comment": "Musician/Band",
+  "entity:seeAlso_r": [
+    {
+      "rdfs:seeAlso": "https://www.facebook.com/JoeBarberMusic"
+    }
+  ],
+  "annal:type_id": "Person",
+  "foaf:name": "Joe Barber",
+  "annal:id": "Joe_Barber",
+  "@id": "./",
+  "@type": [
+    "prov:Agent",
+    "annal:EntityData"
+  ],
+  "annal:type": "annal:EntityData"
+}

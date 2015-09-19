@@ -1,0 +1,12 @@
+{
+  "rdfs:label": "Musicians",
+  "rdfs:comment": "Musicians",
+  "annal:type_id": "Role",
+  "annal:id": "Musicians",
+  "@id": "./",
+  "@type": [
+    "prov:Role",
+    "annal:EntityData"
+  ],
+  "annal:type": "annal:EntityData"
+}

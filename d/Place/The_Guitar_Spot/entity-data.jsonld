@@ -1,0 +1,17 @@
+{
+  "rdfs:label": "The Guitar Spot",
+  "rdfs:comment": "Music Shop in Beeston, Nottingham",
+  "entity:seeAlso_r": [
+    {
+      "rdfs:seeAlso": "https://www.facebook.com/The-Guitar-Spot-140096079349571/"
+    }
+  ],
+  "annal:type_id": "Place",
+  "annal:id": "The_Guitar_Spot",
+  "@id": "./",
+  "@type": [
+    "crm:E53_Place",
+    "annal:EntityData"
+  ],
+  "annal:type": "annal:EntityData"
+}

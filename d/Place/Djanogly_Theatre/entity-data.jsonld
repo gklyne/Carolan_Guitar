@@ -1,0 +1,20 @@
+{
+  "rdfs:label": "Djanogly Theatre",
+  "rdfs:comment": "Djanogly Theatre at Nottingham Lakeside Arts, \"green room\"",
+  "entity:seeAlso_r": [
+    {
+      "rdfs:seeAlso": "http://www.lakesidearts.org.uk/"
+    },
+    {
+      "rdfs:seeAlso": "http://carolanguitar.com/2014/10/23/27-in-the-moment/"
+    }
+  ],
+  "annal:type_id": "Place",
+  "annal:id": "Djanogly_Theatre",
+  "@id": "./",
+  "@type": [
+    "crm:E53_Place",
+    "annal:EntityData"
+  ],
+  "annal:type": "annal:EntityData"
+}

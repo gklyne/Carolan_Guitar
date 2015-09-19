@@ -1,0 +1,17 @@
+{
+  "rdfs:label": "Digital Shoreditch",
+  "rdfs:comment": "Digital Shoreditch is a unique community celebrating the outstanding creative, technical and entrepreneurial talent of the UK, Europe and beyond.",
+  "entity:seeAlso_r": [
+    {
+      "rdfs:seeAlso": "http://digitalshoreditch.com/about/"
+    }
+  ],
+  "annal:type_id": "Place",
+  "annal:id": "Digital_Shoreditch",
+  "@id": "./",
+  "@type": [
+    "crm:E53_Place",
+    "annal:EntityData"
+  ],
+  "annal:type": "annal:EntityData"
+}

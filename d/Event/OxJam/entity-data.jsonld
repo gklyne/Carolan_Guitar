@@ -1,0 +1,80 @@
+{
+  "rdfs:label": "Beeston Oxjam Takeover festival",
+  "rdfs:comment": "Carolan took up residence on Jimmy\u2019s sofa at The Guitar Spot throughout the Beeston Oxjam Takeover festival, where it got to meet artistes as well as folks who were just passing through.",
+  "entity:seeAlso_r": [
+    {
+      "rdfs:seeAlso": "http://carolanguitar.com/2014/11/01/oxjam/"
+    },
+    {
+      "rdfs:seeAlso": "http://www.oxjambeestontakeover.org/"
+    },
+    {
+      "rdfs:seeAlso": "http://carolanguitar.com/players/"
+    }
+  ],
+  "annal:type_id": "Event",
+  "crm:P7_took_place_at": "Place/The_Guitar_Spot",
+  "prov:qualifiedAssociation": [
+    {
+      "prov:hadRole": "Role/Guitarist",
+      "prov:agent": "Person/Chris_Zwingel"
+    },
+    {
+      "prov:hadRole": "Role/Guitarist",
+      "prov:agent": "Person/Emma_Bladon_Jones"
+    },
+    {
+      "prov:hadRole": "Role/Guitarist",
+      "prov:agent": "Person/Jasmin_Issaka"
+    },
+    {
+      "prov:hadRole": "Role/Guitarist",
+      "prov:agent": "Person/Joe_Barber"
+    },
+    {
+      "prov:hadRole": "Role/Musicians",
+      "prov:agent": "Person/Paul_Anna_Heery"
+    },
+    {
+      "prov:hadRole": "Role/Musicians",
+      "prov:agent": "Person/Matt_and_Elaine"
+    },
+    {
+      "prov:hadRole": "Role/Guitarist",
+      "prov:agent": "Person/Phil_Langran"
+    },
+    {
+      "prov:hadRole": "Role/Guitarist",
+      "prov:agent": "Person/Marc_Block"
+    },
+    {
+      "prov:hadRole": "Role/Guitarist",
+      "prov:agent": "Person/Alan_Windsor"
+    },
+    {
+      "prov:hadRole": "Role/Guitarist",
+      "prov:agent": "Person/Jeremy_Galgut"
+    },
+    {
+      "prov:hadRole": "Role/Guitarist",
+      "prov:agent": "Person/Jim_Dunn"
+    },
+    {
+      "prov:hadRole": "Role/Guitarist",
+      "prov:agent": "Person/Steve_Benford"
+    }
+  ],
+  "crm:P126_employed_r": [],
+  "prov:used_r": [
+    {
+      "prov:used": "Artifact/Carolan_Guitar"
+    }
+  ],
+  "annal:id": "OxJam",
+  "@id": "./",
+  "@type": [
+    "prov:Activity",
+    "annal:EntityData"
+  ],
+  "annal:type": "annal:EntityData"
+}

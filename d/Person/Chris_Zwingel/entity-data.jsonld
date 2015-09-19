@@ -1,0 +1,18 @@
+{
+  "rdfs:label": "",
+  "rdfs:comment": "Musician, Guitarist",
+  "entity:seeAlso_r": [
+    {
+      "rdfs:seeAlso": "https://www.facebook.com/zwingelchris"
+    }
+  ],
+  "annal:type_id": "Person",
+  "foaf:name": "Chris Zwingel",
+  "annal:id": "Chris_Zwingel",
+  "@id": "./",
+  "@type": [
+    "prov:Agent",
+    "annal:EntityData"
+  ],
+  "annal:type": "annal:EntityData"
+}

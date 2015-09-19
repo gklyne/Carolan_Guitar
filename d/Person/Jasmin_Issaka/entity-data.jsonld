@@ -1,0 +1,18 @@
+{
+  "rdfs:label": "",
+  "rdfs:comment": "Guitarist",
+  "entity:seeAlso_r": [
+    {
+      "rdfs:seeAlso": "https://www.facebook.com/IamThatYasmin"
+    }
+  ],
+  "annal:type_id": "Person",
+  "foaf:name": "Jasmin Issaka",
+  "annal:id": "Jasmin_Issaka",
+  "@id": "./",
+  "@type": [
+    "prov:Agent",
+    "annal:EntityData"
+  ],
+  "annal:type": "annal:EntityData"
+}

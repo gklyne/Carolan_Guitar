@@ -12,10 +12,14 @@
   "annal:type_id": "Work",
   "annal:member__2": [
     {
-      "crm:P12i_was_present_at": "Performance/Catch_the_moment"
+      "crm:P12i_was_present_at": "Composition/Catch_the_moment"
     }
   ],
-  "annal:type": "annal:EntityData",
+  "annal:member": [
+    {
+      "prov:wasAttributedTo": "Person/Lulo_Reinhardt"
+    }
+  ],
   "annal:id": "In_the_moment",
   "@id": "./",
   "@type": [
@@ -30,9 +34,5 @@
     "crm:E1_CRM_Entity",
     "annal:EntityData"
   ],
-  "annal:member": [
-    {
-      "prov:wasAttributedTo": "Person/Lulo_Reinhardt"
-    }
-  ]
+  "annal:type": "annal:EntityData"
 }

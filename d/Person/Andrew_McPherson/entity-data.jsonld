@@ -1,0 +1,21 @@
+{
+  "rdfs:label": "",
+  "rdfs:comment": "Composer, and Lecturer in Digital Media in the Centre for Digital Music at Queen Mary, University of London.\r\n",
+  "entity:seeAlso_r": [
+    {
+      "rdfs:seeAlso": "http://www.eecs.qmul.ac.uk/~andrewm/composer/research.html"
+    },
+    {
+      "rdfs:seeAlso": "http://www.eecs.qmul.ac.uk/~andrewm/"
+    }
+  ],
+  "annal:type_id": "Person",
+  "foaf:name": "Andrew McPherson",
+  "annal:id": "Andrew_McPherson",
+  "@id": "./",
+  "@type": [
+    "prov:Agent",
+    "annal:EntityData"
+  ],
+  "annal:type": "annal:EntityData"
+}

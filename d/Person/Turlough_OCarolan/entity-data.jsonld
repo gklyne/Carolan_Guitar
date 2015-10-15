@@ -1,0 +1,18 @@
+{
+  "rdfs:label": "",
+  "rdfs:comment": "Turlough O'Carolan,[1] (Irish: Toirdhealbhach \u00d3 Cearbhall\u00e1in; Irish pronunciation: [\u02c8t\u032a\u02e0\u027e\u02e0e\u02d0l\u032a\u02e0\u0259x o\u02d0 \u02c8caru\u02d0l\u032a\u02e0a\u02d0n\u02b2]) (1670 \u2013 25 March 1738) was a blind early Irish harper, composer and singer whose great fame is due to his gift for melodic composition.",
+  "entity:seeAlso_r": [
+    {
+      "rdfs:seeAlso": "https://en.wikipedia.org/wiki/Turlough_O'Carolan"
+    }
+  ],
+  "annal:type_id": "Person",
+  "foaf:name": "Turlough O'Carolan",
+  "annal:id": "Turlough_OCarolan",
+  "@id": "./",
+  "@type": [
+    "prov:Agent",
+    "annal:EntityData"
+  ],
+  "annal:type": "annal:EntityData"
+}

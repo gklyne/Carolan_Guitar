@@ -1,0 +1,55 @@
+{
+  "rdfs:label": "Irish Eyes: recordings at Djangoly Hall",
+  "rdfs:comment": "Acoustic guitarist Steve Pinnock has been putting Carolan through its paces while producer Simon Paterson has been exploring how best to record its voice.",
+  "entity:seeAlso_r": [
+    {
+      "rdfs:seeAlso": "http://carolanguitar.com/2015/04/08/41-irish-eyes/"
+    },
+    {
+      "rdfs:seeAlso": "https://youtu.be/eBsY9tkhdJY"
+    },
+    {
+      "rdfs:seeAlso": "https://youtu.be/p-B5hNHS4XY"
+    }
+  ],
+  "annal:type_id": "Performance",
+  "crm:P7_took_place_at": "Place/Djanogly_Theatre",
+  "prov:qualifiedAssociation": [
+    {
+      "prov:hadRole": "Role/Guitarist",
+      "prov:agent": "Person/Steve_Pinnock"
+    },
+    {
+      "prov:hadRole": "Role/Producer",
+      "prov:agent": "Person/Simon_Paterson"
+    },
+    {
+      "prov:hadRole": "Role/Mixer",
+      "prov:agent": "Person/Simon_Paterson"
+    }
+  ],
+  "crm:P126_employed_r": [],
+  "frbroo:R25F_performed_r": [
+    {
+      "frbroo:R25F_performed": "Work/Irish_Eyes"
+    },
+    {
+      "frbroo:R25F_performed": "Work/Against_the_Flow"
+    }
+  ],
+  "prov:used_r": [
+    {
+      "prov:used": "Artifact/Carolan_Guitar"
+    }
+  ],
+  "annal:id": "Irish_Eyes",
+  "@id": "./",
+  "@type": [
+    "frbroo:F31_Performance",
+    "prov:Activity",
+    "crm:E5_Event",
+    "crm:E7_Activity",
+    "annal:EntityData"
+  ],
+  "annal:type": "annal:EntityData"
+}

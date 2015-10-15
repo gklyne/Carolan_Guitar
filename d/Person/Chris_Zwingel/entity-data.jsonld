@@ -4,6 +4,9 @@
   "entity:seeAlso_r": [
     {
       "rdfs:seeAlso": "https://www.facebook.com/zwingelchris"
+    },
+    {
+      "rdfs:seeAlso": "https://chriszwingel.bandpage.com/"
     }
   ],
   "annal:type_id": "Person",

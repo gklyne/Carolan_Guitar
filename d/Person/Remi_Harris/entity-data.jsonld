@@ -1,0 +1,24 @@
+{
+  "rdfs:label": "",
+  "rdfs:comment": "Remi is a virtuoso Gypsy Jazz player.",
+  "entity:seeAlso_r": [
+    {
+      "rdfs:seeAlso": "http://carolanguitar.com/2014/11/10/31-coquette/"
+    },
+    {
+      "rdfs:seeAlso": "http://www.remiharris.co.uk"
+    },
+    {
+      "rdfs:seeAlso": "https://www.youtube.com/user/remiharris"
+    }
+  ],
+  "annal:type_id": "Person",
+  "foaf:name": "Remi Haris",
+  "annal:id": "Remi_Harris",
+  "@id": "./",
+  "@type": [
+    "prov:Agent",
+    "annal:EntityData"
+  ],
+  "annal:type": "annal:EntityData"
+}

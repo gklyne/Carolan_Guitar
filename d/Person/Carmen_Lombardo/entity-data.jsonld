@@ -1,0 +1,18 @@
+{
+  "rdfs:label": "",
+  "rdfs:comment": "Carmen Lombardo (July 16, 1903 - April 17, 1971) was the younger brother of bandleader Guy Lombardo. He was a vocalist and composer whose compositions included the 1928 classic \"Sweethearts on Parade\", which was number one for three weeks in 1929 on the U.S. pop charts, \"Ridin' Around in the Rain\", written with Gene Austin in 1934, the jazz and pop standards \"Coquette\", \"Boo Hoo\", and \"Some Rainy Day\", and \"Powder Your Face With Sunshine (Smile, Smile, Smile)\", written with Stanley Rochinski in 1948-49.",
+  "entity:seeAlso_r": [
+    {
+      "rdfs:seeAlso": "https://en.wikipedia.org/wiki/Carmen_Lombardo"
+    }
+  ],
+  "annal:type_id": "Person",
+  "foaf:name": "Carmen Lombardo",
+  "annal:id": "Carmen_Lombardo",
+  "@id": "./",
+  "@type": [
+    "prov:Agent",
+    "annal:EntityData"
+  ],
+  "annal:type": "annal:EntityData"
+}

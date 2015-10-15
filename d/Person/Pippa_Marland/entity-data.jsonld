@@ -1,0 +1,21 @@
+{
+  "rdfs:label": "",
+  "rdfs:comment": "Saxophonist with Carmina",
+  "entity:seeAlso_r": [
+    {
+      "rdfs:seeAlso": "http://www.carmina.co.uk/"
+    },
+    {
+      "rdfs:seeAlso": "http://www.worcester.ac.uk/discover/pippa-marland.html"
+    }
+  ],
+  "annal:type_id": "Person",
+  "foaf:name": "Pippa Marland",
+  "annal:id": "Pippa_Marland",
+  "@id": "./",
+  "@type": [
+    "prov:Agent",
+    "annal:EntityData"
+  ],
+  "annal:type": "annal:EntityData"
+}

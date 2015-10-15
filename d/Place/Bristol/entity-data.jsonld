@@ -1,0 +1,13 @@
+{
+  "rdfs:label": "Bristol",
+  "rdfs:comment": "",
+  "entity:seeAlso_r": [],
+  "annal:type_id": "Place",
+  "annal:id": "Bristol",
+  "@id": "./",
+  "@type": [
+    "crm:E53_Place",
+    "annal:EntityData"
+  ],
+  "annal:type": "annal:EntityData"
+}

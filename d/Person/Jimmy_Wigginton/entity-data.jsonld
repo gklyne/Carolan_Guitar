@@ -1,0 +1,18 @@
+{
+  "rdfs:label": "",
+  "rdfs:comment": "Guitarist, and proprietor of \"The Guitar Spot\" in Beeston.",
+  "entity:seeAlso_r": [
+    {
+      "rdfs:seeAlso": "https://www.facebook.com/The-Guitar-Spot-140096079349571/?_fb_noscript=1"
+    }
+  ],
+  "annal:type_id": "Person",
+  "foaf:name": "Jimmy Wigginton",
+  "annal:id": "Jimmy_Wigginton",
+  "@id": "./",
+  "@type": [
+    "prov:Agent",
+    "annal:EntityData"
+  ],
+  "annal:type": "annal:EntityData"
+}

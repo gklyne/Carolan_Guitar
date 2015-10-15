@@ -14,7 +14,7 @@
       "annal:supertype_uri": "crm:E71_Man-Made_Thing"
     }
   ],
-  "annal:uri": "coll:Tool",
+  "annal:uri": "crm:E24_Physical_Man-Made_Thing",
   "annal:type_list": "_list/Artifacts",
   "annal:id": "Tool",
   "@id": "./",

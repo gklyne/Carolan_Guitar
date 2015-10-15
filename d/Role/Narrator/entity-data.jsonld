@@ -1,0 +1,12 @@
+{
+  "rdfs:label": "Narrator",
+  "rdfs:comment": "Narrator of guest post",
+  "annal:type_id": "Role",
+  "annal:id": "Narrator",
+  "@id": "./",
+  "@type": [
+    "prov:Role",
+    "annal:EntityData"
+  ],
+  "annal:type": "annal:EntityData"
+}

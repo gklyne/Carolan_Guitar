@@ -1,0 +1,48 @@
+{
+  "rdfs:label": "The 'Vat' session",
+  "rdfs:comment": "The \u2018Vat\u2019 session that takes place at the Vat and Fiddle pub near Nottingham railway station every second Sunday afternoon of the month\r\n\r\n@@TODO: I'm recording sessions as \"performances\" - do they warrant a different class?",
+  "entity:seeAlso_r": [
+    {
+      "rdfs:seeAlso": "http://carolanguitar.com/2015/03/26/40-the-vat/"
+    }
+  ],
+  "annal:type_id": "Performance",
+  "crm:P7_took_place_at": "Place/Vat_and_Fiddle",
+  "prov:qualifiedAssociation": [
+    {
+      "prov:hadRole": "Role/Guitarist",
+      "prov:agent": "Person/Steve_Benford"
+    },
+    {
+      "prov:hadRole": "Role/Guitarist",
+      "prov:agent": "Person/Gav_Shannon"
+    }
+  ],
+  "crm:P126_employed_r": [],
+  "frbroo:R25F_performed_r": [
+    {
+      "frbroo:R25F_performed": "Work/The_Maid_Behind_the_Bar"
+    },
+    {
+      "frbroo:R25F_performed": "Work/Flowers_from_Ayako"
+    },
+    {
+      "frbroo:R25F_performed": "Work/Out_on_The_Ocean"
+    }
+  ],
+  "prov:used_r": [
+    {
+      "prov:used": "Artifact/Carolan_Guitar"
+    }
+  ],
+  "annal:id": "The_Vat",
+  "@id": "./",
+  "@type": [
+    "frbroo:F31_Performance",
+    "prov:Activity",
+    "crm:E5_Event",
+    "crm:E7_Activity",
+    "annal:EntityData"
+  ],
+  "annal:type": "annal:EntityData"
+}

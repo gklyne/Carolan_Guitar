@@ -100,7 +100,49 @@
       "crm:P12i_was_present_at": "Event/Shoreditch"
     },
     {
-      "crm:P12i_was_present_at": "Event/OxJam"
+      "crm:P12i_was_present_at": "Performance/OxJam"
+    },
+    {
+      "crm:P12i_was_present_at": "Event/Scanning_retrospective"
+    },
+    {
+      "crm:P12i_was_present_at": "Performance/Coquette"
+    },
+    {
+      "crm:P12i_was_present_at": "Event/Sustainability"
+    },
+    {
+      "crm:P12i_was_present_at": "Performance/Bluesmen"
+    },
+    {
+      "crm:P12i_was_present_at": "Event/Accessorize"
+    },
+    {
+      "crm:P12i_was_present_at": "Performance/Tim_Edey_and_friends"
+    },
+    {
+      "crm:P12i_was_present_at": "Performance/Songsters"
+    },
+    {
+      "crm:P12i_was_present_at": "Performance/Things"
+    },
+    {
+      "crm:P12i_was_present_at": "Performance/Caroling_Carolan"
+    },
+    {
+      "crm:P12i_was_present_at": "Performance/The_smoke"
+    },
+    {
+      "crm:P12i_was_present_at": "Performance/The_Vat"
+    },
+    {
+      "crm:P12i_was_present_at": "Performance/Irish_Eyes"
+    },
+    {
+      "crm:P12i_was_present_at": "Event/Siblings"
+    },
+    {
+      "crm:P12i_was_present_at": "Composition/Landmarks"
     }
   ],
   "crm:P12i_was_present_at": [],

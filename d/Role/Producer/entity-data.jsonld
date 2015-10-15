@@ -1,0 +1,12 @@
+{
+  "rdfs:label": "Producer",
+  "rdfs:comment": "Producer",
+  "annal:type_id": "Role",
+  "annal:id": "Producer",
+  "@id": "./",
+  "@type": [
+    "prov:Role",
+    "annal:EntityData"
+  ],
+  "annal:type": "annal:EntityData"
+}

@@ -1,0 +1,18 @@
+{
+  "rdfs:label": "",
+  "rdfs:comment": "Guitarist and composer",
+  "entity:seeAlso_r": [
+    {
+      "rdfs:seeAlso": "http://benammiswift.co.uk/"
+    }
+  ],
+  "annal:type_id": "Person",
+  "foaf:name": "Benammi Swift",
+  "annal:id": "Benammi_Swift",
+  "@id": "./",
+  "@type": [
+    "prov:Agent",
+    "annal:EntityData"
+  ],
+  "annal:type": "annal:EntityData"
+}

@@ -1,0 +1,58 @@
+{
+  "rdfs:label": "Carolan inspires a new composition",
+  "rdfs:comment": "Carolan has passed some time in Bristol with Rob King and Pippa Marland, founders of the celtic-jazz-fusion band Carmina.\r\n\r\n\"In the interview, Rob and I had the idea of using one of the codes on the guitar to map to a composition that one person might begin and then subsequent guardians of the guitar adapt and develop.\" (Pippa Marland)\r\n\r\n\"it seems that the guitar could act as a kind of \u2018medium\u2019 between all the different players that have it in their possession \u2013 but also that \u2018a sense of place\u2019 could be very significant as well. Towards the end of the interview we came up with the idea of the \u2018souvenir\u2019, and this prompted me to think along a kind of parallel line \u2013 that the guitar couldn\u2019t give you an actual physical souvenir, like a plastic model of the Eiffel Tower or plaster-cast of Michelangelo\u2019s David \u2013 but it could perhaps in being handed from musician to musician present to the holder something of the artistic gifts of it previous \u2018owner\u2019. This sounds very metaphorical, but perhaps might be made real through the digital medium. I mean that the actuality of it being handled and played by someone you admire could become a kind of \u2018ongoing\u2019 souvenir \u2013 when you hold it and play it again perhaps something of that player\u2019s power might be transmitted to you \u2013 the analogy of a seance comes to mind!\" (Rob King)\r\n",
+  "entity:seeAlso_r": [
+    {
+      "rdfs:seeAlso": "https://youtu.be/wTbnAk0cj9A"
+    }
+  ],
+  "annal:type_id": "Composition",
+  "crm:P7_took_place_at": "Place/Bristol",
+  "prov:qualifiedAssociation": [
+    {
+      "prov:hadRole": "Role/Narrator",
+      "prov:agent": "Person/Pippa_Marland"
+    },
+    {
+      "prov:hadRole": "Role/Composer",
+      "prov:agent": "Person/Pippa_Marland"
+    },
+    {
+      "prov:hadRole": "Role/Lyricist",
+      "prov:agent": "Person/Pippa_Marland"
+    },
+    {
+      "prov:hadRole": "Role/Narrator",
+      "prov:agent": "Person/Rob_King"
+    },
+    {
+      "prov:hadRole": "Role/Composer",
+      "prov:agent": "Person/Rob_King"
+    }
+  ],
+  "crm:P126_employed_r": [],
+  "frbroo:R25F_performed_r": [
+    {
+      "frbroo:R25F_performed": "Work/Landmarks"
+    }
+  ],
+  "prov:used_r": [
+    {
+      "prov:used": "Artifact/Carolan_Guitar"
+    },
+    {
+      "prov:used": "Artifact/Pippas_saxophone"
+    }
+  ],
+  "annal:id": "Landmarks",
+  "@id": "./",
+  "@type": [
+    "/annalist/c/Carolan_Guitar/d/_type/Composition/",
+    "prov:Activity",
+    "crm:E5_Event",
+    "crm:E7_Activity",
+    "crm:E65_Creation",
+    "annal:EntityData"
+  ],
+  "annal:type": "annal:EntityData"
+}

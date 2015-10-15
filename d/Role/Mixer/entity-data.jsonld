@@ -1,0 +1,12 @@
+{
+  "rdfs:label": "Recording engineer",
+  "rdfs:comment": "Recording and/or mixing engineer\r\n",
+  "annal:type_id": "Role",
+  "annal:id": "Mixer",
+  "@id": "./",
+  "@type": [
+    "prov:Role",
+    "annal:EntityData"
+  ],
+  "annal:type": "annal:EntityData"
+}

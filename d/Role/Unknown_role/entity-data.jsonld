@@ -1,0 +1,12 @@
+{
+  "rdfs:label": "Unknown role",
+  "rdfs:comment": "Unknown role",
+  "annal:type_id": "Role",
+  "annal:id": "Unknown_role",
+  "@id": "./",
+  "@type": [
+    "prov:Role",
+    "annal:EntityData"
+  ],
+  "annal:type": "annal:EntityData"
+}

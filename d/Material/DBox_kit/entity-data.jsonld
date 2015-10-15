@@ -1,0 +1,17 @@
+{
+  "rdfs:label": "D-Box kit",
+  "rdfs:comment": "Kit of parts for making a D-Box \"hackable\" musical instrument.",
+  "entity:seeAlso_r": [
+    {
+      "rdfs:seeAlso": "http://www.dboxy.org/"
+    }
+  ],
+  "annal:type_id": "Material",
+  "annal:id": "DBox_kit",
+  "@id": "./",
+  "@type": [
+    "crm:E57_Material",
+    "annal:EntityData"
+  ],
+  "annal:type": "annal:EntityData"
+}

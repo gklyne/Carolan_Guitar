@@ -1,0 +1,18 @@
+{
+  "rdfs:label": "",
+  "rdfs:comment": "Gustav Theodore Holst (born Gustavus Theodore von Holst; 21 September 1874 \u2013 25 May 1934) was an English composer, arranger and teacher.",
+  "entity:seeAlso_r": [
+    {
+      "rdfs:seeAlso": "https://en.wikipedia.org/wiki/Gustav_Holst"
+    }
+  ],
+  "annal:type_id": "Person",
+  "foaf:name": "Gustav Holst",
+  "annal:id": "Gustav_Holst",
+  "@id": "./",
+  "@type": [
+    "prov:Agent",
+    "annal:EntityData"
+  ],
+  "annal:type": "annal:EntityData"
+}

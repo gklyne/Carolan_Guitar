@@ -1,0 +1,18 @@
+{
+  "rdfs:label": "",
+  "rdfs:comment": "Canned Heat is an American blues/boogie rock band that formed in Los Angeles, California, in 1965.\r\n\r\n@@TODO: a band, not a person; is this modelling OK?  I've done this to capture the composer of \"Big Road Blues\".  #g\r\n",
+  "entity:seeAlso_r": [
+    {
+      "rdfs:seeAlso": "https://en.wikipedia.org/wiki/Canned_Heat"
+    }
+  ],
+  "annal:type_id": "Person",
+  "foaf:name": "Canned Heat",
+  "annal:id": "Canned_Heat",
+  "@id": "./",
+  "@type": [
+    "prov:Agent",
+    "annal:EntityData"
+  ],
+  "annal:type": "annal:EntityData"
+}

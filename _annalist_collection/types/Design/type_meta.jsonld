@@ -17,7 +17,7 @@
       "annal:supertype_uri": "crm:E28_Conceptual_Object"
     }
   ],
-  "annal:uri": "coll:Design",
+  "annal:uri": "crm:E29_Design_or_Procedure",
   "annal:type_list": "_list/Artifacts",
   "annal:id": "Design",
   "@id": "./",

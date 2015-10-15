@@ -1,0 +1,43 @@
+{
+  "rdfs:label": "Other augmented instruments",
+  "rdfs:comment": "The Carolan team has been collaborating with Andrew McPherson and his group at the Augmented Instruments Laboratory at Queen Mary to explore how we might decorate other musical instruments with their life stories. This is part of a new five-year research project called FAST that has been funded by the Engineering and Physical Sciences Research Council to explore new forms of digital music object.\r\n\r\nWe hosted a workshop at the Mixed Reality Lab to build some D-Boxes and design some Artcodes  (the new and more friendly name for Aestheticodes) that might be used to decorate them.\r\n",
+  "entity:seeAlso_r": [
+    {
+      "rdfs:seeAlso": "http://carolanguitar.com/2015/05/05/42-siblings/"
+    },
+    {
+      "rdfs:seeAlso": "http://www.eecs.qmul.ac.uk/~andrewm/"
+    },
+    {
+      "rdfs:seeAlso": "http://www.semanticaudio.ac.uk/"
+    },
+    {
+      "rdfs:seeAlso": "http://www.dboxy.org/"
+    }
+  ],
+  "annal:type_id": "Event",
+  "crm:P7_took_place_at": "Place/Mixed_reality_lab",
+  "prov:qualifiedAssociation": [
+    {
+      "prov:hadRole": "Role/Researcher",
+      "prov:agent": "Person/Andrew_McPherson"
+    },
+    {
+      "prov:hadRole": "Role/Graphic_designer",
+      "prov:agent": "Person/Adrian_Hazzard"
+    }
+  ],
+  "crm:P126_employed_r": [
+    {
+      "crm:P126_employed": "Material/DBox_kit"
+    }
+  ],
+  "prov:used_r": [],
+  "annal:id": "Siblings",
+  "@id": "./",
+  "@type": [
+    "prov:Activity",
+    "annal:EntityData"
+  ],
+  "annal:type": "annal:EntityData"
+}

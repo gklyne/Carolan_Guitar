@@ -1,0 +1,35 @@
+{
+  "rdfs:label": "Atlantic Highway",
+  "rdfs:comment": "Atlantic Highway - inspired by one of Tim Edey\u2019s sets",
+  "entity:seeAlso_r": [
+    {
+      "rdfs:seeAlso": "https://youtu.be/6gwZ1cIqJdA"
+    }
+  ],
+  "annal:type_id": "Work",
+  "annal:member__2": [
+    {
+      "crm:P12i_was_present_at": "Performance/Tim_Edey_and_friends"
+    }
+  ],
+  "annal:type": "annal:EntityData",
+  "annal:id": "Atlantic_Highway",
+  "@id": "./",
+  "@type": [
+    "frbroo:F25_Performance_Plan",
+    "prov:Entity",
+    "crm:E29_Design_or_Procedure",
+    "crm:E73_Information_Object",
+    "crm:E28_Conceptual_Object",
+    "crm:E71_Man-Made_Thing",
+    "crm:E70_Thing",
+    "crm:E77_Persistent_Item",
+    "crm:E1_CRM_Entity",
+    "annal:EntityData"
+  ],
+  "annal:member": [
+    {
+      "prov:wasAttributedTo": "Person/Benammi_Swift"
+    }
+  ]
+}

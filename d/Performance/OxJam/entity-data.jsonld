@@ -12,7 +12,7 @@
       "rdfs:seeAlso": "http://carolanguitar.com/players/"
     }
   ],
-  "annal:type_id": "Event",
+  "annal:type_id": "Performance",
   "crm:P7_took_place_at": "Place/The_Guitar_Spot",
   "prov:qualifiedAssociation": [
     {
@@ -73,7 +73,10 @@
   "annal:id": "OxJam",
   "@id": "./",
   "@type": [
+    "frbroo:F31_Performance",
     "prov:Activity",
+    "crm:E5_Event",
+    "crm:E7_Activity",
     "annal:EntityData"
   ],
   "annal:type": "annal:EntityData"

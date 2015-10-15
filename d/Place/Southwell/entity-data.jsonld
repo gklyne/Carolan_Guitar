@@ -1,0 +1,13 @@
+{
+  "rdfs:label": "Southwell",
+  "rdfs:comment": "",
+  "entity:seeAlso_r": [],
+  "annal:type_id": "Place",
+  "annal:id": "Southwell",
+  "@id": "./",
+  "@type": [
+    "crm:E53_Place",
+    "annal:EntityData"
+  ],
+  "annal:type": "annal:EntityData"
+}

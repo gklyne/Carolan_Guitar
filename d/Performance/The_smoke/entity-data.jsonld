@@ -1,0 +1,42 @@
+{
+  "rdfs:label": "A visit to London",
+  "rdfs:comment": "Carolan has been down to The Smoke for a couple of days to see the sights and meet up with session guitarist Kevin Armstrong.",
+  "entity:seeAlso_r": [
+    {
+      "rdfs:seeAlso": "http://carolanguitar.com/2015/01/14/39-the-smoke/"
+    }
+  ],
+  "annal:type_id": "Performance",
+  "crm:P7_took_place_at": "Place/ICA_London",
+  "prov:qualifiedAssociation": [
+    {
+      "prov:hadRole": "Role/Interviewee",
+      "prov:agent": "Person/Kevin_Armstrong"
+    },
+    {
+      "prov:hadRole": "Role/Interviewer",
+      "prov:agent": "Person/Steve_Benford"
+    },
+    {
+      "prov:hadRole": "Role/Guitarist",
+      "prov:agent": "Person/Kevin_Armstrong"
+    }
+  ],
+  "crm:P126_employed_r": [],
+  "frbroo:R25F_performed_r": [],
+  "prov:used_r": [
+    {
+      "prov:used": "Artifact/Carolan_Guitar"
+    }
+  ],
+  "annal:id": "The_smoke",
+  "@id": "./",
+  "@type": [
+    "frbroo:F31_Performance",
+    "prov:Activity",
+    "crm:E5_Event",
+    "crm:E7_Activity",
+    "annal:EntityData"
+  ],
+  "annal:type": "annal:EntityData"
+}

@@ -1,0 +1,13 @@
+{
+  "rdfs:label": "Steve's man cave",
+  "rdfs:comment": "",
+  "entity:seeAlso_r": [],
+  "annal:type_id": "Place",
+  "annal:id": "Steves_man_cave",
+  "@id": "./",
+  "@type": [
+    "crm:E53_Place",
+    "annal:EntityData"
+  ],
+  "annal:type": "annal:EntityData"
+}

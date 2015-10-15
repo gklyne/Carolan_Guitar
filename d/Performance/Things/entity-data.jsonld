@@ -1,0 +1,51 @@
+{
+  "rdfs:label": "Carolan Guitar and Internet of Things",
+  "rdfs:comment": "Commentary and performance by Jon Crowcroft.\r\n\r\n\r\n\r\n",
+  "entity:seeAlso_r": [
+    {
+      "rdfs:seeAlso": "http://carolanguitar.com/2014/12/21/37-things/"
+    },
+    {
+      "rdfs:seeAlso": "https://youtu.be/qHQfc03Xl8g"
+    },
+    {
+      "rdfs:seeAlso": "https://youtu.be/Xb1z6VYn1LY"
+    }
+  ],
+  "annal:type_id": "Performance",
+  "crm:P7_took_place_at": "Place/Mixed_reality_lab",
+  "prov:qualifiedAssociation": [
+    {
+      "prov:hadRole": "Role/Narrator",
+      "prov:agent": "Person/Jon_Crowcroft"
+    },
+    {
+      "prov:hadRole": "Role/Guitarist",
+      "prov:agent": "Person/Jon_Crowcroft"
+    }
+  ],
+  "crm:P126_employed_r": [],
+  "frbroo:R25F_performed_r": [
+    {
+      "frbroo:R25F_performed": "Work/Big_Road_Blues"
+    },
+    {
+      "frbroo:R25F_performed": "Work/Jardin_dAmour"
+    }
+  ],
+  "prov:used_r": [
+    {
+      "prov:used": "Artifact/Carolan_Guitar"
+    }
+  ],
+  "annal:id": "Things",
+  "@id": "./",
+  "@type": [
+    "frbroo:F31_Performance",
+    "prov:Activity",
+    "crm:E5_Event",
+    "crm:E7_Activity",
+    "annal:EntityData"
+  ],
+  "annal:type": "annal:EntityData"
+}

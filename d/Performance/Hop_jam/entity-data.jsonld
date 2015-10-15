@@ -8,14 +8,23 @@
   ],
   "annal:type_id": "Performance",
   "crm:P7_took_place_at": "Place/Hop_Pole_Beeston",
-  "prov:qualifiedAssociation": [],
+  "prov:qualifiedAssociation": [
+    {
+      "prov:hadRole": "Role/Guitarist",
+      "prov:agent": "Person/Steve_Benford"
+    }
+  ],
   "crm:P126_employed_r": [],
   "frbroo:R25F_performed_r": [
     {
       "frbroo:R25F_performed": "Work/Lads_of_Laois"
     }
   ],
-  "prov:used_r": [],
+  "prov:used_r": [
+    {
+      "prov:used": "Artifact/Carolan_Guitar"
+    }
+  ],
   "annal:id": "Hop_jam",
   "@id": "./",
   "@type": [

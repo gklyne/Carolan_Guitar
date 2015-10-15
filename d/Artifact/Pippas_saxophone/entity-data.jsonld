@@ -1,0 +1,27 @@
+{
+  "rdfs:label": "Pippa's saxophone",
+  "rdfs:comment": "Pippa Marland of Carmina:  \"I play a silver Selmer \u2018cigar cutter\u2019 saxophone, made in Paris in the early 1930s.\"",
+  "entity:seeAlso_r": [
+    {
+      "rdfs:seeAlso": "http://carolanguitar.com/2015/05/10/43-landmarks/"
+    }
+  ],
+  "annal:type_id": "Artifact",
+  "annal:type": "annal:EntityData",
+  "annal:id": "Pippas_saxophone",
+  "@id": "./",
+  "@type": [
+    "crm:E24_Physical_Man-Made_Thing",
+    "prov:Entity",
+    "crm:E70_Thing",
+    "crm:E71_Man-Made_Thing",
+    "crm:E18_Physical_Thing",
+    "frbroo:F7_Object",
+    "annal:EntityData"
+  ],
+  "annal:member": [
+    {
+      "crm:P12i_was_present_at": "Composition/Landmarks"
+    }
+  ]
+}

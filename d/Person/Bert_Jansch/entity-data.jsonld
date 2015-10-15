@@ -1,0 +1,18 @@
+{
+  "rdfs:label": "",
+  "rdfs:comment": "Herbert \"Bert\" Jansch (3 November 1943 \u2013 5 October 2011[1]) was a Scottish folk musician and founding member of the band Pentangle.",
+  "entity:seeAlso_r": [
+    {
+      "rdfs:seeAlso": "https://en.wikipedia.org/wiki/Bert_Jansch"
+    }
+  ],
+  "annal:type_id": "Person",
+  "foaf:name": "Bert Jansch",
+  "annal:id": "Bert_Jansch",
+  "@id": "./",
+  "@type": [
+    "prov:Agent",
+    "annal:EntityData"
+  ],
+  "annal:type": "annal:EntityData"
+}

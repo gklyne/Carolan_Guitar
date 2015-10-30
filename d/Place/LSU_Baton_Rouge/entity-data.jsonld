@@ -1,0 +1,17 @@
+{
+  "rdfs:label": "Louisiana State University, Baton Rouge",
+  "rdfs:comment": "Louisiana State University\r\nBaton Rouge, Louisiana 70803\r\n",
+  "entity:seeAlso_r": [
+    {
+      "rdfs:seeAlso": "http://www.lsu.edu/"
+    }
+  ],
+  "annal:type_id": "Place",
+  "annal:id": "LSU_Baton_Rouge",
+  "@id": "./",
+  "@type": [
+    "crm:E53_Place",
+    "annal:EntityData"
+  ],
+  "annal:type": "annal:EntityData"
+}

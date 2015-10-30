@@ -1,0 +1,41 @@
+{
+  "rdfs:label": "Judith",
+  "rdfs:comment": "Geert: \"The result, mixed on the computer, was a nervous and weird-sounding instrumental ... I stuck a title on it \u2013 \u2018Judith\u2019 (because I had just been listening to a Judith Hill album) \u2013 and described (and posted) the results on my blog.\"\r\n\r\nAlso: \"... I uploaded the separate multi-tracks of Judith on mediafire, and presented them to my virtual public.\"\r\n",
+  "entity:seeAlso_r": [
+    {
+      "rdfs:seeAlso": "http://carolanguitar.com/2015/06/13/45-geert-claire-and-dylan/"
+    },
+    {
+      "rdfs:seeAlso": "https://soundcloud.com/geert-de-wilde/judith-10-v-2015wav"
+    },
+    {
+      "rdfs:seeAlso": "http://www.mediafire.com/download/pbibpm8637s3g2g/326.+Judith.zip"
+    }
+  ],
+  "annal:type_id": "Work",
+  "annal:member__2": [
+    {
+      "crm:P12i_was_present_at": "Performance/Visiting_Wales"
+    }
+  ],
+  "annal:type": "annal:EntityData",
+  "annal:id": "Judith",
+  "@id": "./",
+  "@type": [
+    "frbroo:F25_Performance_Plan",
+    "prov:Entity",
+    "crm:E29_Design_or_Procedure",
+    "crm:E73_Information_Object",
+    "crm:E28_Conceptual_Object",
+    "crm:E71_Man-Made_Thing",
+    "crm:E70_Thing",
+    "crm:E77_Persistent_Item",
+    "crm:E1_CRM_Entity",
+    "annal:EntityData"
+  ],
+  "annal:member": [
+    {
+      "prov:wasAttributedTo": "Person/Geert_De_Wilde"
+    }
+  ]
+}

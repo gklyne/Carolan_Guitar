@@ -1,0 +1,21 @@
+{
+  "rdfs:label": "",
+  "rdfs:comment": "From Utrecht School of the Arts, designer and player of La Diantenne 2.0, \"a beautiful a harp-like instrument fashioned from tin plate that uses a contact microphone to produce sound in response to flexing, touching, stroking and percussive striking\".",
+  "entity:seeAlso_r": [
+    {
+      "rdfs:seeAlso": "https://nime2015.lsu.edu/proceedings/273/index.html"
+    },
+    {
+      "rdfs:seeAlso": "https://carolanguitar.files.wordpress.com/2015/06/diannediantenne_2-3.png"
+    }
+  ],
+  "annal:type_id": "Person",
+  "foaf:name": "Dianne Verdonk",
+  "annal:id": "Dianne_Verdonk",
+  "@id": "./",
+  "@type": [
+    "prov:Agent",
+    "annal:EntityData"
+  ],
+  "annal:type": "annal:EntityData"
+}

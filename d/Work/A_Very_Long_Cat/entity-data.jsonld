@@ -1,0 +1,41 @@
+{
+  "rdfs:label": "A Very Long Cat",
+  "rdfs:comment": "\"David Oborn and Shawn Mativetsky\u2019s performance \u2018A Very Long Cat\u2019 is especially impressive for combing live coding with impressively fast tabla playing over a long-distance network link. Great music and something of a technical tour de force.\"",
+  "entity:seeAlso_r": [
+    {
+      "rdfs:seeAlso": "http://www.shawnmativetsky.com/home-accueil/blog/very-long-cat-iclc-2015"
+    },
+    {
+      "rdfs:seeAlso": "https://www.facebook.com/veryLongCat"
+    }
+  ],
+  "annal:type_id": "Work",
+  "annal:member__2": [
+    {
+      "crm:P12i_was_present_at": "Performance/NIME_2015"
+    }
+  ],
+  "annal:type": "annal:EntityData",
+  "annal:id": "A_Very_Long_Cat",
+  "@id": "./",
+  "@type": [
+    "frbroo:F25_Performance_Plan",
+    "prov:Entity",
+    "crm:E29_Design_or_Procedure",
+    "crm:E73_Information_Object",
+    "crm:E28_Conceptual_Object",
+    "crm:E71_Man-Made_Thing",
+    "crm:E70_Thing",
+    "crm:E77_Persistent_Item",
+    "crm:E1_CRM_Entity",
+    "annal:EntityData"
+  ],
+  "annal:member": [
+    {
+      "prov:wasAttributedTo": "Person/David_Oborn"
+    },
+    {
+      "prov:wasAttributedTo": "Person/Shawn_Mativetsky"
+    }
+  ]
+}

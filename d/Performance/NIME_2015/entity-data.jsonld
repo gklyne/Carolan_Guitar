@@ -1,0 +1,91 @@
+{
+  "rdfs:label": "NIMEs: New Instruments for Musical Expression",
+  "rdfs:comment": "New Instruments for Musical Expression (NIME) conference in Baton Rouge.",
+  "entity:seeAlso_r": [
+    {
+      "rdfs:seeAlso": "http://carolanguitar.com/2015/06/29/47-the-pipes-are-calling/"
+    },
+    {
+      "rdfs:seeAlso": "https://nime2015.lsu.edu/"
+    },
+    {
+      "rdfs:seeAlso": "https://nime2015.lsu.edu/proceedings/273/index.html"
+    },
+    {
+      "rdfs:seeAlso": "http://eprints.nottingham.ac.uk/252/1/p133-reeves.pdf"
+    },
+    {
+      "rdfs:seeAlso": "https://youtu.be/vJxsM4HwlnI"
+    }
+  ],
+  "annal:type_id": "Performance",
+  "crm:P7_took_place_at": "Place/LSU_Baton_Rouge",
+  "prov:qualifiedAssociation": [
+    {
+      "prov:hadRole": "Role/Musician",
+      "prov:agent": "Person/Dianne_Verdonk"
+    },
+    {
+      "prov:hadRole": "Role/Musician",
+      "prov:agent": "Person/Myriam_Bleau"
+    },
+    {
+      "prov:hadRole": "Role/Musician",
+      "prov:agent": "Person/David_Oborn"
+    },
+    {
+      "prov:hadRole": "Role/Musician",
+      "prov:agent": "Person/Shawn_Mativetsky"
+    },
+    {
+      "prov:hadRole": "Role/Guitarist",
+      "prov:agent": "Person/Steve_Benford"
+    },
+    {
+      "prov:hadRole": "Role/Musician",
+      "prov:agent": "Person/Duncan_Menzies"
+    }
+  ],
+  "crm:P126_employed_r": [],
+  "frbroo:R25F_performed_r": [
+    {
+      "frbroo:R25F_performed": "Work/Software_Revolvers"
+    },
+    {
+      "frbroo:R25F_performed": "Work/A_Very_Long_Cat"
+    },
+    {
+      "frbroo:R25F_performed": "Work/Mrs_Lily_Christie"
+    },
+    {
+      "frbroo:R25F_performed": "Work/The_Fourth_Floor"
+    },
+    {
+      "frbroo:R25F_performed": "Work/Andy_Renwicks_Ferret"
+    },
+    {
+      "frbroo:R25F_performed": "Work/Break_Yer_Bass_Drone"
+    }
+  ],
+  "prov:used_r": [
+    {
+      "prov:used": "Artifact/Diantenne_2_0"
+    },
+    {
+      "prov:used": "Artifact/Digital_bagpipes"
+    },
+    {
+      "prov:used": "Artifact/Carolan_Guitar"
+    }
+  ],
+  "annal:id": "NIME_2015",
+  "@id": "./",
+  "@type": [
+    "frbroo:F31_Performance",
+    "prov:Activity",
+    "crm:E5_Event",
+    "crm:E7_Activity",
+    "annal:EntityData"
+  ],
+  "annal:type": "annal:EntityData"
+}

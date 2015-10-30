@@ -1,0 +1,18 @@
+{
+  "rdfs:label": "",
+  "rdfs:comment": "Duncan Menzies is a London-based musician and researcher.\r\n\r\nDesigner and player of electronic bagpipes, based at Augmented Instruments Group at Queen Mary College, University of London.\r\n\r\n",
+  "entity:seeAlso_r": [
+    {
+      "rdfs:seeAlso": "http://www.duncanmenzies.com/"
+    }
+  ],
+  "annal:type_id": "Person",
+  "foaf:name": "Duncan Menzies",
+  "annal:id": "Duncan_Menzies",
+  "@id": "./",
+  "@type": [
+    "prov:Agent",
+    "annal:EntityData"
+  ],
+  "annal:type": "annal:EntityData"
+}

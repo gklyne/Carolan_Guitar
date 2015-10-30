@@ -143,6 +143,27 @@
     },
     {
       "crm:P12i_was_present_at": "Composition/Landmarks"
+    },
+    {
+      "crm:P12i_was_present_at": "Event/Carolan_mementos"
+    },
+    {
+      "crm:P12i_was_present_at": "Performance/Visiting_Wales"
+    },
+    {
+      "crm:P12i_was_present_at": "Event/Louisiana"
+    },
+    {
+      "crm:P12i_was_present_at": "Performance/NIME_2015"
+    },
+    {
+      "crm:P12i_was_present_at": "Performance/An_Educated_Thumb"
+    },
+    {
+      "crm:P12i_was_present_at": "Event/Travelling"
+    },
+    {
+      "crm:P12i_was_present_at": "Event/Licks_tricks_and_cheats"
     }
   ],
   "crm:P12i_was_present_at": [],

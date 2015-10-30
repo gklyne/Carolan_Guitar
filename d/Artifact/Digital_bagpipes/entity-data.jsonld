@@ -1,0 +1,27 @@
+{
+  "rdfs:label": "Digital bagpipes",
+  "rdfs:comment": "\"a set of digital bagpipes that have been developed by Duncan Menzies of the Augmented Instruments Group (also home to those D-Boxes) at Queen Mary as part of his PhD\".\r\n\r\nSee: https://nime2015.lsu.edu/proceedings/208/0208-paper.pdf\r\n",
+  "entity:seeAlso_r": [
+    {
+      "rdfs:seeAlso": "https://nime2015.lsu.edu/proceedings/208/0208-paper.pdf"
+    }
+  ],
+  "annal:type_id": "Artifact",
+  "annal:member": [
+    {
+      "crm:P12i_was_present_at": "Performance/NIME_2015"
+    }
+  ],
+  "annal:id": "Digital_bagpipes",
+  "@id": "./",
+  "@type": [
+    "crm:E24_Physical_Man-Made_Thing",
+    "prov:Entity",
+    "crm:E70_Thing",
+    "crm:E71_Man-Made_Thing",
+    "crm:E18_Physical_Thing",
+    "frbroo:F7_Object",
+    "annal:EntityData"
+  ],
+  "annal:type": "annal:EntityData"
+}

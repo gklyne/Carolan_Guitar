@@ -1,0 +1,13 @@
+{
+  "rdfs:label": "Autographer camera",
+  "rdfs:comment": "A small camera that can automatically capture thousands of photos, along with GPS coordinates, automatically triggered by movement and light levels.",
+  "entity:seeAlso_r": [],
+  "annal:type_id": "Material",
+  "annal:id": "Autographer_camera",
+  "@id": "./",
+  "@type": [
+    "crm:E57_Material",
+    "annal:EntityData"
+  ],
+  "annal:type": "annal:EntityData"
+}

@@ -7,6 +7,9 @@
     },
     {
       "rdfs:seeAlso": "https://www.facebook.com/veryLongCat"
+    },
+    {
+      "rdfs:seeAlso": "https://soundcloud.com/veryLongCat"
     }
   ],
   "annal:type_id": "Work",
@@ -15,7 +18,10 @@
       "crm:P12i_was_present_at": "Performance/NIME_2015"
     }
   ],
-  "annal:type": "annal:EntityData",
+  "annal:type": "frbroo:F25_Performance_Plan",
+  "@context": [
+    "../../coll_context.jsonld"
+  ],
   "annal:id": "A_Very_Long_Cat",
   "@id": "./",
   "@type": [

@@ -4,6 +4,9 @@
   "entity:seeAlso_r": [
     {
       "rdfs:seeAlso": "https://nime2015.lsu.edu/proceedings/273/0273-paper.pdf"
+    },
+    {
+      "rdfs:seeAlso": "https://carolanguitar.files.wordpress.com/2015/06/diannediantenne_2-3.png"
     }
   ],
   "annal:type_id": "Artifact",
@@ -11,6 +14,9 @@
     {
       "crm:P12i_was_present_at": "Performance/NIME_2015"
     }
+  ],
+  "@context": [
+    "../../coll_context.jsonld"
   ],
   "annal:id": "Diantenne_2_0",
   "@id": "./",
@@ -23,5 +29,5 @@
     "frbroo:F7_Object",
     "annal:EntityData"
   ],
-  "annal:type": "annal:EntityData"
+  "annal:type": "crm:E24_Physical_Man-Made_Thing"
 }

@@ -1,9 +1,12 @@
 {
   "rdfs:label": "The Carolan Guitar's story",
   "rdfs:comment": "",
-  "annal:software_version": "0.1.20",
+  "annal:software_version": "0.1.22",
   "annal:type_id": "_collection",
   "annal:default_list": "Artifacts",
+  "@context": [
+    "coll_context.jsonld"
+  ],
   "annal:id": "Carolan_Guitar",
   "@id": "../",
   "@type": [

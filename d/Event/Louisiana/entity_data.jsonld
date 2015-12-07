@@ -16,11 +16,18 @@
   "crm:P7_took_place_at": "Place/LSU_Baton_Rouge",
   "prov:qualifiedAssociation": [
     {
-      "prov:hadRole": "",
+      "prov:hadRole": "Role/Guitarist",
+      "prov:agent": "Person/Steve_Benford"
+    },
+    {
+      "prov:hadRole": "Role/Researcher",
       "prov:agent": "Person/Steve_Benford"
     }
   ],
   "crm:P126_employed_r": [],
+  "@context": [
+    "../../coll_context.jsonld"
+  ],
   "prov:used_r": [
     {
       "prov:used": "Artifact/Carolan_Guitar"
@@ -32,5 +39,5 @@
     "prov:Activity",
     "annal:EntityData"
   ],
-  "annal:type": "annal:EntityData"
+  "annal:type": "prov:Activity"
 }

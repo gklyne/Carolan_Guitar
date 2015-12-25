@@ -19,6 +19,9 @@
     },
     {
       "rdfs:seeAlso": "http://ymaginatifandmusic.blogspot.co.uk/2015/05/carolan-guitar-and-its-aestheticodes.html"
+    },
+    {
+      "rdfs:seeAlso": "https://youtu.be/DeQJdL6SoTk"
     }
   ],
   "annal:type_id": "Performance",
@@ -41,7 +44,6 @@
       "prov:agent": "Person/Dylan_Jones"
     }
   ],
-  "crm:P126_employed_r": [],
   "frbroo:R25F_performed_r": [
     {
       "frbroo:R25F_performed": "Work/We_All_Fall_For_That"
@@ -59,6 +61,10 @@
       "frbroo:R25F_performed": "Work/Shut_This_Door"
     }
   ],
+  "@context": [
+    "../../coll_context.jsonld"
+  ],
+  "crm:P126_employed_r": [],
   "prov:used_r": [
     {
       "prov:used": "Artifact/Carolan_guitar_neck"
@@ -76,5 +82,5 @@
     "crm:E7_Activity",
     "annal:EntityData"
   ],
-  "annal:type": "annal:EntityData"
+  "annal:type": "frbroo:F31_Performance"
 }

@@ -1,0 +1,17 @@
+{
+  "rdfs:label": "",
+  "rdfs:comment": "Fiddle-playing frend of Carolan guitar.",
+  "entity:seeAlso_r": [],
+  "annal:type_id": "Person",
+  "foaf:name": "Milli",
+  "@context": [
+    "../../coll_context.jsonld"
+  ],
+  "annal:id": "Milli",
+  "@id": "./",
+  "@type": [
+    "prov:Agent",
+    "annal:EntityData"
+  ],
+  "annal:type": "prov:Agent"
+}

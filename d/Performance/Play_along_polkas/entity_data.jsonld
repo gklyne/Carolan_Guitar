@@ -1,0 +1,59 @@
+{
+  "rdfs:label": "Play along polkas: thoughts about learning new music",
+  "rdfs:comment": "\"We\u2019ve been exploring how Carolan might support players learning new music. As a first step \u2013 and drawing on Carolan\u2019s Celtic heritage \u2013 we set out to create a video tutorial for learning to accompany traditional Irish tunes.\"\r\n\r\nThis post explores the possibilities for using Carolan's coded surfaces to trigger different forms of playback of material to assist in learning new music.",
+  "entity:seeAlso_r": [
+    {
+      "rdfs:seeAlso": "http://carolanguitar.com/2015/11/16/51-play-along-polkas/"
+    }
+  ],
+  "annal:type_id": "Performance",
+  "crm:P7_took_place_at": "",
+  "prov:qualifiedAssociation": [
+    {
+      "prov:hadRole": "Role/Banjo_player",
+      "prov:agent": "Person/Steve_Benford"
+    },
+    {
+      "prov:hadRole": "Role/Fiddle_player",
+      "prov:agent": "Person/Milli"
+    },
+    {
+      "prov:hadRole": "Role/Flute_player",
+      "prov:agent": "Person/Penny"
+    },
+    {
+      "prov:hadRole": "Role/Guitarist",
+      "prov:agent": "Person/Steve_Benford"
+    }
+  ],
+  "frbroo:R25F_performed_r": [
+    {
+      "frbroo:R25F_performed": "Work/Egans_Polka"
+    },
+    {
+      "frbroo:R25F_performed": "Work/Jessicas_Polka"
+    },
+    {
+      "frbroo:R25F_performed": "Work/Ryans_Polka"
+    }
+  ],
+  "@context": [
+    "../../coll_context.jsonld"
+  ],
+  "crm:P126_employed_r": [],
+  "prov:used_r": [
+    {
+      "prov:used": "Artifact/Carolan_Guitar"
+    }
+  ],
+  "annal:id": "Play_along_polkas",
+  "@id": "./",
+  "@type": [
+    "frbroo:F31_Performance",
+    "prov:Activity",
+    "crm:E5_Event",
+    "crm:E7_Activity",
+    "annal:EntityData"
+  ],
+  "annal:type": "frbroo:F31_Performance"
+}

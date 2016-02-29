@@ -1,6 +1,6 @@
 {
   "rdfs:label": "Caroling Carolan",
-  "rdfs:comment": "It\u2019s Carolan\u2019s first Christmas and so the perfect time to regale you with a carol, in this case Gustav Holst\u2019s beautiful tune for \u2018In the Bleak Midwinter\u2019.\r\n\r\n@@TODO: I've assumed the \"Adrian\" mentioned in the blog post is Adrian Hazzard.",
+  "rdfs:comment": "It\u2019s Carolan\u2019s first Christmas and so the perfect time to regale you with a carol, in this case Gustav Holst\u2019s beautiful tune for \u2018In the Bleak Midwinter\u2019.",
   "entity:seeAlso_r": [
     {
       "rdfs:seeAlso": "http://carolanguitar.com/2014/12/24/38-caroling-carolan/"
@@ -19,6 +19,9 @@
     }
   ],
   "crm:P126_employed_r": [],
+  "@context": [
+    "../../coll_context.jsonld"
+  ],
   "frbroo:R25F_performed_r": [
     {
       "frbroo:R25F_performed": "Work/In_the_Bleak_Midwinter"
@@ -41,5 +44,5 @@
     "crm:E7_Activity",
     "annal:EntityData"
   ],
-  "annal:type": "annal:EntityData"
+  "annal:type": "frbroo:F31_Performance"
 }

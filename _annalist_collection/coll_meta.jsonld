@@ -1,16 +1,19 @@
 {
   "rdfs:label": "The Carolan Guitar's story",
   "rdfs:comment": "",
+  "annal:id": "Carolan_Guitar",
   "annal:software_version": "0.1.22",
-  "annal:type_id": "_collection",
-  "annal:default_list": "Artifacts",
+  "annal:type_id": "_coll",
+  "annal:type": "annal:Collection",
   "@context": [
     "coll_context.jsonld"
   ],
-  "annal:id": "Carolan_Guitar",
+  "annal:default_list": "Artifacts",
+  "annal:default_view_entity": "Carolan_Guitar",
+  "annal:default_view_type": "Artifact",
   "@id": "../",
   "@type": [
     "annal:Collection"
   ],
-  "annal:type": "annal:Collection"
+  "annal:default_view_id": "Artifact"
 }

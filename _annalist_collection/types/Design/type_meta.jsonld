@@ -8,6 +8,9 @@
       "annal:supertype_uri": "prov:Entity"
     },
     {
+      "annal:supertype_uri": "crm:E77_Persistent_Item"
+    },
+    {
       "annal:supertype_uri": "crm:E70_Thing"
     },
     {
@@ -19,6 +22,9 @@
   ],
   "annal:uri": "crm:E29_Design_or_Procedure",
   "annal:type_list": "_list/Artifacts",
+  "@context": [
+    "../../coll_context.jsonld"
+  ],
   "annal:id": "Design",
   "@id": "./",
   "@type": [

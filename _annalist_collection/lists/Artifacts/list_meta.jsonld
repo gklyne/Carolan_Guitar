@@ -1,12 +1,12 @@
 {
+  "annal:display_type": "Enum_list_type/List",
   "rdfs:label": "List of artifacts",
   "rdfs:comment": "This list displays known artifacts.",
-  "annal:default_view": "_view/Artifact",
+  "annal:id": "Artifacts",
   "annal:default_type": "_type/Artifact",
-  "annal:record_type": "prov:Entity",
   "annal:type_id": "_list",
-  "annal:list_entity_selector": "\"prov:Entity\" in [@type]",
-  "annal:display_type": "Enum_list_type/List",
+  "annal:list_entity_selector": "\"crm:E24_Physical_Man-Made_Thing\" in [@type]",
+  "annal:record_type": "crm:E24_Physical_Man-Made_Thing",
   "annal:list_fields": [
     {
       "annal:field_placement": "small:0,12;medium:0,3",
@@ -21,7 +21,10 @@
       "annal:field_id": "_field/Entity_label"
     }
   ],
-  "annal:id": "Artifacts",
+  "@context": [
+    "../../coll_context.jsonld"
+  ],
+  "annal:default_view": "_view/Artifact",
   "@id": "./",
   "@type": [
     "annal:List"

@@ -30,6 +30,7 @@
   "@type": [
     "crm:E24_Physical_Man-Made_Thing",
     "prov:Entity",
+    "crm:E77_Persistent_Item",
     "crm:E70_Thing",
     "crm:E71_Man-Made_Thing",
     "crm:E18_Physical_Thing",

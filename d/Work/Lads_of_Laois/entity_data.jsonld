@@ -1,31 +1,31 @@
 {
-  "rdfs:label": "The Lads of Laois",
-  "rdfs:comment": "The Lads of Laois\r\n",
-  "entity:seeAlso_r": [
+  "@context": [
     {
-      "rdfs:seeAlso": "https://www.youtube.com/watch?list=UUAGIvRcC5dznyR1Fz3vojfw&v=HmOHO8vYFoM#t=16"
-    }
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
   ],
-  "annal:type_id": "Work",
+  "@id": "Work/Lads_of_Laois",
+  "@type": [
+    "frbroo:F25_Performance_Plan",
+    "crm:E29_Design_or_Procedure",
+    "prov:Entity",
+    "annal:EntityData"
+  ],
+  "annal:id": "Lads_of_Laois",
+  "annal:member": [],
   "annal:member__2": [
     {
       "crm:P12i_was_present_at": "Performance/Hop_jam"
     }
   ],
-  "annal:member": [],
-  "annal:id": "Lads_of_Laois",
-  "@id": "./",
-  "@type": [
-    "frbroo:F25_Performance_Plan",
-    "prov:Entity",
-    "crm:E29_Design_or_Procedure",
-    "crm:E73_Information_Object",
-    "crm:E28_Conceptual_Object",
-    "crm:E71_Man-Made_Thing",
-    "crm:E70_Thing",
-    "crm:E77_Persistent_Item",
-    "crm:E1_CRM_Entity",
-    "annal:EntityData"
+  "annal:type": "frbroo:F25_Performance_Plan",
+  "annal:type_id": "Work",
+  "entity:seeAlso_r": [
+    {
+      "rdfs:seeAlso": "https://www.youtube.com/watch?list=UUAGIvRcC5dznyR1Fz3vojfw&v=HmOHO8vYFoM#t=16"
+    }
   ],
-  "annal:type": "annal:EntityData"
+  "rdfs:comment": "The Lads of Laois\r\n",
+  "rdfs:label": "The Lads of Laois"
 }

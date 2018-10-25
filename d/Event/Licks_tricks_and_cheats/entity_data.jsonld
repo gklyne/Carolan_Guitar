@@ -1,30 +1,36 @@
 {
-  "rdfs:label": "Licks, tricks and cheats",
-  "rdfs:comment": "Carolan has been to stay with Mark Rouncefield, a researcher and guitar player from Lancaster, followed by \"a fascinating and enlightening conversation that raises new possibilities for how Carolan might conjure up materials to support embodied learning\".",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Event/Licks_tricks_and_cheats",
+  "@type": [
+    "prov:Activity",
+    "annal:EntityData"
+  ],
+  "annal:id": "Licks_tricks_and_cheats",
+  "annal:type": "prov:Activity",
+  "annal:type_id": "Event",
+  "crm:P126_employed_r": [],
+  "crm:P7_took_place_at": "",
   "entity:seeAlso_r": [
     {
       "rdfs:seeAlso": "http://carolanguitar.com/2015/10/10/50-licks-tricks-and-cheats/"
     }
   ],
-  "annal:type_id": "Event",
-  "crm:P7_took_place_at": "",
   "prov:qualifiedAssociation": [
     {
-      "prov:hadRole": "Role/Guitarist",
-      "prov:agent": "Person/Mark_Rouncefield"
+      "prov:agent": "Person/Mark_Rouncefield",
+      "prov:hadRole": "Role/Guitarist"
     }
   ],
-  "crm:P126_employed_r": [],
   "prov:used_r": [
     {
       "prov:used": "Artifact/Carolan_Guitar"
     }
   ],
-  "annal:id": "Licks_tricks_and_cheats",
-  "@id": "./",
-  "@type": [
-    "prov:Activity",
-    "annal:EntityData"
-  ],
-  "annal:type": "annal:EntityData"
+  "rdfs:comment": "Carolan has been to stay with Mark Rouncefield, a researcher and guitar player from Lancaster, followed by \"a fascinating and enlightening conversation that raises new possibilities for how Carolan might conjure up materials to support embodied learning\".",
+  "rdfs:label": "Licks, tricks and cheats"
 }

@@ -1,22 +1,26 @@
 {
-  "rdfs:label": "Nottinghack laser cutter",
-  "rdfs:comment": "Laser cutter at Nottingham Hackspace",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Tool/Nottinghack_laser_cutter",
+  "@type": [
+    "crm:E22_Man-Made_Object",
+    "crm:E24_Physical_Man-Made_Thing",
+    "prov:Entity",
+    "annal:EntityData"
+  ],
+  "annal:id": "Nottinghack_laser_cutter",
+  "annal:member": [],
+  "annal:type": "crm:E22_Man-Made_Object",
+  "annal:type_id": "Tool",
   "entity:seeAlso_r": [
     {
       "rdfs:seeAlso": "http://nottinghack.org.uk"
     }
   ],
-  "annal:type_id": "Tool",
-  "annal:member": [],
-  "annal:id": "Nottinghack_laser_cutter",
-  "@id": "./",
-  "@type": [
-    "coll:Tool",
-    "prov:Entity",
-    "crm:E70_Thing",
-    "crm:E71_Man-Made_Thing",
-    "crm:E24_Physical_Man-Made_Thing",
-    "annal:EntityData"
-  ],
-  "annal:type": "annal:EntityData"
+  "rdfs:comment": "Laser cutter at Nottingham Hackspace",
+  "rdfs:label": "Nottinghack laser cutter"
 }

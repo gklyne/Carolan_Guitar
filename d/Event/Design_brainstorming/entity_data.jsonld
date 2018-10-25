@@ -1,39 +1,45 @@
 {
-  "rdfs:label": "Design brainstorming",
-  "rdfs:comment": "Our team gathered for an intense brainstorming session so as to come up with an overall design for the Carolan guitar and to establish some principles for decorating it with Aestheticodes and mapping these to different interactive functions.\r\n",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Event/Design_brainstorming",
+  "@type": [
+    "prov:Activity",
+    "annal:EntityData"
+  ],
+  "annal:id": "Design_brainstorming",
+  "annal:type": "prov:Activity",
+  "annal:type_id": "Event",
   "entity:seeAlso_r": [
     {
       "rdfs:seeAlso": "http://carolanguitar.com/2014/07/28/questions/"
     }
   ],
-  "annal:type_id": "Event",
   "prov:qualifiedAssociation": [
     {
-      "prov:hadRole": "Project_lead",
-      "prov:agent": "Steve_Benford"
+      "prov:agent": "Steve_Benford",
+      "prov:hadRole": "Project_lead"
     },
     {
-      "prov:hadRole": "Luthier",
-      "prov:agent": "Nick_Perez"
+      "prov:agent": "Nick_Perez",
+      "prov:hadRole": "Luthier"
     },
     {
-      "prov:hadRole": "Design_integrator",
-      "prov:agent": "Adrian_Hazzard"
+      "prov:agent": "Adrian_Hazzard",
+      "prov:hadRole": "Design_integrator"
     },
     {
-      "prov:hadRole": "Graphic_designer",
-      "prov:agent": "Liz_Jeal"
+      "prov:agent": "Liz_Jeal",
+      "prov:hadRole": "Graphic_designer"
     },
     {
-      "prov:hadRole": "Software_developer",
-      "prov:agent": "Liming_Xu"
+      "prov:agent": "Liming_Xu",
+      "prov:hadRole": "Software_developer"
     }
   ],
-  "annal:id": "Design_brainstorming",
-  "@id": "./",
-  "@type": [
-    "prov:Activity",
-    "annal:EntityData"
-  ],
-  "annal:type": "annal:EntityData"
+  "rdfs:comment": "Our team gathered for an intense brainstorming session so as to come up with an overall design for the Carolan guitar and to establish some principles for decorating it with Aestheticodes and mapping these to different interactive functions.\r\n",
+  "rdfs:label": "Design brainstorming"
 }

@@ -1,6 +1,20 @@
 {
-  "rdfs:label": "Louisiana",
-  "rdfs:comment": "This trip has been to present the first Carolan research paper at the Fifteenth Annual Conference on New Interfaces for Musical Expression, or \u2018NIMES\u2019 as these new digital instruments are called.",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Event/Louisiana",
+  "@type": [
+    "prov:Activity",
+    "annal:EntityData"
+  ],
+  "annal:id": "Louisiana",
+  "annal:type": "prov:Activity",
+  "annal:type_id": "Event",
+  "crm:P126_employed_r": [],
+  "crm:P7_took_place_at": "Place/LSU_Baton_Rouge",
   "entity:seeAlso_r": [
     {
       "rdfs:seeAlso": "http://carolanguitar.com/2015/06/22/46-lousiana/"
@@ -12,32 +26,21 @@
       "rdfs:seeAlso": "https://nime2015.lsu.edu/proceedings/264/0264-paper.pdf"
     }
   ],
-  "annal:type_id": "Event",
-  "crm:P7_took_place_at": "Place/LSU_Baton_Rouge",
   "prov:qualifiedAssociation": [
     {
-      "prov:hadRole": "Role/Guitarist",
-      "prov:agent": "Person/Steve_Benford"
+      "prov:agent": "Person/Steve_Benford",
+      "prov:hadRole": "Role/Guitarist"
     },
     {
-      "prov:hadRole": "Role/Researcher",
-      "prov:agent": "Person/Steve_Benford"
+      "prov:agent": "Person/Steve_Benford",
+      "prov:hadRole": "Role/Researcher"
     }
-  ],
-  "crm:P126_employed_r": [],
-  "@context": [
-    "../../coll_context.jsonld"
   ],
   "prov:used_r": [
     {
       "prov:used": "Artifact/Carolan_Guitar"
     }
   ],
-  "annal:id": "Louisiana",
-  "@id": "./",
-  "@type": [
-    "prov:Activity",
-    "annal:EntityData"
-  ],
-  "annal:type": "prov:Activity"
+  "rdfs:comment": "This trip has been to present the first Carolan research paper at the Fifteenth Annual Conference on New Interfaces for Musical Expression, or \u2018NIMES\u2019 as these new digital instruments are called.",
+  "rdfs:label": "Louisiana"
 }

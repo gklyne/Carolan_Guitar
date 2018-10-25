@@ -1,20 +1,26 @@
 {
-  "rdfs:label": "Remi Harris plays Coquette and other songs",
-  "rdfs:comment": "\"We\u2019ve been flirting with rising star of the jazz world Remi Harris who was in town to play at the first Beeston Jazz Festival\"",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Performance/Coquette",
+  "@type": [
+    "frbroo:F31_Performance",
+    "prov:Activity",
+    "annal:EntityData"
+  ],
+  "annal:id": "Coquette",
+  "annal:type": "frbroo:F31_Performance",
+  "annal:type_id": "Performance",
+  "crm:P126_employed_r": [],
+  "crm:P7_took_place_at": "Place/Mixed_reality_lab",
   "entity:seeAlso_r": [
     {
       "rdfs:seeAlso": "http://carolanguitar.com/2014/11/10/31-coquette/"
     }
   ],
-  "annal:type_id": "Performance",
-  "crm:P7_took_place_at": "Place/Mixed_reality_lab",
-  "prov:qualifiedAssociation": [
-    {
-      "prov:hadRole": "Role/Guitarist",
-      "prov:agent": "Person/Remi_Harris"
-    }
-  ],
-  "crm:P126_employed_r": [],
   "frbroo:R25F_performed_r": [
     {
       "frbroo:R25F_performed": "Work/Coquette"
@@ -26,19 +32,17 @@
       "frbroo:R25F_performed": "Work/Waltz_for_Debby"
     }
   ],
+  "prov:qualifiedAssociation": [
+    {
+      "prov:agent": "Person/Remi_Harris",
+      "prov:hadRole": "Role/Guitarist"
+    }
+  ],
   "prov:used_r": [
     {
       "prov:used": "Artifact/Carolan_Guitar"
     }
   ],
-  "annal:id": "Coquette",
-  "@id": "./",
-  "@type": [
-    "frbroo:F31_Performance",
-    "prov:Activity",
-    "crm:E5_Event",
-    "crm:E7_Activity",
-    "annal:EntityData"
-  ],
-  "annal:type": "annal:EntityData"
+  "rdfs:comment": "\"We\u2019ve been flirting with rising star of the jazz world Remi Harris who was in town to play at the first Beeston Jazz Festival\"",
+  "rdfs:label": "Remi Harris plays Coquette and other songs"
 }

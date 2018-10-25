@@ -1,0 +1,32 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_list/Productions",
+  "@type": [
+    "annal:List"
+  ],
+  "annal:default_type": "Construction",
+  "annal:default_view": "Event",
+  "annal:display_type": "_enum_list_type/List",
+  "annal:id": "Productions",
+  "annal:list_entity_selector": "\"frbroo:Performance\" in [@type]",
+  "annal:list_entity_type": "frbroo:F31_Performance",
+  "annal:list_fields": [
+    {
+      "annal:field_id": "Entity_id",
+      "annal:field_placement": "small:0,3"
+    },
+    {
+      "annal:field_id": "Entity_label",
+      "annal:field_placement": "small:3,9"
+    }
+  ],
+  "annal:type": "annal:List",
+  "annal:type_id": "_list",
+  "rdfs:comment": "List of production events",
+  "rdfs:label": "List construction events"
+}

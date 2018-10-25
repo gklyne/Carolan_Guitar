@@ -1,18 +1,25 @@
 {
-  "rdfs:label": "",
-  "rdfs:comment": "Phil Langran\u2019s is a songwriter and lyricist steeped in the poetic traditions of Robert Frost and Langston Hughes.",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Person/Phil_Langran",
+  "@type": [
+    "prov:Agent",
+    "prov:Entity",
+    "annal:EntityData"
+  ],
+  "annal:id": "Phil_Langran",
+  "annal:type": "prov:Agent",
+  "annal:type_id": "Person",
   "entity:seeAlso_r": [
     {
       "rdfs:seeAlso": "http://phillangranband.com/"
     }
   ],
-  "annal:type_id": "Person",
   "foaf:name": "Phil Langran",
-  "annal:id": "Phil_Langran",
-  "@id": "./",
-  "@type": [
-    "prov:Agent",
-    "annal:EntityData"
-  ],
-  "annal:type": "annal:EntityData"
+  "rdfs:comment": "Phil Langran\u2019s is a songwriter and lyricist steeped in the poetic traditions of Robert Frost and Langston Hughes.",
+  "rdfs:label": "Phil Langran"
 }

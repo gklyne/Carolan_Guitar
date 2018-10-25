@@ -1,12 +1,18 @@
 {
-  "rdfs:label": "Maker",
-  "rdfs:comment": "Role applicable to anyone involved in prototyping or construction efforts",
-  "annal:type_id": "Role",
-  "annal:id": "Maker",
-  "@id": "./",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Role/Maker",
   "@type": [
     "prov:Role",
     "annal:EntityData"
   ],
-  "annal:type": "annal:EntityData"
+  "annal:id": "Maker",
+  "annal:type": "prov:Role",
+  "annal:type_id": "Role",
+  "rdfs:comment": "Role applicable to anyone involved in prototyping or construction efforts",
+  "rdfs:label": "Maker"
 }

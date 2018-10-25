@@ -1,15 +1,18 @@
 {
-  "rdfs:label": "Connecting the Carolan Guitar to its story on the web",
-  "rdfs:comment": "A mobile phone app is created that can capture images of aestheticodes, recognize the embedded codes and use them to fetch and display some part of the guitar's story from the web.",
-  "entity:seeAlso_r": [],
-  "annal:type_id": "Event",
-  "crm:P7_took_place_at": "",
-  "prov:qualifiedAssociation": [
+  "@context": [
     {
-      "prov:hadRole": "Role/Software_developer",
-      "prov:agent": "Person/Kev_Glover"
-    }
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
   ],
+  "@id": "Event/Linking_to_web_resources",
+  "@type": [
+    "prov:Activity",
+    "annal:EntityData"
+  ],
+  "annal:id": "Linking_to_web_resources",
+  "annal:type": "prov:Activity",
+  "annal:type_id": "Event",
   "crm:P126_employed_r": [
     {
       "crm:P126_employed": "Material/Mobile_phone"
@@ -18,16 +21,19 @@
       "crm:P126_employed": "Material/Config_file"
     }
   ],
+  "crm:P7_took_place_at": "",
+  "entity:seeAlso_r": [],
+  "prov:qualifiedAssociation": [
+    {
+      "prov:agent": "Person/Kev_Glover",
+      "prov:hadRole": "Role/Software_developer"
+    }
+  ],
   "prov:used_r": [
     {
       "prov:used": "Tool/Artcode_scanner"
     }
   ],
-  "annal:id": "Linking_to_web_resources",
-  "@id": "./",
-  "@type": [
-    "prov:Activity",
-    "annal:EntityData"
-  ],
-  "annal:type": "annal:EntityData"
+  "rdfs:comment": "A mobile phone app is created that can capture images of aestheticodes, recognize the embedded codes and use them to fetch and display some part of the guitar's story from the web.",
+  "rdfs:label": "Connecting the Carolan Guitar to its story on the web"
 }

@@ -1,36 +1,26 @@
 {
-  "rdfs:label": "2014 Beeston Oxjam Takeover retrospective (part 2)",
-  "rdfs:comment": "Second retrospective from the 2014 Beeston OxJam takeover ",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Performance/Songsters",
+  "@type": [
+    "frbroo:F31_Performance",
+    "prov:Activity",
+    "annal:EntityData"
+  ],
+  "annal:id": "Songsters",
+  "annal:type": "frbroo:F31_Performance",
+  "annal:type_id": "Performance",
+  "crm:P126_employed_r": [],
+  "crm:P7_took_place_at": "Place/The_Guitar_Spot",
   "entity:seeAlso_r": [
     {
       "rdfs:seeAlso": "http://carolanguitar.com/2014/12/16/36-songsters/"
     }
   ],
-  "annal:type_id": "Performance",
-  "crm:P7_took_place_at": "Place/The_Guitar_Spot",
-  "prov:qualifiedAssociation": [
-    {
-      "prov:hadRole": "Role/Guitarist",
-      "prov:agent": "Person/Chris_Zwingel"
-    },
-    {
-      "prov:hadRole": "Role/Guitarist",
-      "prov:agent": "Person/Emma_Bladon_Jones"
-    },
-    {
-      "prov:hadRole": "Role/Guitarist",
-      "prov:agent": "Person/Phil_Langran"
-    },
-    {
-      "prov:hadRole": "Role/Guitarist",
-      "prov:agent": "Person/Steve_Benford"
-    },
-    {
-      "prov:hadRole": "Role/Guitarist",
-      "prov:agent": "Person/Jeremy_Galgut"
-    }
-  ],
-  "crm:P126_employed_r": [],
   "frbroo:R25F_performed_r": [
     {
       "frbroo:R25F_performed": "Work/Down_the_Road"
@@ -42,19 +32,33 @@
       "frbroo:R25F_performed": "Work/Hallelujah_Night"
     }
   ],
+  "prov:qualifiedAssociation": [
+    {
+      "prov:agent": "Person/Chris_Zwingel",
+      "prov:hadRole": "Role/Guitarist"
+    },
+    {
+      "prov:agent": "Person/Emma_Bladon_Jones",
+      "prov:hadRole": "Role/Guitarist"
+    },
+    {
+      "prov:agent": "Person/Phil_Langran",
+      "prov:hadRole": "Role/Guitarist"
+    },
+    {
+      "prov:agent": "Person/Steve_Benford",
+      "prov:hadRole": "Role/Guitarist"
+    },
+    {
+      "prov:agent": "Person/Jeremy_Galgut",
+      "prov:hadRole": "Role/Guitarist"
+    }
+  ],
   "prov:used_r": [
     {
       "prov:used": "Artifact/Carolan_Guitar"
     }
   ],
-  "annal:id": "Songsters",
-  "@id": "./",
-  "@type": [
-    "frbroo:F31_Performance",
-    "prov:Activity",
-    "crm:E5_Event",
-    "crm:E7_Activity",
-    "annal:EntityData"
-  ],
-  "annal:type": "annal:EntityData"
+  "rdfs:comment": "Second retrospective from the 2014 Beeston OxJam takeover ",
+  "rdfs:label": "2014 Beeston Oxjam Takeover retrospective (part 2)"
 }

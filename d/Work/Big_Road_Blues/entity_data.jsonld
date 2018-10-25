@@ -1,35 +1,35 @@
 {
-  "rdfs:label": "Big Road Blues",
-  "rdfs:comment": "Big Road Blues by Canned Heat ",
-  "entity:seeAlso_r": [
+  "@context": [
     {
-      "rdfs:seeAlso": "https://youtu.be/qHQfc03Xl8g"
-    }
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
   ],
-  "annal:type_id": "Work",
-  "annal:member__2": [
-    {
-      "crm:P12i_was_present_at": "Performance/Things"
-    }
+  "@id": "Work/Big_Road_Blues",
+  "@type": [
+    "frbroo:F25_Performance_Plan",
+    "crm:E29_Design_or_Procedure",
+    "prov:Entity",
+    "annal:EntityData"
   ],
+  "annal:id": "Big_Road_Blues",
   "annal:member": [
     {
       "prov:wasAttributedTo": "Person/Canned_Heat"
     }
   ],
-  "annal:id": "Big_Road_Blues",
-  "@id": "./",
-  "@type": [
-    "frbroo:F25_Performance_Plan",
-    "prov:Entity",
-    "crm:E29_Design_or_Procedure",
-    "crm:E73_Information_Object",
-    "crm:E28_Conceptual_Object",
-    "crm:E71_Man-Made_Thing",
-    "crm:E70_Thing",
-    "crm:E77_Persistent_Item",
-    "crm:E1_CRM_Entity",
-    "annal:EntityData"
+  "annal:member__2": [
+    {
+      "crm:P12i_was_present_at": "Performance/Things"
+    }
   ],
-  "annal:type": "annal:EntityData"
+  "annal:type": "frbroo:F25_Performance_Plan",
+  "annal:type_id": "Work",
+  "entity:seeAlso_r": [
+    {
+      "rdfs:seeAlso": "https://youtu.be/qHQfc03Xl8g"
+    }
+  ],
+  "rdfs:comment": "Big Road Blues by Canned Heat ",
+  "rdfs:label": "Big Road Blues"
 }

@@ -1,35 +1,35 @@
 {
-  "rdfs:label": "Give Me Your Hand",
-  "rdfs:comment": "\u2018Give Me Your Hand\u2019 (\u2018Tabhair dom do L\u00e1mh\u2019 in Irish), a tune widely attributed to harper Ruaidri D\u00e1ll \u00d3 Cath\u00e1in who was blind and and also known as \"Blind Rory\".",
-  "entity:seeAlso_r": [
+  "@context": [
     {
-      "rdfs:seeAlso": "https://en.wikipedia.org/wiki/Give_Me_Your_Hand"
-    }
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
   ],
-  "annal:type_id": "Work",
-  "annal:member__2": [
-    {
-      "crm:P12i_was_present_at": "Performance/Tim_Edey_and_friends"
-    }
+  "@id": "Work/Give_Me_Your_Hand",
+  "@type": [
+    "frbroo:F25_Performance_Plan",
+    "crm:E29_Design_or_Procedure",
+    "prov:Entity",
+    "annal:EntityData"
   ],
+  "annal:id": "Give_Me_Your_Hand",
   "annal:member": [
     {
       "prov:wasAttributedTo": "Person/Rory_Dall_O_Cahan"
     }
   ],
-  "annal:id": "Give_Me_Your_Hand",
-  "@id": "./",
-  "@type": [
-    "frbroo:F25_Performance_Plan",
-    "prov:Entity",
-    "crm:E29_Design_or_Procedure",
-    "crm:E73_Information_Object",
-    "crm:E28_Conceptual_Object",
-    "crm:E71_Man-Made_Thing",
-    "crm:E70_Thing",
-    "crm:E77_Persistent_Item",
-    "crm:E1_CRM_Entity",
-    "annal:EntityData"
+  "annal:member__2": [
+    {
+      "crm:P12i_was_present_at": "Performance/Tim_Edey_and_friends"
+    }
   ],
-  "annal:type": "annal:EntityData"
+  "annal:type": "frbroo:F25_Performance_Plan",
+  "annal:type_id": "Work",
+  "entity:seeAlso_r": [
+    {
+      "rdfs:seeAlso": "https://en.wikipedia.org/wiki/Give_Me_Your_Hand"
+    }
+  ],
+  "rdfs:comment": "\u2018Give Me Your Hand\u2019 (\u2018Tabhair dom do L\u00e1mh\u2019 in Irish), a tune widely attributed to harper Ruaidri D\u00e1ll \u00d3 Cath\u00e1in who was blind and and also known as \"Blind Rory\".",
+  "rdfs:label": "Give Me Your Hand"
 }

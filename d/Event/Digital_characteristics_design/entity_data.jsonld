@@ -1,21 +1,27 @@
 {
-  "rdfs:label": "Thoughts about design of associated digital content",
-  "rdfs:comment": "\"We also need to consider its digital characteristics. Our aim is to create a guitar that tells its own lifestory. But what might this include? Or more technically, what information should appear in our guitar\u2019s \u2018digital footprint\u2019?\"\r\n\r\n## Comments (meta)\r\n\r\nThis phase of the design doesn't appear to be an event so much as a review of considerations.  Modelling it as an event is probably not the right approach, but it's not yet clear what alternatives would be more suitable.  So this is here as a placeholder for possible later review.  For details, see the associated link.\r\n\r\nThis exploratory Digital Music Object is itself a part of an exploration about what the Carolan Guitar's digital footprint might be, and in particular how much of the footprint might be exposed to machine- as well as human- consumption\r\n\r\n(If this stage is to be modeled as an event, I think there should, at least, be an associated person.  Steve?)\r\n",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Event/Digital_characteristics_design",
+  "@type": [
+    "prov:Activity",
+    "annal:EntityData"
+  ],
+  "annal:id": "Digital_characteristics_design",
+  "annal:type": "prov:Activity",
+  "annal:type_id": "Event",
+  "crm:P126_employed_r": [],
+  "crm:P7_took_place_at": "",
   "entity:seeAlso_r": [
     {
       "rdfs:seeAlso": "http://carolanguitar.com/2014/08/06/footprint/"
     }
   ],
-  "annal:type_id": "Event",
-  "crm:P7_took_place_at": "",
   "prov:qualifiedAssociation": [],
-  "crm:P126_employed_r": [],
   "prov:used_r": [],
-  "annal:id": "Digital_characteristics_design",
-  "@id": "./",
-  "@type": [
-    "prov:Activity",
-    "annal:EntityData"
-  ],
-  "annal:type": "annal:EntityData"
+  "rdfs:comment": "\"We also need to consider its digital characteristics. Our aim is to create a guitar that tells its own lifestory. But what might this include? Or more technically, what information should appear in our guitar\u2019s \u2018digital footprint\u2019?\"\r\n\r\n## Comments (meta)\r\n\r\nThis phase of the design doesn't appear to be an event so much as a review of considerations.  Modelling it as an event is probably not the right approach, but it's not yet clear what alternatives would be more suitable.  So this is here as a placeholder for possible later review.  For details, see the associated link.\r\n\r\nThis exploratory Digital Music Object is itself a part of an exploration about what the Carolan Guitar's digital footprint might be, and in particular how much of the footprint might be exposed to machine- as well as human- consumption\r\n\r\n(If this stage is to be modeled as an event, I think there should, at least, be an associated person.  Steve?)\r\n",
+  "rdfs:label": "Thoughts about design of associated digital content"
 }

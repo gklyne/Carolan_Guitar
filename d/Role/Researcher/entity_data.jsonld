@@ -1,12 +1,18 @@
 {
-  "rdfs:label": "Researcher",
-  "rdfs:comment": "A role that involves development and evaluation of designs, techniques, etc.",
-  "annal:type_id": "Role",
-  "annal:id": "Researcher",
-  "@id": "./",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Role/Researcher",
   "@type": [
     "prov:Role",
     "annal:EntityData"
   ],
-  "annal:type": "annal:EntityData"
+  "annal:id": "Researcher",
+  "annal:type": "prov:Role",
+  "annal:type_id": "Role",
+  "rdfs:comment": "A role that involves development and evaluation of designs, techniques, etc.",
+  "rdfs:label": "Researcher"
 }

@@ -1,12 +1,18 @@
 {
-  "rdfs:label": "Interviewer",
-  "rdfs:comment": "",
-  "annal:type_id": "Role",
-  "annal:id": "Interviewer",
-  "@id": "./",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Role/Interviewer",
   "@type": [
     "prov:Role",
     "annal:EntityData"
   ],
-  "annal:type": "annal:EntityData"
+  "annal:id": "Interviewer",
+  "annal:type": "prov:Role",
+  "annal:type_id": "Role",
+  "rdfs:comment": "",
+  "rdfs:label": "Interviewer"
 }

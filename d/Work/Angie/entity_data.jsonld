@@ -1,6 +1,30 @@
 {
-  "rdfs:label": "Angie",
-  "rdfs:comment": "Apparently, a version by Bert Jansch of a Davy Graham song \"Anji\", or was it Stefan Grossman?\r\n\r\n@@TODO: review details, add reliable links",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Work/Angie",
+  "@type": [
+    "frbroo:F25_Performance_Plan",
+    "crm:E29_Design_or_Procedure",
+    "prov:Entity",
+    "annal:EntityData"
+  ],
+  "annal:id": "Angie",
+  "annal:member": [
+    {
+      "prov:wasAttributedTo": "Person/Bert_Jansch"
+    }
+  ],
+  "annal:member__2": [
+    {
+      "crm:P12i_was_present_at": "Performance/Tim_Edey_and_friends"
+    }
+  ],
+  "annal:type": "frbroo:F25_Performance_Plan",
+  "annal:type_id": "Work",
   "entity:seeAlso_r": [
     {
       "rdfs:seeAlso": "https://youtu.be/6gwZ1cIqJdA"
@@ -9,30 +33,6 @@
       "rdfs:seeAlso": "http://www.allmusic.com/song/angie-mt0008560145"
     }
   ],
-  "annal:type_id": "Work",
-  "annal:member__2": [
-    {
-      "crm:P12i_was_present_at": "Performance/Tim_Edey_and_friends"
-    }
-  ],
-  "annal:member": [
-    {
-      "prov:wasAttributedTo": "Person/Bert_Jansch"
-    }
-  ],
-  "annal:id": "Angie",
-  "@id": "./",
-  "@type": [
-    "frbroo:F25_Performance_Plan",
-    "prov:Entity",
-    "crm:E29_Design_or_Procedure",
-    "crm:E73_Information_Object",
-    "crm:E28_Conceptual_Object",
-    "crm:E71_Man-Made_Thing",
-    "crm:E70_Thing",
-    "crm:E77_Persistent_Item",
-    "crm:E1_CRM_Entity",
-    "annal:EntityData"
-  ],
-  "annal:type": "annal:EntityData"
+  "rdfs:comment": "Apparently, a version by Bert Jansch of a Davy Graham song \"Anji\", or was it Stefan Grossman?\r\n\r\n@@TODO: review details, add reliable links",
+  "rdfs:label": "Angie"
 }

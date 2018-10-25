@@ -1,12 +1,18 @@
 {
-  "rdfs:label": "Geert's Tascam digital eight-track",
-  "rdfs:comment": "Geert De Wilde's Tascam digital eight-track (cf. http://carolanguitar.com/2015/06/13/45-geert-claire-and-dylan/)",
-  "annal:type_id": "Entity",
-  "annal:id": "Geerts_Tascam_8_track",
-  "@id": "./",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Entity/Geerts_Tascam_8_track",
   "@type": [
     "prov:Entity",
     "annal:EntityData"
   ],
-  "annal:type": "annal:EntityData"
+  "annal:id": "Geerts_Tascam_8_track",
+  "annal:type": "prov:Entity",
+  "annal:type_id": "Entity",
+  "rdfs:comment": "Geert De Wilde's Tascam digital eight-track (cf. http://carolanguitar.com/2015/06/13/45-geert-claire-and-dylan/)",
+  "rdfs:label": "Geert's Tascam digital eight-track"
 }

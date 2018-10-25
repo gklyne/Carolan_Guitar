@@ -1,18 +1,25 @@
 {
-  "rdfs:label": "",
-  "rdfs:comment": "Marconi Professor of Communications Systems in the Computer Lab, at the University of Cambridge, and an avid guitarist.",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Person/Jon_Crowcroft",
+  "@type": [
+    "prov:Agent",
+    "prov:Entity",
+    "annal:EntityData"
+  ],
+  "annal:id": "Jon_Crowcroft",
+  "annal:type": "prov:Agent",
+  "annal:type_id": "Person",
   "entity:seeAlso_r": [
     {
       "rdfs:seeAlso": "https://en.wikipedia.org/wiki/Jon_Crowcroft"
     }
   ],
-  "annal:type_id": "Person",
   "foaf:name": "Jon Crowcroft",
-  "annal:id": "Jon_Crowcroft",
-  "@id": "./",
-  "@type": [
-    "prov:Agent",
-    "annal:EntityData"
-  ],
-  "annal:type": "annal:EntityData"
+  "rdfs:comment": "Marconi Professor of Communications Systems in the Computer Lab, at the University of Cambridge, and an avid guitarist.",
+  "rdfs:label": "Jon Crowcroft"
 }

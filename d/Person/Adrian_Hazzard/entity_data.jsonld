@@ -1,6 +1,19 @@
 {
-  "rdfs:label": "",
-  "rdfs:comment": "Adrian Hazzard is a PhD student in the Nottingham Mixed Reality Lab whose doctoral work focuses on adaptive musical soundtracks for mobile experiences. He is integrating the Artcode designs onto the Carolan Guitar. Adrian also enjoys playing guitar.",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Person/Adrian_Hazzard",
+  "@type": [
+    "prov:Agent",
+    "prov:Entity",
+    "annal:EntityData"
+  ],
+  "annal:id": "Adrian_Hazzard",
+  "annal:type": "prov:Agent",
+  "annal:type_id": "Person",
   "entity:seeAlso_r": [
     {
       "rdfs:seeAlso": "http://adrianhazzard.com/"
@@ -9,13 +22,7 @@
       "rdfs:seeAlso": "http://www.nottingham.ac.uk/research/groups/mixedrealitylab/index.aspx"
     }
   ],
-  "annal:type_id": "Person",
   "foaf:name": "Adrian Hazzard",
-  "annal:id": "Adrian_Hazzard",
-  "@id": "./",
-  "@type": [
-    "prov:Agent",
-    "annal:EntityData"
-  ],
-  "annal:type": "annal:EntityData"
+  "rdfs:comment": "Adrian Hazzard is a PhD student in the Nottingham Mixed Reality Lab whose doctoral work focuses on adaptive musical soundtracks for mobile experiences. He is integrating the Artcode designs onto the Carolan Guitar. Adrian also enjoys playing guitar.",
+  "rdfs:label": "Adrian Hazzard"
 }

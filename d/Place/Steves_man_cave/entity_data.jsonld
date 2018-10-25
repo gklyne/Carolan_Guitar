@@ -1,13 +1,19 @@
 {
-  "rdfs:label": "Steve's man cave",
-  "rdfs:comment": "",
-  "entity:seeAlso_r": [],
-  "annal:type_id": "Place",
-  "annal:id": "Steves_man_cave",
-  "@id": "./",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Place/Steves_man_cave",
   "@type": [
     "crm:E53_Place",
     "annal:EntityData"
   ],
-  "annal:type": "annal:EntityData"
+  "annal:id": "Steves_man_cave",
+  "annal:type": "crm:E53_Place",
+  "annal:type_id": "Place",
+  "entity:seeAlso_r": [],
+  "rdfs:comment": "",
+  "rdfs:label": "Steve's man cave"
 }

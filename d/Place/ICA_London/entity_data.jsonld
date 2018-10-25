@@ -1,17 +1,23 @@
 {
-  "rdfs:label": "Institute of Contemporary Arts",
-  "rdfs:comment": "Founded in 1946, the ICA is a membership institute that promotes and encourages an understanding of radical art and culture.",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Place/ICA_London",
+  "@type": [
+    "crm:E53_Place",
+    "annal:EntityData"
+  ],
+  "annal:id": "ICA_London",
+  "annal:type": "crm:E53_Place",
+  "annal:type_id": "Place",
   "entity:seeAlso_r": [
     {
       "rdfs:seeAlso": "https://www.ica.org.uk/about"
     }
   ],
-  "annal:type_id": "Place",
-  "annal:id": "ICA_London",
-  "@id": "./",
-  "@type": [
-    "crm:E53_Place",
-    "annal:EntityData"
-  ],
-  "annal:type": "annal:EntityData"
+  "rdfs:comment": "Founded in 1946, the ICA is a membership institute that promotes and encourages an understanding of radical art and culture.",
+  "rdfs:label": "Institute of Contemporary Arts"
 }

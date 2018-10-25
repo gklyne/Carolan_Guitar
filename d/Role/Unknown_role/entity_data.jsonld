@@ -1,12 +1,18 @@
 {
-  "rdfs:label": "Unknown role",
-  "rdfs:comment": "Unknown role",
-  "annal:type_id": "Role",
-  "annal:id": "Unknown_role",
-  "@id": "./",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Role/Unknown_role",
   "@type": [
     "prov:Role",
     "annal:EntityData"
   ],
-  "annal:type": "annal:EntityData"
+  "annal:id": "Unknown_role",
+  "annal:type": "prov:Role",
+  "annal:type_id": "Role",
+  "rdfs:comment": "Unknown role",
+  "rdfs:label": "Unknown role"
 }

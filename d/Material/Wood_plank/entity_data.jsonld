@@ -1,14 +1,20 @@
 {
-  "rdfs:label": "Plank of wood",
-  "rdfs:comment": "Undescribed wood used in construction of guitar mock-up.",
-  "entity:seeAlso_r": [],
-  "annal:type_id": "Material",
-  "annal:type": "annal:EntityData",
-  "annal:id": "Wood_plank",
-  "@id": "./",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Material/Wood_plank",
   "@type": [
     "crm:E57_Material",
     "annal:EntityData"
   ],
-  "annal:member": []
+  "annal:id": "Wood_plank",
+  "annal:member": [],
+  "annal:type": "crm:E57_Material",
+  "annal:type_id": "Material",
+  "entity:seeAlso_r": [],
+  "rdfs:comment": "Undescribed wood used in construction of guitar mock-up.",
+  "rdfs:label": "Plank of wood"
 }

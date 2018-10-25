@@ -1,15 +1,26 @@
 {
-  "rdfs:label": "Reflections on making and scanning guitar aestheticodes",
-  "rdfs:comment": "In this retrospective, the design and scanability of the various aestheticode patterns on the Carolan Guitar is considered, and discussion of the craft challenges of embedding interactive codes into delicate wooden structures.",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Event/Scanning_retrospective",
+  "@type": [
+    "prov:Activity",
+    "annal:EntityData"
+  ],
+  "annal:id": "Scanning_retrospective",
+  "annal:type": "prov:Activity",
+  "annal:type_id": "Event",
+  "crm:P126_employed_r": [],
+  "crm:P7_took_place_at": "",
   "entity:seeAlso_r": [
     {
       "rdfs:seeAlso": "http://carolanguitar.com/2014/11/06/30-scanners/"
     }
   ],
-  "annal:type_id": "Event",
-  "crm:P7_took_place_at": "",
   "prov:qualifiedAssociation": [],
-  "crm:P126_employed_r": [],
   "prov:used_r": [
     {
       "prov:used": "Artifact/Carolan_Guitar"
@@ -24,11 +35,6 @@
       "prov:used": "Design/Decorative_design"
     }
   ],
-  "annal:id": "Scanning_retrospective",
-  "@id": "./",
-  "@type": [
-    "prov:Activity",
-    "annal:EntityData"
-  ],
-  "annal:type": "annal:EntityData"
+  "rdfs:comment": "In this retrospective, the design and scanability of the various aestheticode patterns on the Carolan Guitar is considered, and discussion of the craft challenges of embedding interactive codes into delicate wooden structures.",
+  "rdfs:label": "Reflections on making and scanning guitar aestheticodes"
 }

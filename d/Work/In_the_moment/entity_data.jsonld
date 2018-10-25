@@ -1,6 +1,30 @@
 {
-  "rdfs:label": "In the Moment",
-  "rdfs:comment": "Improvised composition by Lulo Reinhardt",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Work/In_the_moment",
+  "@type": [
+    "frbroo:F25_Performance_Plan",
+    "crm:E29_Design_or_Procedure",
+    "prov:Entity",
+    "annal:EntityData"
+  ],
+  "annal:id": "In_the_moment",
+  "annal:member": [
+    {
+      "prov:wasAttributedTo": "Person/Lulo_Reinhardt"
+    }
+  ],
+  "annal:member__2": [
+    {
+      "crm:P12i_was_present_at": "Composition/Catch_the_moment"
+    }
+  ],
+  "annal:type": "frbroo:F25_Performance_Plan",
+  "annal:type_id": "Work",
   "entity:seeAlso_r": [
     {
       "rdfs:seeAlso": "http://carolanguitar.com/2014/10/23/27-in-the-moment/"
@@ -9,30 +33,6 @@
       "rdfs:seeAlso": "https://youtu.be/M6ctCMUwx70"
     }
   ],
-  "annal:type_id": "Work",
-  "annal:member__2": [
-    {
-      "crm:P12i_was_present_at": "Composition/Catch_the_moment"
-    }
-  ],
-  "annal:member": [
-    {
-      "prov:wasAttributedTo": "Person/Lulo_Reinhardt"
-    }
-  ],
-  "annal:id": "In_the_moment",
-  "@id": "./",
-  "@type": [
-    "frbroo:F25_Performance_Plan",
-    "prov:Entity",
-    "crm:E29_Design_or_Procedure",
-    "crm:E73_Information_Object",
-    "crm:E28_Conceptual_Object",
-    "crm:E71_Man-Made_Thing",
-    "crm:E70_Thing",
-    "crm:E77_Persistent_Item",
-    "crm:E1_CRM_Entity",
-    "annal:EntityData"
-  ],
-  "annal:type": "annal:EntityData"
+  "rdfs:comment": "Improvised composition by Lulo Reinhardt",
+  "rdfs:label": "In the Moment"
 }

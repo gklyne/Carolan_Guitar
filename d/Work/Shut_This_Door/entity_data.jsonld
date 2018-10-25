@@ -1,6 +1,30 @@
 {
-  "rdfs:label": "Shut This Door",
-  "rdfs:comment": "Geert: \"So, one hour before Claire and Alan were coming round to work on the song, on Tuesday evening 12 May, I started from scratch again. Using those same three chords (Bm7, G and Em), I quickly wrote something much more melodious, folkish and poplike, and, for some reason, using infinitely sad lyrics. I made sure I got a verse and a chorus, recorded a demo to remind myself, and then rushed to do the washing up.\"\r\n\r\n[...]\r\n\r\n\"But we did manage to record a very rough version of the new song (Shut This Door), with Claire adding some on the spot harmonies. A quick video was recorded to remember this.\"\r\n\r\n[...]\r\n\r\n\"With time being way too short once again, we tinkered just a little bit with Shut This Door \u2013 but the song still remained unfinished.\"\r\n\r\n[...]\r\n\r\n\"Since then, working at a slower pace and using my old and trusted Cimar guitar with its ancient and muffled strings, I wrote some more gloomy verses and a downright morbid middle bit for Shut This Door. The song is now really coming together. Last Sunday I recorded a basic track on the portastudio (guitar and guide vocal), and in the near future, hopefully Claire will add her vocals, Alan his manically happy guitar break and anyone who feels like it will be able to contribute further overdubs. We\u2019ll let you know when this Carolan Guitar song is finished.\"",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Work/Shut_This_Door",
+  "@type": [
+    "frbroo:F25_Performance_Plan",
+    "crm:E29_Design_or_Procedure",
+    "prov:Entity",
+    "annal:EntityData"
+  ],
+  "annal:id": "Shut_This_Door",
+  "annal:member": [
+    {
+      "prov:wasAttributedTo": "Person/Geert_De_Wilde"
+    }
+  ],
+  "annal:member__2": [
+    {
+      "crm:P12i_was_present_at": "Performance/Visiting_Wales"
+    }
+  ],
+  "annal:type": "frbroo:F25_Performance_Plan",
+  "annal:type_id": "Work",
   "entity:seeAlso_r": [
     {
       "rdfs:seeAlso": "http://carolanguitar.com/2015/06/13/45-geert-claire-and-dylan/"
@@ -9,30 +33,6 @@
       "rdfs:seeAlso": "https://youtu.be/6v4xZxwEnQc"
     }
   ],
-  "annal:type_id": "Work",
-  "annal:member__2": [
-    {
-      "crm:P12i_was_present_at": "Performance/Visiting_Wales"
-    }
-  ],
-  "annal:member": [
-    {
-      "prov:wasAttributedTo": "Person/Geert_De_Wilde"
-    }
-  ],
-  "annal:id": "Shut_This_Door",
-  "@id": "./",
-  "@type": [
-    "frbroo:F25_Performance_Plan",
-    "prov:Entity",
-    "crm:E29_Design_or_Procedure",
-    "crm:E73_Information_Object",
-    "crm:E28_Conceptual_Object",
-    "crm:E71_Man-Made_Thing",
-    "crm:E70_Thing",
-    "crm:E77_Persistent_Item",
-    "crm:E1_CRM_Entity",
-    "annal:EntityData"
-  ],
-  "annal:type": "annal:EntityData"
+  "rdfs:comment": "Geert: \"So, one hour before Claire and Alan were coming round to work on the song, on Tuesday evening 12 May, I started from scratch again. Using those same three chords (Bm7, G and Em), I quickly wrote something much more melodious, folkish and poplike, and, for some reason, using infinitely sad lyrics. I made sure I got a verse and a chorus, recorded a demo to remind myself, and then rushed to do the washing up.\"\r\n\r\n[...]\r\n\r\n\"But we did manage to record a very rough version of the new song (Shut This Door), with Claire adding some on the spot harmonies. A quick video was recorded to remember this.\"\r\n\r\n[...]\r\n\r\n\"With time being way too short once again, we tinkered just a little bit with Shut This Door \u2013 but the song still remained unfinished.\"\r\n\r\n[...]\r\n\r\n\"Since then, working at a slower pace and using my old and trusted Cimar guitar with its ancient and muffled strings, I wrote some more gloomy verses and a downright morbid middle bit for Shut This Door. The song is now really coming together. Last Sunday I recorded a basic track on the portastudio (guitar and guide vocal), and in the near future, hopefully Claire will add her vocals, Alan his manically happy guitar break and anyone who feels like it will be able to contribute further overdubs. We\u2019ll let you know when this Carolan Guitar song is finished.\"",
+  "rdfs:label": "Shut This Door"
 }

@@ -1,14 +1,21 @@
 {
-  "rdfs:label": "",
-  "rdfs:comment": "NottingHack maker",
-  "entity:seeAlso_r": [],
-  "annal:type_id": "Person",
-  "foaf:name": "Toby Jackson",
-  "annal:id": "Toby_Jackson",
-  "@id": "./",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Person/Toby_Jackson",
   "@type": [
     "prov:Agent",
+    "prov:Entity",
     "annal:EntityData"
   ],
-  "annal:type": "annal:EntityData"
+  "annal:id": "Toby_Jackson",
+  "annal:type": "prov:Agent",
+  "annal:type_id": "Person",
+  "entity:seeAlso_r": [],
+  "foaf:name": "Toby Jackson",
+  "rdfs:comment": "NottingHack maker",
+  "rdfs:label": "Toby Jackson"
 }

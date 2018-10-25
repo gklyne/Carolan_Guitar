@@ -1,6 +1,20 @@
 {
-  "rdfs:label": "Carolan_guitar soundboard",
-  "rdfs:comment": "Spruce soundboard, braced, with decorative aestheticode cutouts and inlay.",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Artifact/Carolan_guitar_soundboard",
+  "@type": [
+    "crm:E24_Physical_Man-Made_Thing",
+    "prov:Entity",
+    "annal:EntityData"
+  ],
+  "annal:id": "Carolan_guitar_soundboard",
+  "annal:member": [],
+  "annal:type": "crm:E24_Physical_Man-Made_Thing",
+  "annal:type_id": "Artifact",
   "entity:seeAlso_r": [
     {
       "rdfs:seeAlso": "http://carolanguitar.com/2014/09/14/17-the-big-etch/"
@@ -15,13 +29,6 @@
       "rdfs:seeAlso": "http://carolanguitar.com/2014/10/04/21-inlay/"
     }
   ],
-  "annal:type_id": "Artifact",
-  "annal:member": [],
-  "annal:id": "Carolan_guitar_soundboard",
-  "@id": "./",
-  "@type": [
-    "prov:Entity",
-    "annal:EntityData"
-  ],
-  "annal:type": "annal:EntityData"
+  "rdfs:comment": "Spruce soundboard, braced, with decorative aestheticode cutouts and inlay.",
+  "rdfs:label": "Carolan_guitar soundboard"
 }

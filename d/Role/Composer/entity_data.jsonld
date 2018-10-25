@@ -1,12 +1,18 @@
 {
-  "rdfs:label": "Composer",
-  "rdfs:comment": "Composer of musical work",
-  "annal:type_id": "Role",
-  "annal:id": "Composer",
-  "@id": "./",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Role/Composer",
   "@type": [
     "prov:Role",
     "annal:EntityData"
   ],
-  "annal:type": "annal:EntityData"
+  "annal:id": "Composer",
+  "annal:type": "prov:Role",
+  "annal:type_id": "Role",
+  "rdfs:comment": "Composer of musical work",
+  "rdfs:label": "Composer"
 }

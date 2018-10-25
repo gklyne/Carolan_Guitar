@@ -1,31 +1,31 @@
 {
-  "rdfs:label": "Waltz for Debby",
-  "rdfs:comment": "(No further details)",
-  "entity:seeAlso_r": [
+  "@context": [
     {
-      "rdfs:seeAlso": "https://www.youtube.com/watch?v=CwrEIhIkNFw"
-    }
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
   ],
-  "annal:type_id": "Work",
+  "@id": "Work/Waltz_for_Debby",
+  "@type": [
+    "frbroo:F25_Performance_Plan",
+    "crm:E29_Design_or_Procedure",
+    "prov:Entity",
+    "annal:EntityData"
+  ],
+  "annal:id": "Waltz_for_Debby",
+  "annal:member": [],
   "annal:member__2": [
     {
       "crm:P12i_was_present_at": "Performance/Coquette"
     }
   ],
-  "annal:member": [],
-  "annal:id": "Waltz_for_Debby",
-  "@id": "./",
-  "@type": [
-    "frbroo:F25_Performance_Plan",
-    "prov:Entity",
-    "crm:E29_Design_or_Procedure",
-    "crm:E73_Information_Object",
-    "crm:E28_Conceptual_Object",
-    "crm:E71_Man-Made_Thing",
-    "crm:E70_Thing",
-    "crm:E77_Persistent_Item",
-    "crm:E1_CRM_Entity",
-    "annal:EntityData"
+  "annal:type": "frbroo:F25_Performance_Plan",
+  "annal:type_id": "Work",
+  "entity:seeAlso_r": [
+    {
+      "rdfs:seeAlso": "https://www.youtube.com/watch?v=CwrEIhIkNFw"
+    }
   ],
-  "annal:type": "annal:EntityData"
+  "rdfs:comment": "(No further details)",
+  "rdfs:label": "Waltz for Debby"
 }

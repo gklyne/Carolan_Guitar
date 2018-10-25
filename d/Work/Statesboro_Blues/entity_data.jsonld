@@ -1,35 +1,35 @@
 {
-  "rdfs:label": "Statesboro Blues",
-  "rdfs:comment": "\"Statesboro Blues\" is a blues song in the key of D written by Blind Willie McTell; the title refers to the town of Statesboro, Georgia.",
-  "entity:seeAlso_r": [
+  "@context": [
     {
-      "rdfs:seeAlso": "https://en.wikipedia.org/wiki/Statesboro_Blues"
-    }
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
   ],
-  "annal:type_id": "Work",
-  "annal:member__2": [
-    {
-      "crm:P12i_was_present_at": "Performance/Bluesmen"
-    }
+  "@id": "Work/Statesboro_Blues",
+  "@type": [
+    "frbroo:F25_Performance_Plan",
+    "crm:E29_Design_or_Procedure",
+    "prov:Entity",
+    "annal:EntityData"
   ],
+  "annal:id": "Statesboro_Blues",
   "annal:member": [
     {
       "prov:wasAttributedTo": "Person/Blind_Willie_McTell"
     }
   ],
-  "annal:id": "Statesboro_Blues",
-  "@id": "./",
-  "@type": [
-    "frbroo:F25_Performance_Plan",
-    "prov:Entity",
-    "crm:E29_Design_or_Procedure",
-    "crm:E73_Information_Object",
-    "crm:E28_Conceptual_Object",
-    "crm:E71_Man-Made_Thing",
-    "crm:E70_Thing",
-    "crm:E77_Persistent_Item",
-    "crm:E1_CRM_Entity",
-    "annal:EntityData"
+  "annal:member__2": [
+    {
+      "crm:P12i_was_present_at": "Performance/Bluesmen"
+    }
   ],
-  "annal:type": "annal:EntityData"
+  "annal:type": "frbroo:F25_Performance_Plan",
+  "annal:type_id": "Work",
+  "entity:seeAlso_r": [
+    {
+      "rdfs:seeAlso": "https://en.wikipedia.org/wiki/Statesboro_Blues"
+    }
+  ],
+  "rdfs:comment": "\"Statesboro Blues\" is a blues song in the key of D written by Blind Willie McTell; the title refers to the town of Statesboro, Georgia.",
+  "rdfs:label": "Statesboro Blues"
 }

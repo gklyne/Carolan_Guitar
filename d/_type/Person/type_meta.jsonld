@@ -1,0 +1,34 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_type/Person",
+  "@type": [
+    "annal:Type"
+  ],
+  "annal:field_aliases": [
+    {
+      "annal:alias_source": "foaf:name",
+      "annal:alias_target": "rdfs:label"
+    }
+  ],
+  "annal:id": "Person",
+  "annal:supertype_uri": [
+    {
+      "@id": "prov:Entity"
+    },
+    {
+      "@id": "crm:E77_Persistent_Item"
+    }
+  ],
+  "annal:type": "annal:Type",
+  "annal:type_id": "_type",
+  "annal:type_list": "_list/People",
+  "annal:type_view": "_view/Person",
+  "annal:uri": "prov:Agent",
+  "rdfs:comment": "Person or agent\r\n\r\n@@TODO: check that prov:Agent can also be prov:Entity",
+  "rdfs:label": "Person"
+}

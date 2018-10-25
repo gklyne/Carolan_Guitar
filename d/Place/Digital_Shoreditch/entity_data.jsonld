@@ -1,17 +1,23 @@
 {
-  "rdfs:label": "Digital Shoreditch",
-  "rdfs:comment": "Digital Shoreditch is a unique community celebrating the outstanding creative, technical and entrepreneurial talent of the UK, Europe and beyond.",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Place/Digital_Shoreditch",
+  "@type": [
+    "crm:E53_Place",
+    "annal:EntityData"
+  ],
+  "annal:id": "Digital_Shoreditch",
+  "annal:type": "crm:E53_Place",
+  "annal:type_id": "Place",
   "entity:seeAlso_r": [
     {
       "rdfs:seeAlso": "http://digitalshoreditch.com/about/"
     }
   ],
-  "annal:type_id": "Place",
-  "annal:id": "Digital_Shoreditch",
-  "@id": "./",
-  "@type": [
-    "crm:E53_Place",
-    "annal:EntityData"
-  ],
-  "annal:type": "annal:EntityData"
+  "rdfs:comment": "Digital Shoreditch is a unique community celebrating the outstanding creative, technical and entrepreneurial talent of the UK, Europe and beyond.",
+  "rdfs:label": "Digital Shoreditch"
 }

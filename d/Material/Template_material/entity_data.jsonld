@@ -1,13 +1,19 @@
 {
-  "rdfs:label": "Template material",
-  "rdfs:comment": "It's not stated what this is, but it looks rather like 3 or 4mm MDF.",
-  "entity:seeAlso_r": [],
-  "annal:type_id": "Material",
-  "annal:id": "Template_material",
-  "@id": "./",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Material/Template_material",
   "@type": [
     "crm:E57_Material",
     "annal:EntityData"
   ],
-  "annal:type": "annal:EntityData"
+  "annal:id": "Template_material",
+  "annal:type": "crm:E57_Material",
+  "annal:type_id": "Material",
+  "entity:seeAlso_r": [],
+  "rdfs:comment": "It's not stated what this is, but it looks rather like 3 or 4mm MDF.",
+  "rdfs:label": "Template material"
 }

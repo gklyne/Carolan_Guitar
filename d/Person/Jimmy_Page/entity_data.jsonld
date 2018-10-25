@@ -1,18 +1,25 @@
 {
-  "rdfs:label": "",
-  "rdfs:comment": "An English musician, songwriter, multi-instrumentalist, and record producer who achieved international success as the guitarist and founder of the rock band Led Zeppelin.",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Person/Jimmy_Page",
+  "@type": [
+    "prov:Agent",
+    "prov:Entity",
+    "annal:EntityData"
+  ],
+  "annal:id": "Jimmy_Page",
+  "annal:type": "prov:Agent",
+  "annal:type_id": "Person",
   "entity:seeAlso_r": [
     {
       "rdfs:seeAlso": "https://en.wikipedia.org/wiki/Jimmy_Page"
     }
   ],
-  "annal:type_id": "Person",
   "foaf:name": "Jimmy Page",
-  "annal:id": "Jimmy_Page",
-  "@id": "./",
-  "@type": [
-    "prov:Agent",
-    "annal:EntityData"
-  ],
-  "annal:type": "annal:EntityData"
+  "rdfs:comment": "An English musician, songwriter, multi-instrumentalist, and record producer who achieved international success as the guitarist and founder of the rock band Led Zeppelin.",
+  "rdfs:label": "Jimmy Page"
 }

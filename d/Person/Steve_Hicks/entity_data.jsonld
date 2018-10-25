@@ -1,6 +1,19 @@
 {
-  "rdfs:label": "",
-  "rdfs:comment": "\"Luthier and virtuoso guitar player\"",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Person/Steve_Hicks",
+  "@type": [
+    "prov:Agent",
+    "prov:Entity",
+    "annal:EntityData"
+  ],
+  "annal:id": "Steve_Hicks",
+  "annal:type": "prov:Agent",
+  "annal:type_id": "Person",
   "entity:seeAlso_r": [
     {
       "rdfs:seeAlso": "http://www.hicksandgoulbourn.com/"
@@ -15,13 +28,7 @@
       "rdfs:seeAlso": "https://www.youtube.com/watch?v=QyCLko8Hoi4"
     }
   ],
-  "annal:type_id": "Person",
   "foaf:name": "Steve Hicks",
-  "annal:id": "Steve_Hicks",
-  "@id": "./",
-  "@type": [
-    "prov:Agent",
-    "annal:EntityData"
-  ],
-  "annal:type": "annal:EntityData"
+  "rdfs:comment": "\"Luthier and virtuoso guitar player\"",
+  "rdfs:label": "Steve Hicks"
 }

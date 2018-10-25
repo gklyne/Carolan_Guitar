@@ -1,14 +1,20 @@
 {
-  "rdfs:label": "Plywood",
-  "rdfs:comment": "Piece of plywood used for graphic design prototyping\r\n",
-  "entity:seeAlso_r": [],
-  "annal:type_id": "Entity",
-  "annal:type": "annal:EntityData",
-  "annal:id": "Plywood_1",
-  "@id": "./",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Entity/Plywood_1",
   "@type": [
-    "/annalist/c/Carolan_Guitar/d/_type/Entity/",
+    "prov:Entity",
     "annal:EntityData"
   ],
-  "annal:member": []
+  "annal:id": "Plywood_1",
+  "annal:member": [],
+  "annal:type": "prov:Entity",
+  "annal:type_id": "Entity",
+  "entity:seeAlso_r": [],
+  "rdfs:comment": "Piece of plywood used for graphic design prototyping\r\n",
+  "rdfs:label": "Plywood"
 }

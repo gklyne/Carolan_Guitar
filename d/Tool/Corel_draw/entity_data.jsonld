@@ -1,6 +1,21 @@
 {
-  "rdfs:label": "Corel draw CAD software",
-  "rdfs:comment": "Software used to create a physical design for the Carolan Guitar",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Tool/Corel_draw",
+  "@type": [
+    "crm:E22_Man-Made_Object",
+    "crm:E24_Physical_Man-Made_Thing",
+    "prov:Entity",
+    "annal:EntityData"
+  ],
+  "annal:id": "Corel_draw",
+  "annal:member": [],
+  "annal:type": "crm:E22_Man-Made_Object",
+  "annal:type_id": "Tool",
   "entity:seeAlso_r": [
     {
       "rdfs:seeAlso": "https://en.wikipedia.org/wiki/CorelDRAW"
@@ -9,17 +24,6 @@
       "rdfs:seeAlso": "http://www.coreldraw.com/gb/"
     }
   ],
-  "annal:type_id": "Tool",
-  "annal:type": "annal:EntityData",
-  "annal:id": "Corel_draw",
-  "@id": "./",
-  "@type": [
-    "coll:Tool",
-    "prov:Entity",
-    "crm:E70_Thing",
-    "crm:E71_Man-Made_Thing",
-    "crm:E24_Physical_Man-Made_Thing",
-    "annal:EntityData"
-  ],
-  "annal:member": []
+  "rdfs:comment": "Software used to create a physical design for the Carolan Guitar",
+  "rdfs:label": "Corel draw CAD software"
 }

@@ -1,28 +1,26 @@
 {
-  "rdfs:label": "Tim Edey and friends playing at Southwell",
-  "rdfs:comment": "Carolan hears that acclaimed celtic guitarist Tim Edey is performing at nearby Southwell and so sprints over to meet him.",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Performance/Tim_Edey_and_friends",
+  "@type": [
+    "frbroo:F31_Performance",
+    "prov:Activity",
+    "annal:EntityData"
+  ],
+  "annal:id": "Tim_Edey_and_friends",
+  "annal:type": "frbroo:F31_Performance",
+  "annal:type_id": "Performance",
+  "crm:P126_employed_r": [],
+  "crm:P7_took_place_at": "Place/Southwell",
   "entity:seeAlso_r": [
     {
       "rdfs:seeAlso": "http://carolanguitar.com/2014/12/09/35-give-a-hand/"
     }
   ],
-  "annal:type_id": "Performance",
-  "crm:P7_took_place_at": "Place/Southwell",
-  "prov:qualifiedAssociation": [
-    {
-      "prov:hadRole": "Role/Guitarist",
-      "prov:agent": "Person/Tim_Edey"
-    },
-    {
-      "prov:hadRole": "Role/Guitarist",
-      "prov:agent": "Person/Ben_Trott"
-    },
-    {
-      "prov:hadRole": "Role/Guitarist",
-      "prov:agent": "Person/Benammi_Swift"
-    }
-  ],
-  "crm:P126_employed_r": [],
   "frbroo:R25F_performed_r": [
     {
       "frbroo:R25F_performed": "Work/Give_Me_Your_Hand"
@@ -34,19 +32,25 @@
       "frbroo:R25F_performed": "Work/Atlantic_Highway"
     }
   ],
+  "prov:qualifiedAssociation": [
+    {
+      "prov:agent": "Person/Tim_Edey",
+      "prov:hadRole": "Role/Guitarist"
+    },
+    {
+      "prov:agent": "Person/Ben_Trott",
+      "prov:hadRole": "Role/Guitarist"
+    },
+    {
+      "prov:agent": "Person/Benammi_Swift",
+      "prov:hadRole": "Role/Guitarist"
+    }
+  ],
   "prov:used_r": [
     {
       "prov:used": "Artifact/Carolan_Guitar"
     }
   ],
-  "annal:id": "Tim_Edey_and_friends",
-  "@id": "./",
-  "@type": [
-    "frbroo:F31_Performance",
-    "prov:Activity",
-    "crm:E5_Event",
-    "crm:E7_Activity",
-    "annal:EntityData"
-  ],
-  "annal:type": "annal:EntityData"
+  "rdfs:comment": "Carolan hears that acclaimed celtic guitarist Tim Edey is performing at nearby Southwell and so sprints over to meet him.",
+  "rdfs:label": "Tim Edey and friends playing at Southwell"
 }

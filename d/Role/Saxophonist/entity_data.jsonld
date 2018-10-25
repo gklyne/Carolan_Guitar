@@ -1,12 +1,18 @@
 {
-  "rdfs:label": "Saxophonist",
-  "rdfs:comment": "Saxophonist",
-  "annal:type_id": "Role",
-  "annal:id": "Saxophonist",
-  "@id": "./",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Role/Saxophonist",
   "@type": [
     "prov:Role",
     "annal:EntityData"
   ],
-  "annal:type": "annal:EntityData"
+  "annal:id": "Saxophonist",
+  "annal:type": "prov:Role",
+  "annal:type_id": "Role",
+  "rdfs:comment": "Saxophonist",
+  "rdfs:label": "Saxophonist"
 }

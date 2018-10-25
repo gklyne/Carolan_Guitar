@@ -1,6 +1,20 @@
 {
-  "rdfs:label": "Reflections on sustainability in a digital age",
-  "rdfs:comment": "A reflection on sustainability, both in terms of physical materials used, and provenance, but also considering issues about the ideals and practice sustaining digital information (stories) about the Carolan Guitar, along with their relationship top the artifact.\r\n\r\nThe Carolan Guitar demo collection in Annalist is part of that experiment, creating web-standards-based machine processable data alongside the human-readable blog of the guitars story.  Which of these might prove more durable?",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Event/Sustainability",
+  "@type": [
+    "prov:Activity",
+    "annal:EntityData"
+  ],
+  "annal:id": "Sustainability",
+  "annal:type": "prov:Activity",
+  "annal:type_id": "Event",
+  "crm:P126_employed_r": [],
+  "crm:P7_took_place_at": "",
   "entity:seeAlso_r": [
     {
       "rdfs:seeAlso": "http://carolanguitar.com/2014/11/17/32-sustainability/"
@@ -9,20 +23,12 @@
       "rdfs:seeAlso": "http://demo.annalist.net/annalist/c/Carolan_Guitar/"
     }
   ],
-  "annal:type_id": "Event",
-  "crm:P7_took_place_at": "",
   "prov:qualifiedAssociation": [],
-  "crm:P126_employed_r": [],
   "prov:used_r": [
     {
       "prov:used": "Artifact/Carolan_Guitar"
     }
   ],
-  "annal:id": "Sustainability",
-  "@id": "./",
-  "@type": [
-    "prov:Activity",
-    "annal:EntityData"
-  ],
-  "annal:type": "annal:EntityData"
+  "rdfs:comment": "A reflection on sustainability, both in terms of physical materials used, and provenance, but also considering issues about the ideals and practice sustaining digital information (stories) about the Carolan Guitar, along with their relationship top the artifact.\r\n\r\nThe Carolan Guitar demo collection in Annalist is part of that experiment, creating web-standards-based machine processable data alongside the human-readable blog of the guitars story.  Which of these might prove more durable?",
+  "rdfs:label": "Reflections on sustainability in a digital age"
 }

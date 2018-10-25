@@ -1,17 +1,23 @@
 {
-  "rdfs:label": "The Vat and Fiddle pub, Nottingham",
-  "rdfs:comment": "Castle Rock brewery tap, and venue for the 'Vat' sessions.",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Place/Vat_and_Fiddle",
+  "@type": [
+    "crm:E53_Place",
+    "annal:EntityData"
+  ],
+  "annal:id": "Vat_and_Fiddle",
+  "annal:type": "crm:E53_Place",
+  "annal:type_id": "Place",
   "entity:seeAlso_r": [
     {
       "rdfs:seeAlso": "http://www.castlerockbrewery.co.uk/pubs/vat-and-fiddle/"
     }
   ],
-  "annal:type_id": "Place",
-  "annal:id": "Vat_and_Fiddle",
-  "@id": "./",
-  "@type": [
-    "crm:E53_Place",
-    "annal:EntityData"
-  ],
-  "annal:type": "annal:EntityData"
+  "rdfs:comment": "Castle Rock brewery tap, and venue for the 'Vat' sessions.",
+  "rdfs:label": "The Vat and Fiddle pub, Nottingham"
 }

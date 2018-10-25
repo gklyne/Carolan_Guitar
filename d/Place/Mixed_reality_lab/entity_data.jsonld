@@ -1,17 +1,23 @@
 {
-  "rdfs:label": "Mixed Reality Lab, Nottingham University",
-  "rdfs:comment": "The Mixed Reality Laboratory (MRL) at Nottingham University is an interdisciplinary group exploring the potential of ubiquitous, mobile and interactive technologies to shape everyday life.",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Place/Mixed_reality_lab",
+  "@type": [
+    "crm:E53_Place",
+    "annal:EntityData"
+  ],
+  "annal:id": "Mixed_reality_lab",
+  "annal:type": "crm:E53_Place",
+  "annal:type_id": "Place",
   "entity:seeAlso_r": [
     {
       "rdfs:seeAlso": "http://www.nottingham.ac.uk/research/groups/mixedrealitylab/index.aspx"
     }
   ],
-  "annal:type_id": "Place",
-  "annal:id": "Mixed_reality_lab",
-  "@id": "./",
-  "@type": [
-    "crm:E53_Place",
-    "annal:EntityData"
-  ],
-  "annal:type": "annal:EntityData"
+  "rdfs:comment": "The Mixed Reality Laboratory (MRL) at Nottingham University is an interdisciplinary group exploring the potential of ubiquitous, mobile and interactive technologies to shape everyday life.",
+  "rdfs:label": "Mixed Reality Lab, Nottingham University"
 }

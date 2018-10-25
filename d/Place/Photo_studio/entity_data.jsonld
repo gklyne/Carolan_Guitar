@@ -1,17 +1,23 @@
 {
-  "rdfs:label": "Photo studio",
-  "rdfs:comment": "An unspecified photographic studio where the Carolan Guitar was photographed",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Place/Photo_studio",
+  "@type": [
+    "crm:E53_Place",
+    "annal:EntityData"
+  ],
+  "annal:id": "Photo_studio",
+  "annal:type": "crm:E53_Place",
+  "annal:type_id": "Place",
   "entity:seeAlso_r": [
     {
       "rdfs:seeAlso": "http://carolanguitar.com/2014/10/20/26-photo-shoot/"
     }
   ],
-  "annal:type_id": "Place",
-  "annal:id": "Photo_studio",
-  "@id": "./",
-  "@type": [
-    "crm:E53_Place",
-    "annal:EntityData"
-  ],
-  "annal:type": "annal:EntityData"
+  "rdfs:comment": "An unspecified photographic studio where the Carolan Guitar was photographed",
+  "rdfs:label": "Photo studio"
 }

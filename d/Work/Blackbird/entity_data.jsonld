@@ -1,35 +1,35 @@
 {
-  "rdfs:label": "Blackbird",
-  "rdfs:comment": "\"Blackbird\" is a Beatles song from the double-disc album The Beatles (known as the White Album). The song was written and performed as a solo effort by Paul McCartney, though credited to Lennon\u2013McCartney. McCartney has stated that the lyrics of the song were inspired by the unfortunate state of race relations in the USA in the 1960s.",
-  "entity:seeAlso_r": [
+  "@context": [
     {
-      "rdfs:seeAlso": "https://en.wikipedia.org/wiki/Blackbird_%28Beatles_song%29"
-    }
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
   ],
-  "annal:type_id": "Work",
-  "annal:member__2": [
-    {
-      "crm:P12i_was_present_at": "Performance/Visiting_Wales"
-    }
+  "@id": "Work/Blackbird",
+  "@type": [
+    "frbroo:F25_Performance_Plan",
+    "crm:E29_Design_or_Procedure",
+    "prov:Entity",
+    "annal:EntityData"
   ],
+  "annal:id": "Blackbird",
   "annal:member": [
     {
       "prov:wasAttributedTo": "Person/Paul_McCartney"
     }
   ],
-  "annal:id": "Blackbird",
-  "@id": "./",
-  "@type": [
-    "frbroo:F25_Performance_Plan",
-    "prov:Entity",
-    "crm:E29_Design_or_Procedure",
-    "crm:E73_Information_Object",
-    "crm:E28_Conceptual_Object",
-    "crm:E71_Man-Made_Thing",
-    "crm:E70_Thing",
-    "crm:E77_Persistent_Item",
-    "crm:E1_CRM_Entity",
-    "annal:EntityData"
+  "annal:member__2": [
+    {
+      "crm:P12i_was_present_at": "Performance/Visiting_Wales"
+    }
   ],
-  "annal:type": "annal:EntityData"
+  "annal:type": "frbroo:F25_Performance_Plan",
+  "annal:type_id": "Work",
+  "entity:seeAlso_r": [
+    {
+      "rdfs:seeAlso": "https://en.wikipedia.org/wiki/Blackbird_%28Beatles_song%29"
+    }
+  ],
+  "rdfs:comment": "\"Blackbird\" is a Beatles song from the double-disc album The Beatles (known as the White Album). The song was written and performed as a solo effort by Paul McCartney, though credited to Lennon\u2013McCartney. McCartney has stated that the lyrics of the song were inspired by the unfortunate state of race relations in the USA in the 1960s.",
+  "rdfs:label": "Blackbird"
 }

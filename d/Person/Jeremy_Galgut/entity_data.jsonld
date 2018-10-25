@@ -1,14 +1,21 @@
 {
-  "rdfs:label": "",
-  "rdfs:comment": "Singer-songwrier Jemermy Galgut was founder of Nottingham legends Moose Malloy and key member of their spin-off and arch-rivals Goose McCoy who can still be heard rocking the suburbs today.",
-  "entity:seeAlso_r": [],
-  "annal:type_id": "Person",
-  "foaf:name": "Jeremy Galgut",
-  "annal:id": "Jeremy_Galgut",
-  "@id": "./",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Person/Jeremy_Galgut",
   "@type": [
     "prov:Agent",
+    "prov:Entity",
     "annal:EntityData"
   ],
-  "annal:type": "annal:EntityData"
+  "annal:id": "Jeremy_Galgut",
+  "annal:type": "prov:Agent",
+  "annal:type_id": "Person",
+  "entity:seeAlso_r": [],
+  "foaf:name": "Jeremy Galgut",
+  "rdfs:comment": "Singer-songwrier Jemermy Galgut was founder of Nottingham legends Moose Malloy and key member of their spin-off and arch-rivals Goose McCoy who can still be heard rocking the suburbs today.",
+  "rdfs:label": "Jeremy Galgut"
 }

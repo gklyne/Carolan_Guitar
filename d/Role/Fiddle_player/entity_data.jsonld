@@ -1,15 +1,18 @@
 {
-  "rdfs:label": "Fiddle player",
-  "rdfs:comment": "Fiddle player",
   "@context": [
+    {
+      "@base": "../../"
+    },
     "../../coll_context.jsonld"
   ],
-  "annal:type_id": "Role",
-  "annal:id": "Fiddle_player",
-  "@id": "./",
+  "@id": "Role/Fiddle_player",
   "@type": [
     "prov:Role",
     "annal:EntityData"
   ],
-  "annal:type": "prov:Role"
+  "annal:id": "Fiddle_player",
+  "annal:type": "prov:Role",
+  "annal:type_id": "Role",
+  "rdfs:comment": "Fiddle player",
+  "rdfs:label": "Fiddle player"
 }

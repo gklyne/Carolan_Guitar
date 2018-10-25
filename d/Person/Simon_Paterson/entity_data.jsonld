@@ -1,18 +1,25 @@
 {
-  "rdfs:label": "",
-  "rdfs:comment": "Simon is a musician, producer and also an educator working in the School of Music at the University of Nottingham.",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Person/Simon_Paterson",
+  "@type": [
+    "prov:Agent",
+    "prov:Entity",
+    "annal:EntityData"
+  ],
+  "annal:id": "Simon_Paterson",
+  "annal:type": "prov:Agent",
+  "annal:type_id": "Person",
   "entity:seeAlso_r": [
     {
       "rdfs:seeAlso": "https://www.nottingham.ac.uk/music/people/simon.paterson"
     }
   ],
-  "annal:type_id": "Person",
   "foaf:name": "Simon Paterson",
-  "annal:id": "Simon_Paterson",
-  "@id": "./",
-  "@type": [
-    "prov:Agent",
-    "annal:EntityData"
-  ],
-  "annal:type": "annal:EntityData"
+  "rdfs:comment": "Simon is a musician, producer and also an educator working in the School of Music at the University of Nottingham.",
+  "rdfs:label": "Simon Paterson"
 }

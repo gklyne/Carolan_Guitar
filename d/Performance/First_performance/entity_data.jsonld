@@ -1,6 +1,21 @@
 {
-  "rdfs:label": "Completion of build; first song",
-  "rdfs:comment": "The build is complete and Nick Perez, the Carolan Guitar's builder, plays its first song: \"Baby's Coming Home\", composed by Jerry Reed.",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Performance/First_performance",
+  "@type": [
+    "frbroo:F31_Performance",
+    "prov:Activity",
+    "annal:EntityData"
+  ],
+  "annal:id": "First_performance",
+  "annal:type": "frbroo:F31_Performance",
+  "annal:type_id": "Performance",
+  "crm:P126_employed_r": [],
+  "crm:P7_took_place_at": "",
   "entity:seeAlso_r": [
     {
       "rdfs:seeAlso": "http://carolanguitar.com/2014/10/08/23-baby/"
@@ -9,18 +24,15 @@
       "rdfs:seeAlso": "https://www.youtube.com/watch?feature=player_embedded&v=IUZ4MJlM9hA"
     }
   ],
-  "annal:type_id": "Performance",
-  "crm:P7_took_place_at": "",
-  "prov:qualifiedAssociation": [
-    {
-      "prov:hadRole": "Role/Guitarist",
-      "prov:agent": "Person/Nick_Perez"
-    }
-  ],
-  "crm:P126_employed_r": [],
   "frbroo:R25F_performed_r": [
     {
       "frbroo:R25F_performed": "Work/Babys_coming_home"
+    }
+  ],
+  "prov:qualifiedAssociation": [
+    {
+      "prov:agent": "Person/Nick_Perez",
+      "prov:hadRole": "Role/Guitarist"
     }
   ],
   "prov:used_r": [
@@ -28,14 +40,6 @@
       "prov:used": "Artifact/Carolan_Guitar"
     }
   ],
-  "annal:id": "First_performance",
-  "@id": "./",
-  "@type": [
-    "frbroo:F31_Performance",
-    "prov:Activity",
-    "crm:E5_Event",
-    "crm:E7_Activity",
-    "annal:EntityData"
-  ],
-  "annal:type": "annal:EntityData"
+  "rdfs:comment": "The build is complete and Nick Perez, the Carolan Guitar's builder, plays its first song: \"Baby's Coming Home\", composed by Jerry Reed.",
+  "rdfs:label": "Completion of build; first song"
 }

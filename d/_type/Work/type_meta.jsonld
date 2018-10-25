@@ -1,0 +1,44 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_type/Work",
+  "@type": [
+    "annal:Type"
+  ],
+  "annal:field_aliases": [],
+  "annal:id": "Work",
+  "annal:supertype_uri": [
+    {
+      "@id": "prov:Entity"
+    },
+    {
+      "@id": "crm:E77_Persistent_Item"
+    },
+    {
+      "@id": "crm:E70_Thing"
+    },
+    {
+      "@id": "crm:E71_Man-Made_Thing"
+    },
+    {
+      "@id": "crm:E29_Design_or_Procedure"
+    },
+    {
+      "@id": "crm:E73_Information_Object"
+    },
+    {
+      "@id": "crm:E28_Conceptual_Object"
+    }
+  ],
+  "annal:type": "annal:Type",
+  "annal:type_id": "_type",
+  "annal:type_list": "_list/Compositions",
+  "annal:type_view": "_view/Work",
+  "annal:uri": "frbroo:F25_Performance_Plan",
+  "rdfs:comment": "A composition or performed work",
+  "rdfs:label": "A performed work"
+}

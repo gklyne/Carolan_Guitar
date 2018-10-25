@@ -1,0 +1,35 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_type/Composition",
+  "@type": [
+    "annal:Type"
+  ],
+  "annal:field_aliases": [],
+  "annal:id": "Composition",
+  "annal:supertype_uri": [
+    {
+      "@id": "prov:Activity"
+    },
+    {
+      "@id": "crm:E5_Event"
+    },
+    {
+      "@id": "crm:E7_Activity"
+    },
+    {
+      "@id": "crm:E65_Creation"
+    }
+  ],
+  "annal:type": "annal:Type",
+  "annal:type_id": "_type",
+  "annal:type_list": "_list/Performances",
+  "annal:type_view": "_view/Performance",
+  "annal:uri": "",
+  "rdfs:comment": "An event at which some work (music, art, etc.) is composed or created.\r\n",
+  "rdfs:label": "Composition event"
+}

@@ -1,12 +1,18 @@
 {
-  "rdfs:label": "Design integrator",
-  "rdfs:comment": "Integrating graphic designs with the physical artifact and supporting software",
-  "annal:type_id": "Role",
-  "annal:id": "Design_integrator",
-  "@id": "./",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Role/Design_integrator",
   "@type": [
     "prov:Role",
     "annal:EntityData"
   ],
-  "annal:type": "annal:EntityData"
+  "annal:id": "Design_integrator",
+  "annal:type": "prov:Role",
+  "annal:type_id": "Role",
+  "rdfs:comment": "Integrating graphic designs with the physical artifact and supporting software",
+  "rdfs:label": "Design integrator"
 }

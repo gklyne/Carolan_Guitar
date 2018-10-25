@@ -1,21 +1,27 @@
 {
-  "rdfs:label": "Mapping digital designs onto the physical guitar",
-  "rdfs:comment": "Our next challenge is to explore how we might decorate the Carolan guitar with interactive patterns. Where should we place them and how should we best map them to various ways of accessing its digital footprint?\r\n\r\nE.g.\r\n\r\n* Headstock: maker's logo => aestheticode link to maker's web site\r\n* Front soundboard: official history => (guitar blog?)\r\n* Under strings: technical documentation (accessible by someone who maintains guitar)\r\n* Back: public history (blog, etc.)\r\n* Soundhole: \"voice\" - link to playback of songs\r\n\r\nSee [blog entry](http://carolanguitar.com/2014/08/14/mapping/) for more details.\r\n\r\n## Commentary (meta)\r\n\r\nIs this best modeled as an event?  If so, who/what were involved?",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Event/Physical_digital_mapping",
+  "@type": [
+    "prov:Activity",
+    "annal:EntityData"
+  ],
+  "annal:id": "Physical_digital_mapping",
+  "annal:type": "prov:Activity",
+  "annal:type_id": "Event",
+  "crm:P126_employed_r": [],
+  "crm:P7_took_place_at": "",
   "entity:seeAlso_r": [
     {
       "rdfs:seeAlso": "http://carolanguitar.com/2014/08/14/mapping/"
     }
   ],
-  "annal:type_id": "Event",
-  "crm:P7_took_place_at": "",
   "prov:qualifiedAssociation": [],
-  "crm:P126_employed_r": [],
   "prov:used_r": [],
-  "annal:id": "Physical_digital_mapping",
-  "@id": "./",
-  "@type": [
-    "prov:Activity",
-    "annal:EntityData"
-  ],
-  "annal:type": "annal:EntityData"
+  "rdfs:comment": "Our next challenge is to explore how we might decorate the Carolan guitar with interactive patterns. Where should we place them and how should we best map them to various ways of accessing its digital footprint?\r\n\r\nE.g.\r\n\r\n* Headstock: maker's logo => aestheticode link to maker's web site\r\n* Front soundboard: official history => (guitar blog?)\r\n* Under strings: technical documentation (accessible by someone who maintains guitar)\r\n* Back: public history (blog, etc.)\r\n* Soundhole: \"voice\" - link to playback of songs\r\n\r\nSee [blog entry](http://carolanguitar.com/2014/08/14/mapping/) for more details.\r\n\r\n## Commentary (meta)\r\n\r\nIs this best modeled as an event?  If so, who/what were involved?",
+  "rdfs:label": "Mapping digital designs onto the physical guitar"
 }

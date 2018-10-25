@@ -1,17 +1,23 @@
 {
-  "rdfs:label": "D-Box kit",
-  "rdfs:comment": "Kit of parts for making a D-Box \"hackable\" musical instrument.",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Material/DBox_kit",
+  "@type": [
+    "crm:E57_Material",
+    "annal:EntityData"
+  ],
+  "annal:id": "DBox_kit",
+  "annal:type": "crm:E57_Material",
+  "annal:type_id": "Material",
   "entity:seeAlso_r": [
     {
       "rdfs:seeAlso": "http://www.dboxy.org/"
     }
   ],
-  "annal:type_id": "Material",
-  "annal:id": "DBox_kit",
-  "@id": "./",
-  "@type": [
-    "crm:E57_Material",
-    "annal:EntityData"
-  ],
-  "annal:type": "annal:EntityData"
+  "rdfs:comment": "Kit of parts for making a D-Box \"hackable\" musical instrument.",
+  "rdfs:label": "D-Box kit"
 }

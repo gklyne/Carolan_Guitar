@@ -1,6 +1,21 @@
 {
-  "rdfs:label": "Carolan goes to Wales: Geert, Claire and Dylan",
-  "rdfs:comment": "Carolan has left the country of its birth, crossing the border into Wales to spend a week living, composing and recording with Geert and his collaborators Claire and Dylan.\r\n",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Performance/Visiting_Wales",
+  "@type": [
+    "frbroo:F31_Performance",
+    "prov:Activity",
+    "annal:EntityData"
+  ],
+  "annal:id": "Visiting_Wales",
+  "annal:type": "frbroo:F31_Performance",
+  "annal:type_id": "Performance",
+  "crm:P126_employed_r": [],
+  "crm:P7_took_place_at": "",
   "entity:seeAlso_r": [
     {
       "rdfs:seeAlso": "http://carolanguitar.com/2015/06/13/45-geert-claire-and-dylan/"
@@ -24,26 +39,6 @@
       "rdfs:seeAlso": "https://youtu.be/DeQJdL6SoTk"
     }
   ],
-  "annal:type_id": "Performance",
-  "crm:P7_took_place_at": "",
-  "prov:qualifiedAssociation": [
-    {
-      "prov:hadRole": "Role/Guitarist",
-      "prov:agent": "Person/Geert_De_Wilde"
-    },
-    {
-      "prov:hadRole": "Role/Guitarist",
-      "prov:agent": "Person/Claire_Risley"
-    },
-    {
-      "prov:hadRole": "Role/Singer",
-      "prov:agent": "Person/Claire_Risley"
-    },
-    {
-      "prov:hadRole": "Role/Singer",
-      "prov:agent": "Person/Dylan_Jones"
-    }
-  ],
   "frbroo:R25F_performed_r": [
     {
       "frbroo:R25F_performed": "Work/We_All_Fall_For_That"
@@ -61,10 +56,24 @@
       "frbroo:R25F_performed": "Work/Shut_This_Door"
     }
   ],
-  "@context": [
-    "../../coll_context.jsonld"
+  "prov:qualifiedAssociation": [
+    {
+      "prov:agent": "Person/Geert_De_Wilde",
+      "prov:hadRole": "Role/Guitarist"
+    },
+    {
+      "prov:agent": "Person/Claire_Risley",
+      "prov:hadRole": "Role/Guitarist"
+    },
+    {
+      "prov:agent": "Person/Claire_Risley",
+      "prov:hadRole": "Role/Singer"
+    },
+    {
+      "prov:agent": "Person/Dylan_Jones",
+      "prov:hadRole": "Role/Singer"
+    }
   ],
-  "crm:P126_employed_r": [],
   "prov:used_r": [
     {
       "prov:used": "Artifact/Carolan_guitar_neck"
@@ -73,14 +82,6 @@
       "prov:used": "Entity/Geerts_Tascam_8_track"
     }
   ],
-  "annal:id": "Visiting_Wales",
-  "@id": "./",
-  "@type": [
-    "frbroo:F31_Performance",
-    "prov:Activity",
-    "crm:E5_Event",
-    "crm:E7_Activity",
-    "annal:EntityData"
-  ],
-  "annal:type": "frbroo:F31_Performance"
+  "rdfs:comment": "Carolan has left the country of its birth, crossing the border into Wales to spend a week living, composing and recording with Geert and his collaborators Claire and Dylan.\r\n",
+  "rdfs:label": "Carolan goes to Wales: Geert, Claire and Dylan"
 }

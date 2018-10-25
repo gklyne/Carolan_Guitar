@@ -1,35 +1,35 @@
 {
-  "rdfs:label": "In the Bleak Midwinter",
-  "rdfs:comment": "\"In the Bleak Midwinter\" is a Christmas carol based on a poem by the English poet Christina Rossetti written before 1872 in response to a request from the magazine Scribner's Monthly for a Christmas poem.\r\n\r\nThe poem became a Christmas carol after it appeared in The English Hymnal in 1906 with a setting by Gustav Holst.\r\n",
-  "entity:seeAlso_r": [
+  "@context": [
     {
-      "rdfs:seeAlso": "https://en.wikipedia.org/wiki/In_the_Bleak_Midwinter"
-    }
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
   ],
-  "annal:type_id": "Work",
-  "annal:member__2": [
-    {
-      "crm:P12i_was_present_at": "Performance/Caroling_Carolan"
-    }
+  "@id": "Work/In_the_Bleak_Midwinter",
+  "@type": [
+    "frbroo:F25_Performance_Plan",
+    "crm:E29_Design_or_Procedure",
+    "prov:Entity",
+    "annal:EntityData"
   ],
+  "annal:id": "In_the_Bleak_Midwinter",
   "annal:member": [
     {
       "prov:wasAttributedTo": "Person/Gustav_Holst"
     }
   ],
-  "annal:id": "In_the_Bleak_Midwinter",
-  "@id": "./",
-  "@type": [
-    "frbroo:F25_Performance_Plan",
-    "prov:Entity",
-    "crm:E29_Design_or_Procedure",
-    "crm:E73_Information_Object",
-    "crm:E28_Conceptual_Object",
-    "crm:E71_Man-Made_Thing",
-    "crm:E70_Thing",
-    "crm:E77_Persistent_Item",
-    "crm:E1_CRM_Entity",
-    "annal:EntityData"
+  "annal:member__2": [
+    {
+      "crm:P12i_was_present_at": "Performance/Caroling_Carolan"
+    }
   ],
-  "annal:type": "annal:EntityData"
+  "annal:type": "frbroo:F25_Performance_Plan",
+  "annal:type_id": "Work",
+  "entity:seeAlso_r": [
+    {
+      "rdfs:seeAlso": "https://en.wikipedia.org/wiki/In_the_Bleak_Midwinter"
+    }
+  ],
+  "rdfs:comment": "\"In the Bleak Midwinter\" is a Christmas carol based on a poem by the English poet Christina Rossetti written before 1872 in response to a request from the magazine Scribner's Monthly for a Christmas poem.\r\n\r\nThe poem became a Christmas carol after it appeared in The English Hymnal in 1906 with a setting by Gustav Holst.\r\n",
+  "rdfs:label": "In the Bleak Midwinter"
 }

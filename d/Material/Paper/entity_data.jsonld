@@ -1,13 +1,19 @@
 {
-  "rdfs:label": "Paper",
-  "rdfs:comment": "",
-  "entity:seeAlso_r": [],
-  "annal:type_id": "Material",
-  "annal:id": "Paper",
-  "@id": "./",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Material/Paper",
   "@type": [
     "crm:E57_Material",
     "annal:EntityData"
   ],
-  "annal:type": "annal:EntityData"
+  "annal:id": "Paper",
+  "annal:type": "crm:E57_Material",
+  "annal:type_id": "Material",
+  "entity:seeAlso_r": [],
+  "rdfs:comment": "",
+  "rdfs:label": "Paper"
 }

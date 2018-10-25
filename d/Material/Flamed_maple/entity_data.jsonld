@@ -1,14 +1,20 @@
 {
-  "rdfs:label": "Flamed maple",
-  "rdfs:comment": "Flamed maple wood\r\n\r\n",
-  "entity:seeAlso_r": [],
-  "annal:type_id": "Material",
-  "annal:type": "annal:EntityData",
-  "annal:id": "Flamed_maple",
-  "@id": "./",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Material/Flamed_maple",
   "@type": [
     "crm:E57_Material",
     "annal:EntityData"
   ],
-  "annal:member": []
+  "annal:id": "Flamed_maple",
+  "annal:member": [],
+  "annal:type": "crm:E57_Material",
+  "annal:type_id": "Material",
+  "entity:seeAlso_r": [],
+  "rdfs:comment": "Flamed maple wood\r\n\r\n",
+  "rdfs:label": "Flamed maple"
 }

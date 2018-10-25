@@ -1,6 +1,21 @@
 {
-  "rdfs:label": "2014 Beeston Oxjam Takeover retrospective",
-  "rdfs:comment": "The first retrospective from the 2014 Beeston Oxjam Takeover, with performances by Jimmy Wigginton and Joe \u2018Slide\u2019 Barber",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Performance/Bluesmen",
+  "@type": [
+    "frbroo:F31_Performance",
+    "prov:Activity",
+    "annal:EntityData"
+  ],
+  "annal:id": "Bluesmen",
+  "annal:type": "frbroo:F31_Performance",
+  "annal:type_id": "Performance",
+  "crm:P126_employed_r": [],
+  "crm:P7_took_place_at": "Place/The_Guitar_Spot",
   "entity:seeAlso_r": [
     {
       "rdfs:seeAlso": "http://carolanguitar.com/2014/11/26/33-bluesmen/"
@@ -15,22 +30,19 @@
       "rdfs:seeAlso": "https://youtu.be/DotNN0NmIf4"
     }
   ],
-  "annal:type_id": "Performance",
-  "crm:P7_took_place_at": "Place/The_Guitar_Spot",
-  "prov:qualifiedAssociation": [
-    {
-      "prov:hadRole": "Role/Guitarist",
-      "prov:agent": "Person/Jimmy_Wigginton"
-    },
-    {
-      "prov:hadRole": "Role/Guitarist",
-      "prov:agent": "Person/Joe_Barber"
-    }
-  ],
-  "crm:P126_employed_r": [],
   "frbroo:R25F_performed_r": [
     {
       "frbroo:R25F_performed": "Work/Statesboro_Blues"
+    }
+  ],
+  "prov:qualifiedAssociation": [
+    {
+      "prov:agent": "Person/Jimmy_Wigginton",
+      "prov:hadRole": "Role/Guitarist"
+    },
+    {
+      "prov:agent": "Person/Joe_Barber",
+      "prov:hadRole": "Role/Guitarist"
     }
   ],
   "prov:used_r": [
@@ -38,14 +50,6 @@
       "prov:used": "Artifact/Carolan_Guitar"
     }
   ],
-  "annal:id": "Bluesmen",
-  "@id": "./",
-  "@type": [
-    "frbroo:F31_Performance",
-    "prov:Activity",
-    "crm:E5_Event",
-    "crm:E7_Activity",
-    "annal:EntityData"
-  ],
-  "annal:type": "annal:EntityData"
+  "rdfs:comment": "The first retrospective from the 2014 Beeston Oxjam Takeover, with performances by Jimmy Wigginton and Joe \u2018Slide\u2019 Barber",
+  "rdfs:label": "2014 Beeston Oxjam Takeover retrospective"
 }

@@ -1,6 +1,18 @@
 {
-  "rdfs:label": "Nottingham Hackspace",
-  "rdfs:comment": "Nottingham Hackspace is a member-funded and member-led workshop, studio and co-working space for the East Midlands, located close to the centre of Nottingham. It\u2019s a place for makers and creatives to meet, learn, swap skills, and work on projects.",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Place/Nottinghack",
+  "@type": [
+    "crm:E53_Place",
+    "annal:EntityData"
+  ],
+  "annal:id": "Nottinghack",
+  "annal:type": "crm:E53_Place",
+  "annal:type_id": "Place",
   "entity:seeAlso_r": [
     {
       "rdfs:seeAlso": "http://nottinghack.org.uk"
@@ -9,12 +21,6 @@
       "rdfs:seeAlso": "https://www.google.com/maps?ll=52.955814,-1.134807&z=15&t=m&hl=en&gl=US&mapclient=embed&q=52\u00b057'20.9%22N+1\u00b008'05.5%22W@52.955806,-1.134859"
     }
   ],
-  "annal:type_id": "Place",
-  "annal:id": "Nottinghack",
-  "@id": "./",
-  "@type": [
-    "crm:E53_Place",
-    "annal:EntityData"
-  ],
-  "annal:type": "annal:EntityData"
+  "rdfs:comment": "Nottingham Hackspace is a member-funded and member-led workshop, studio and co-working space for the East Midlands, located close to the centre of Nottingham. It\u2019s a place for makers and creatives to meet, learn, swap skills, and work on projects.",
+  "rdfs:label": "Nottingham Hackspace"
 }

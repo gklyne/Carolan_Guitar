@@ -1,21 +1,27 @@
 {
-  "rdfs:label": "Mementos",
-  "rdfs:comment": "A range of accessories and mementos have been created, which themselves embody the same Artcodes used to link to the Carolan Guitar's digital footprint.\r\n\r\nThese include: plectrums, stickers, calling cards, button badges.\r\n\r\n@@TODO Think about modelling for created classes of artifacts, as above.",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Event/Carolan_mementos",
+  "@type": [
+    "prov:Activity",
+    "annal:EntityData"
+  ],
+  "annal:id": "Carolan_mementos",
+  "annal:type": "prov:Activity",
+  "annal:type_id": "Event",
+  "crm:P126_employed_r": [],
+  "crm:P7_took_place_at": "",
   "entity:seeAlso_r": [
     {
       "rdfs:seeAlso": "http://carolanguitar.com/2015/05/23/44-mementoes/"
     }
   ],
-  "annal:type_id": "Event",
-  "crm:P7_took_place_at": "",
   "prov:qualifiedAssociation": [],
-  "crm:P126_employed_r": [],
   "prov:used_r": [],
-  "annal:id": "Carolan_mementos",
-  "@id": "./",
-  "@type": [
-    "prov:Activity",
-    "annal:EntityData"
-  ],
-  "annal:type": "annal:EntityData"
+  "rdfs:comment": "A range of accessories and mementos have been created, which themselves embody the same Artcodes used to link to the Carolan Guitar's digital footprint.\r\n\r\nThese include: plectrums, stickers, calling cards, button badges.\r\n\r\n@@TODO Think about modelling for created classes of artifacts, as above.",
+  "rdfs:label": "Mementos"
 }

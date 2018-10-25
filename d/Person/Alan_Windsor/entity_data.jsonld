@@ -1,18 +1,25 @@
 {
-  "rdfs:label": "",
-  "rdfs:comment": "Alan played Carolan in The Guitar Spot shop during Beeston\u2019s Oxjam Takeover music festival in October 2014.",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Person/Alan_Windsor",
+  "@type": [
+    "prov:Agent",
+    "prov:Entity",
+    "annal:EntityData"
+  ],
+  "annal:id": "Alan_Windsor",
+  "annal:type": "prov:Agent",
+  "annal:type_id": "Person",
   "entity:seeAlso_r": [
     {
       "rdfs:seeAlso": "https://www.youtube.com/channel/UCpyAIMcUEmed4k5I53f8hYw"
     }
   ],
-  "annal:type_id": "Person",
   "foaf:name": "Alan Windsor",
-  "annal:id": "Alan_Windsor",
-  "@id": "./",
-  "@type": [
-    "prov:Agent",
-    "annal:EntityData"
-  ],
-  "annal:type": "annal:EntityData"
+  "rdfs:comment": "Alan played Carolan in The Guitar Spot shop during Beeston\u2019s Oxjam Takeover music festival in October 2014.",
+  "rdfs:label": "Alan Windsor"
 }

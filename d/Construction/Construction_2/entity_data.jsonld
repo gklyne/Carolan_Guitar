@@ -1,19 +1,19 @@
 {
-  "rdfs:label": "Neck and headstock etching",
-  "rdfs:comment": "Forming the headstock, and etching of Aestheticode on it.",
-  "entity:seeAlso_r": [
+  "@context": [
     {
-      "rdfs:seeAlso": "http://carolanguitar.com/2014/08/29/headstock/"
-    }
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
   ],
+  "@id": "Construction/Construction_2",
+  "@type": [
+    "crm:E12_Production",
+    "prov:Activity",
+    "annal:EntityData"
+  ],
+  "annal:id": "Construction_2",
+  "annal:type": "crm:E12_Production",
   "annal:type_id": "Construction",
-  "crm:P7_took_place_at": "Place/Nottinghack",
-  "prov:qualifiedAssociation": [
-    {
-      "prov:hadRole": "Role/Luthier",
-      "prov:agent": "Person/Nick_Perez"
-    }
-  ],
   "crm:P126_employed_r": [
     {
       "crm:P126_employed": "Material/Flamed_maple"
@@ -22,17 +22,23 @@
       "crm:P126_employed": "Material/Mahogany"
     }
   ],
+  "crm:P7_took_place_at": "Place/Nottinghack",
+  "entity:seeAlso_r": [
+    {
+      "rdfs:seeAlso": "http://carolanguitar.com/2014/08/29/headstock/"
+    }
+  ],
+  "prov:qualifiedAssociation": [
+    {
+      "prov:agent": "Person/Nick_Perez",
+      "prov:hadRole": "Role/Luthier"
+    }
+  ],
   "prov:used_r": [
     {
       "prov:used": "Tool/Nottinghack_laser_cutter"
     }
   ],
-  "annal:id": "Construction_2",
-  "@id": "./",
-  "@type": [
-    "crm:E12_Production",
-    "prov:Activity",
-    "annal:EntityData"
-  ],
-  "annal:type": "annal:EntityData"
+  "rdfs:comment": "Forming the headstock, and etching of Aestheticode on it.",
+  "rdfs:label": "Neck and headstock etching"
 }

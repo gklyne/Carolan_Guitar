@@ -1,19 +1,19 @@
 {
-  "rdfs:label": "Mock up and test scanning of decorations",
-  "rdfs:comment": "Construct full-sized mockup of guitar and experiment with scanning decorative images as Aestheticodes.",
-  "entity:seeAlso_r": [
+  "@context": [
     {
-      "rdfs:seeAlso": "http://carolanguitar.com/2014/08/24/11-mock-up/"
-    }
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
   ],
+  "@id": "Construction/Mockup",
+  "@type": [
+    "crm:E12_Production",
+    "prov:Activity",
+    "annal:EntityData"
+  ],
+  "annal:id": "Mockup",
+  "annal:type": "crm:E12_Production",
   "annal:type_id": "Construction",
-  "crm:P7_took_place_at": "",
-  "prov:qualifiedAssociation": [
-    {
-      "prov:hadRole": "Role/Researcher",
-      "prov:agent": "Person/Liming_Xu"
-    }
-  ],
   "crm:P126_employed_r": [
     {
       "crm:P126_employed": "Material/Wood_plank"
@@ -28,17 +28,23 @@
       "crm:P126_employed": "Material/Mobile_phone"
     }
   ],
+  "crm:P7_took_place_at": "",
+  "entity:seeAlso_r": [
+    {
+      "rdfs:seeAlso": "http://carolanguitar.com/2014/08/24/11-mock-up/"
+    }
+  ],
+  "prov:qualifiedAssociation": [
+    {
+      "prov:agent": "Person/Liming_Xu",
+      "prov:hadRole": "Role/Researcher"
+    }
+  ],
   "prov:used_r": [
     {
       "prov:used": "Design/Decorative_design"
     }
   ],
-  "annal:id": "Mockup",
-  "@id": "./",
-  "@type": [
-    "crm:E12_Production",
-    "prov:Activity",
-    "annal:EntityData"
-  ],
-  "annal:type": "annal:EntityData"
+  "rdfs:comment": "Construct full-sized mockup of guitar and experiment with scanning decorative images as Aestheticodes.",
+  "rdfs:label": "Mock up and test scanning of decorations"
 }

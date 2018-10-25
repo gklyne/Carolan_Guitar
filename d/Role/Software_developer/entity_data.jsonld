@@ -1,12 +1,18 @@
 {
-  "rdfs:label": "Software developer",
-  "rdfs:comment": "Design, development and integration of software",
-  "annal:type_id": "Role",
-  "annal:id": "Software_developer",
-  "@id": "./",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Role/Software_developer",
   "@type": [
     "prov:Role",
     "annal:EntityData"
   ],
-  "annal:type": "annal:EntityData"
+  "annal:id": "Software_developer",
+  "annal:type": "prov:Role",
+  "annal:type_id": "Role",
+  "rdfs:comment": "Design, development and integration of software",
+  "rdfs:label": "Software developer"
 }

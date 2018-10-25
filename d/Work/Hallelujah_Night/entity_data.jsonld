@@ -1,35 +1,35 @@
 {
-  "rdfs:label": "Hallelujah Night",
-  "rdfs:comment": "Composition by Jeremy Galgut.",
-  "entity:seeAlso_r": [
+  "@context": [
     {
-      "rdfs:seeAlso": "https://youtu.be/eSdyIKnkJfY"
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Work/Hallelujah_Night",
+  "@type": [
+    "frbroo:F25_Performance_Plan",
+    "crm:E29_Design_or_Procedure",
+    "prov:Entity",
+    "annal:EntityData"
+  ],
+  "annal:id": "Hallelujah_Night",
+  "annal:member": [
+    {
+      "prov:wasAttributedTo": "Person/Jeremy_Galgut"
     }
   ],
-  "annal:type_id": "Work",
   "annal:member__2": [
     {
       "crm:P12i_was_present_at": "Performance/Songsters"
     }
   ],
-  "annal:type": "annal:EntityData",
-  "annal:id": "Hallelujah_Night",
-  "@id": "./",
-  "@type": [
-    "frbroo:F25_Performance_Plan",
-    "prov:Entity",
-    "crm:E29_Design_or_Procedure",
-    "crm:E73_Information_Object",
-    "crm:E28_Conceptual_Object",
-    "crm:E71_Man-Made_Thing",
-    "crm:E70_Thing",
-    "crm:E77_Persistent_Item",
-    "crm:E1_CRM_Entity",
-    "annal:EntityData"
-  ],
-  "annal:member": [
+  "annal:type": "frbroo:F25_Performance_Plan",
+  "annal:type_id": "Work",
+  "entity:seeAlso_r": [
     {
-      "prov:wasAttributedTo": "Person/Jeremy_Galgut"
+      "rdfs:seeAlso": "https://youtu.be/eSdyIKnkJfY"
     }
-  ]
+  ],
+  "rdfs:comment": "Composition by Jeremy Galgut.",
+  "rdfs:label": "Hallelujah Night"
 }

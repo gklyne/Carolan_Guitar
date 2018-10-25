@@ -1,18 +1,25 @@
 {
-  "rdfs:label": "",
-  "rdfs:comment": "Liming Xu is a PhD student in the Nottingham Mixed Reality Lab who is responsible for development of the software app that will be used to capture and deliver information about the Carolan Guitar. ",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Person/Liming_Xu",
+  "@type": [
+    "prov:Agent",
+    "prov:Entity",
+    "annal:EntityData"
+  ],
+  "annal:id": "Liming_Xu",
+  "annal:type": "prov:Agent",
+  "annal:type_id": "Person",
   "entity:seeAlso_r": [
     {
       "rdfs:seeAlso": "http://www.nottingham.ac.uk/research/groups/mixedrealitylab/index.aspx"
     }
   ],
-  "annal:type_id": "Person",
   "foaf:name": "Liming Xu",
-  "annal:id": "Liming_Xu",
-  "@id": "./",
-  "@type": [
-    "prov:Agent",
-    "annal:EntityData"
-  ],
-  "annal:type": "annal:EntityData"
+  "rdfs:comment": "Liming Xu is a PhD student in the Nottingham Mixed Reality Lab who is responsible for development of the software app that will be used to capture and deliver information about the Carolan Guitar. ",
+  "rdfs:label": "Liming Xu"
 }

@@ -1,6 +1,18 @@
 {
-  "rdfs:label": "Artcode graphic design",
-  "rdfs:comment": "Inspired by our celtic muse, Liz begins prototyping some celtic knotwork designs as a first step as towards exploring how we might decorate our Carolan guitar.\r\n\r\nEarly ideas soon take shape and lead to a series of initial aestheticode celtic knot motifs.\r\n\r\nLiz notes that the repeated but varied toplogical patterns of celtic knots make them an excellent, if somewhat challenging, puzzle for an astheticode designer.\r\n",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Event/Artcode_graphic_design",
+  "@type": [
+    "prov:Activity",
+    "annal:EntityData"
+  ],
+  "annal:id": "Artcode_graphic_design",
+  "annal:type": "prov:Activity",
+  "annal:type_id": "Event",
   "entity:seeAlso_r": [
     {
       "rdfs:seeAlso": "http://carolanguitar.com/2014/07/31/get-knotted/"
@@ -9,18 +21,12 @@
       "rdfs:seeAlso": "http://aestheticodes.com"
     }
   ],
-  "annal:type_id": "Event",
   "prov:qualifiedAssociation": [
     {
-      "prov:hadRole": "Graphic_designer",
-      "prov:agent": "Liz_Jeal"
+      "prov:agent": "Liz_Jeal",
+      "prov:hadRole": "Graphic_designer"
     }
   ],
-  "annal:id": "Artcode_graphic_design",
-  "@id": "./",
-  "@type": [
-    "prov:Activity",
-    "annal:EntityData"
-  ],
-  "annal:type": "annal:EntityData"
+  "rdfs:comment": "Inspired by our celtic muse, Liz begins prototyping some celtic knotwork designs as a first step as towards exploring how we might decorate our Carolan guitar.\r\n\r\nEarly ideas soon take shape and lead to a series of initial aestheticode celtic knot motifs.\r\n\r\nLiz notes that the repeated but varied toplogical patterns of celtic knots make them an excellent, if somewhat challenging, puzzle for an astheticode designer.\r\n",
+  "rdfs:label": "Artcode graphic design"
 }

@@ -1,0 +1,23 @@
+{
+  "@context": [
+    {
+      "@base": "./"
+    },
+    "coll_context.jsonld"
+  ],
+  "@id": "../",
+  "@type": [
+    "annal:Collection"
+  ],
+  "annal:default_list": "Artifacts",
+  "annal:default_view_entity": "Carolan_Guitar",
+  "annal:default_view_id": "Artifact",
+  "annal:default_view_type": "Artifact",
+  "annal:id": "Carolan_Guitar",
+  "annal:meta_comment": "The Carolan Guitar's story - collection metadata created by software update, edited by hand.",
+  "annal:software_version": "0.1.33",
+  "annal:type": "annal:Collection",
+  "annal:type_id": "_coll",
+  "rdfs:comment": "The Carolan Guitar's story",
+  "rdfs:label": "The Carolan Guitar's story"
+}

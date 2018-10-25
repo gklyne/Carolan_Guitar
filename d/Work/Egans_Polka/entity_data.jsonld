@@ -1,6 +1,26 @@
 {
-  "rdfs:label": "Egan's Polka",
-  "rdfs:comment": " An Irish polka called Egan's Polka (also called Peg Ryan's). It's a simple tune with lots of repetitions.",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Work/Egans_Polka",
+  "@type": [
+    "frbroo:F25_Performance_Plan",
+    "crm:E29_Design_or_Procedure",
+    "prov:Entity",
+    "annal:EntityData"
+  ],
+  "annal:id": "Egans_Polka",
+  "annal:member": [],
+  "annal:member__2": [
+    {
+      "crm:P12i_was_present_at": "Performance/Play_along_polkas"
+    }
+  ],
+  "annal:type": "frbroo:F25_Performance_Plan",
+  "annal:type_id": "Work",
   "entity:seeAlso_r": [
     {
       "rdfs:seeAlso": "https://thesession.org/tunes/39"
@@ -9,29 +29,6 @@
       "rdfs:seeAlso": "http://slowplayers.org/2014/05/04/egans-polka-d/"
     }
   ],
-  "annal:type_id": "Work",
-  "annal:member__2": [
-    {
-      "crm:P12i_was_present_at": "Performance/Play_along_polkas"
-    }
-  ],
-  "annal:type": "frbroo:F25_Performance_Plan",
-  "@context": [
-    "../../coll_context.jsonld"
-  ],
-  "annal:id": "Egans_Polka",
-  "@id": "./",
-  "@type": [
-    "frbroo:F25_Performance_Plan",
-    "prov:Entity",
-    "crm:E29_Design_or_Procedure",
-    "crm:E73_Information_Object",
-    "crm:E28_Conceptual_Object",
-    "crm:E71_Man-Made_Thing",
-    "crm:E70_Thing",
-    "crm:E77_Persistent_Item",
-    "crm:E1_CRM_Entity",
-    "annal:EntityData"
-  ],
-  "annal:member": []
+  "rdfs:comment": " An Irish polka called Egan's Polka (also called Peg Ryan's). It's a simple tune with lots of repetitions.",
+  "rdfs:label": "Egan's Polka"
 }

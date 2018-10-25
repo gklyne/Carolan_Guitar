@@ -1,12 +1,18 @@
 {
-  "rdfs:label": "Project lead",
-  "rdfs:comment": "Overall project lead",
-  "annal:type_id": "Role",
-  "annal:id": "Project_lead",
-  "@id": "./",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Role/Project_lead",
   "@type": [
     "prov:Role",
     "annal:EntityData"
   ],
-  "annal:type": "annal:EntityData"
+  "annal:id": "Project_lead",
+  "annal:type": "prov:Role",
+  "annal:type_id": "Role",
+  "rdfs:comment": "Overall project lead",
+  "rdfs:label": "Project lead"
 }

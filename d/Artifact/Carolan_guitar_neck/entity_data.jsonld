@@ -1,6 +1,20 @@
 {
-  "rdfs:label": "Carolan guitar neck",
-  "rdfs:comment": "Neck of Carolan Guitar",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Artifact/Carolan_guitar_neck",
+  "@type": [
+    "crm:E24_Physical_Man-Made_Thing",
+    "prov:Entity",
+    "annal:EntityData"
+  ],
+  "annal:id": "Carolan_guitar_neck",
+  "annal:member": [],
+  "annal:type": "crm:E24_Physical_Man-Made_Thing",
+  "annal:type_id": "Artifact",
   "entity:seeAlso_r": [
     {
       "rdfs:seeAlso": "http://carolanguitar.com/2014/08/20/10-mahogony/"
@@ -12,13 +26,6 @@
       "rdfs:seeAlso": "http://carolanguitar.com/2014/10/06/22-octave/"
     }
   ],
-  "annal:type_id": "Artifact",
-  "annal:member": [],
-  "annal:id": "Carolan_guitar_neck",
-  "@id": "./",
-  "@type": [
-    "prov:Entity",
-    "annal:EntityData"
-  ],
-  "annal:type": "annal:EntityData"
+  "rdfs:comment": "Neck of Carolan Guitar",
+  "rdfs:label": "Carolan guitar neck"
 }

@@ -1,17 +1,19 @@
 {
-  "rdfs:label": "Landmarks, by Carmina",
-  "rdfs:comment": "Landmarks, by Carmina",
-  "entity:seeAlso_r": [
+  "@context": [
     {
-      "rdfs:seeAlso": "https://youtu.be/wTbnAk0cj9A"
-    }
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
   ],
-  "annal:type_id": "Work",
-  "annal:member__2": [
-    {
-      "crm:P12i_was_present_at": "Composition/Landmarks"
-    }
+  "@id": "Work/Landmarks",
+  "@type": [
+    "frbroo:F25_Performance_Plan",
+    "crm:E29_Design_or_Procedure",
+    "prov:Entity",
+    "annal:EntityData"
   ],
+  "annal:Lyricist": "Person/Pippa_Marland",
+  "annal:id": "Landmarks",
   "annal:member": [
     {
       "prov:wasAttributedTo": "Person/Pippa_Marland"
@@ -20,19 +22,18 @@
       "prov:wasAttributedTo": "Person/Rob_King"
     }
   ],
-  "annal:id": "Landmarks",
-  "@id": "./",
-  "@type": [
-    "frbroo:F25_Performance_Plan",
-    "prov:Entity",
-    "crm:E29_Design_or_Procedure",
-    "crm:E73_Information_Object",
-    "crm:E28_Conceptual_Object",
-    "crm:E71_Man-Made_Thing",
-    "crm:E70_Thing",
-    "crm:E77_Persistent_Item",
-    "crm:E1_CRM_Entity",
-    "annal:EntityData"
+  "annal:member__2": [
+    {
+      "crm:P12i_was_present_at": "Composition/Landmarks"
+    }
   ],
-  "annal:type": "annal:EntityData"
+  "annal:type": "frbroo:F25_Performance_Plan",
+  "annal:type_id": "Work",
+  "entity:seeAlso_r": [
+    {
+      "rdfs:seeAlso": "https://youtu.be/wTbnAk0cj9A"
+    }
+  ],
+  "rdfs:comment": "Landmarks, by Carmina",
+  "rdfs:label": "Landmarks, by Carmina"
 }

@@ -1,15 +1,18 @@
 {
-  "rdfs:label": "Banjo player",
-  "rdfs:comment": "Banjo player",
   "@context": [
+    {
+      "@base": "../../"
+    },
     "../../coll_context.jsonld"
   ],
-  "annal:type_id": "Role",
-  "annal:id": "Banjo_player",
-  "@id": "./",
+  "@id": "Role/Banjo_player",
   "@type": [
     "prov:Role",
     "annal:EntityData"
   ],
-  "annal:type": "prov:Role"
+  "annal:id": "Banjo_player",
+  "annal:type": "prov:Role",
+  "annal:type_id": "Role",
+  "rdfs:comment": "Banjo player",
+  "rdfs:label": "Banjo player"
 }

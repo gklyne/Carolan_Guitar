@@ -1,6 +1,18 @@
 {
-  "rdfs:label": "Conception",
-  "rdfs:comment": "# Carolan Guitar conception\r\n\r\nOur guitar is called Carolan in honour of the legendary composer Turlough O\u2019Carolan, the last of the great blind Irish harpers, and an itinerant musician who roamed Ireland at the turn of the 18th century, composing and playing beautiful celtic tunes. Like it\u2019s namesake, Carolan is a roving bard; a performer that passes from place to place, learning tunes, songs and stories as it goes and sharing them with the people it encounters along the way.\r\n\r\nThe Carolan Guitar showcases a distinctive new technology called Aestheticodes, or Artcodes, which can be used to make interactive patterns to decorate all manner of everyday artefacts \u2013 in this case an acoustic guitar. Aestheticodes are a bit like QR codes in that you can scan them to read information. However, they can be designed to be aesthetically beautiful\r\n",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Event/Carolan_guitar_conception",
+  "@type": [
+    "prov:Activity",
+    "annal:EntityData"
+  ],
+  "annal:id": "Carolan_guitar_conception",
+  "annal:type": "prov:Activity",
+  "annal:type_id": "Event",
   "entity:seeAlso_r": [
     {
       "rdfs:seeAlso": "http://carolanguitar.com/2014/07/25/concept/"
@@ -12,12 +24,6 @@
       "rdfs:seeAlso": "http://carolanguitar.com/2014/07/25/aestheticodes/"
     }
   ],
-  "annal:type_id": "Event",
-  "annal:id": "Carolan_guitar_conception",
-  "@id": "./",
-  "@type": [
-    "prov:Activity",
-    "annal:EntityData"
-  ],
-  "annal:type": "annal:EntityData"
+  "rdfs:comment": "# Carolan Guitar conception\r\n\r\nOur guitar is called Carolan in honour of the legendary composer Turlough O\u2019Carolan, the last of the great blind Irish harpers, and an itinerant musician who roamed Ireland at the turn of the 18th century, composing and playing beautiful celtic tunes. Like it\u2019s namesake, Carolan is a roving bard; a performer that passes from place to place, learning tunes, songs and stories as it goes and sharing them with the people it encounters along the way.\r\n\r\nThe Carolan Guitar showcases a distinctive new technology called Aestheticodes, or Artcodes, which can be used to make interactive patterns to decorate all manner of everyday artefacts \u2013 in this case an acoustic guitar. Aestheticodes are a bit like QR codes in that you can scan them to read information. However, they can be designed to be aesthetically beautiful\r\n",
+  "rdfs:label": "Conception"
 }

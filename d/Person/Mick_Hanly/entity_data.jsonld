@@ -1,6 +1,19 @@
 {
-  "rdfs:label": "",
-  "rdfs:comment": "Mick Hanly is one of Ireland\u2019s best singer/songwriters in recent years and is best known for his song \u2018Past the Point of Rescue\u2019 made famous by Hal Ketchum in the USA and Mary Black in Ireland. Mick has been singing and writing since the 1970\u2019s, which included a time as lead singer with \u201cMoving Hearts\u201d.",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Person/Mick_Hanly",
+  "@type": [
+    "prov:Agent",
+    "prov:Entity",
+    "annal:EntityData"
+  ],
+  "annal:id": "Mick_Hanly",
+  "annal:type": "prov:Agent",
+  "annal:type_id": "Person",
   "entity:seeAlso_r": [
     {
       "rdfs:seeAlso": "http://mickhanly.com"
@@ -9,16 +22,7 @@
       "rdfs:seeAlso": "http://www.discogs.com/artist/1185229-Mick-Hanly"
     }
   ],
-  "annal:type_id": "Person",
   "foaf:name": "Mick Hanly",
-  "@context": [
-    "../../coll_context.jsonld"
-  ],
-  "annal:id": "Mick_Hanly",
-  "@id": "./",
-  "@type": [
-    "prov:Agent",
-    "annal:EntityData"
-  ],
-  "annal:type": "prov:Agent"
+  "rdfs:comment": "Mick Hanly is one of Ireland\u2019s best singer/songwriters in recent years and is best known for his song \u2018Past the Point of Rescue\u2019 made famous by Hal Ketchum in the USA and Mary Black in Ireland. Mick has been singing and writing since the 1970\u2019s, which included a time as lead singer with \u201cMoving Hearts\u201d.",
+  "rdfs:label": "Mick Hanly"
 }

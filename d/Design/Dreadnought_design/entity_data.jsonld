@@ -1,26 +1,29 @@
 {
-  "rdfs:label": "Dreadnought ('Dread') guitar design",
-  "rdfs:comment": "The Dreadnought (or \u2018Dread\u2019) style of guitar is a versatile style first created by C. F Martin and Company nearly one hundred years ago and named after the modern battleships of the time.",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Design/Dreadnought_design",
+  "@type": [
+    "crm:E29_Design_or_Procedure",
+    "prov:Entity",
+    "annal:EntityData"
+  ],
+  "annal:id": "Dreadnought_design",
+  "annal:member": [
+    {
+      "crm:P12i_was_present_at": "Event/Physical_design"
+    }
+  ],
+  "annal:type": "crm:E29_Design_or_Procedure",
+  "annal:type_id": "Design",
   "entity:seeAlso_r": [
     {
       "rdfs:seeAlso": "https://en.wikipedia.org/wiki/Dreadnought_%28guitar_type%29"
     }
   ],
-  "annal:type_id": "Design",
-  "annal:type": "annal:EntityData",
-  "annal:id": "Dreadnought_design",
-  "@id": "./",
-  "@type": [
-    "coll:Design",
-    "prov:Entity",
-    "crm:E70_Thing",
-    "crm:E71_Man-Made_Thing",
-    "crm:E28_Conceptual_Object",
-    "annal:EntityData"
-  ],
-  "annal:member": [
-    {
-      "crm:P12i_was_present_at": "Event/Physical_design"
-    }
-  ]
+  "rdfs:comment": "The Dreadnought (or \u2018Dread\u2019) style of guitar is a versatile style first created by C. F Martin and Company nearly one hundred years ago and named after the modern battleships of the time.",
+  "rdfs:label": "Dreadnought ('Dread') guitar design"
 }

@@ -1,22 +1,26 @@
 {
-  "rdfs:label": "Aestheticode (Artcode) scanning application",
-  "rdfs:comment": "Mobile phone application to scan aestheticodes and invoke linked web resources.",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Tool/Artcode_scanner",
+  "@type": [
+    "crm:E22_Man-Made_Object",
+    "crm:E24_Physical_Man-Made_Thing",
+    "prov:Entity",
+    "annal:EntityData"
+  ],
+  "annal:id": "Artcode_scanner",
+  "annal:member": [],
+  "annal:type": "crm:E22_Man-Made_Object",
+  "annal:type_id": "Tool",
   "entity:seeAlso_r": [
     {
       "rdfs:seeAlso": "https://play.google.com/store/apps/details?id=uk.ac.horizon.aestheticodes&hl=en_GB"
     }
   ],
-  "annal:type_id": "Tool",
-  "annal:type": "annal:EntityData",
-  "annal:id": "Artcode_scanner",
-  "@id": "./",
-  "@type": [
-    "coll:Tool",
-    "prov:Entity",
-    "crm:E70_Thing",
-    "crm:E71_Man-Made_Thing",
-    "crm:E24_Physical_Man-Made_Thing",
-    "annal:EntityData"
-  ],
-  "annal:member": []
+  "rdfs:comment": "Mobile phone application to scan aestheticodes and invoke linked web resources.",
+  "rdfs:label": "Aestheticode (Artcode) scanning application"
 }

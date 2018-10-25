@@ -1,27 +1,38 @@
 {
-  "rdfs:label": "Catch the moment: meeting with Lulo Reinhardt",
-  "rdfs:comment": "Carolan gets to spend an hour with Lulo Reinhardt who is performing at the Djanogly Theatre at Nottingham Lakeside Arts.\r\n\r\n\"Then, to our great surprise and even greater delight, Lulo composes a brand new tune on Carolan. He names the tune \u2018In the Moment\u2019 and here it is, our first slice of history.\"",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Composition/Catch_the_moment",
+  "@type": [
+    "annalist_site:/c/Carolan_Guitar/d/_type/Composition/",
+    "annal:EntityData"
+  ],
+  "annal:id": "Catch_the_moment",
+  "annal:type": "annalist_site:/c/Carolan_Guitar/d/_type/Composition/",
+  "annal:type_id": "Composition",
+  "crm:P126_employed_r": [],
+  "crm:P7_took_place_at": "Place/Djanogly_Theatre",
   "entity:seeAlso_r": [
     {
       "rdfs:seeAlso": "http://carolanguitar.com/2014/10/23/27-in-the-moment/"
     }
   ],
-  "annal:type_id": "Composition",
-  "crm:P7_took_place_at": "Place/Djanogly_Theatre",
-  "prov:qualifiedAssociation": [
-    {
-      "prov:hadRole": "Role/Guitarist",
-      "prov:agent": "Person/Lulo_Reinhardt"
-    },
-    {
-      "prov:hadRole": "Role/Composer",
-      "prov:agent": "Person/Lulo_Reinhardt"
-    }
-  ],
-  "crm:P126_employed_r": [],
   "frbroo:R25F_performed_r": [
     {
       "frbroo:R25F_performed": "Work/In_the_moment"
+    }
+  ],
+  "prov:qualifiedAssociation": [
+    {
+      "prov:agent": "Person/Lulo_Reinhardt",
+      "prov:hadRole": "Role/Guitarist"
+    },
+    {
+      "prov:agent": "Person/Lulo_Reinhardt",
+      "prov:hadRole": "Role/Composer"
     }
   ],
   "prov:used_r": [
@@ -29,15 +40,6 @@
       "prov:used": "Artifact/Carolan_Guitar"
     }
   ],
-  "annal:id": "Catch_the_moment",
-  "@id": "./",
-  "@type": [
-    "/annalist/c/Carolan_Guitar/d/_type/Composition/",
-    "prov:Activity",
-    "crm:E5_Event",
-    "crm:E7_Activity",
-    "crm:E65_Creation",
-    "annal:EntityData"
-  ],
-  "annal:type": "annal:EntityData"
+  "rdfs:comment": "Carolan gets to spend an hour with Lulo Reinhardt who is performing at the Djanogly Theatre at Nottingham Lakeside Arts.\r\n\r\n\"Then, to our great surprise and even greater delight, Lulo composes a brand new tune on Carolan. He names the tune \u2018In the Moment\u2019 and here it is, our first slice of history.\"",
+  "rdfs:label": "Catch the moment: meeting with Lulo Reinhardt"
 }

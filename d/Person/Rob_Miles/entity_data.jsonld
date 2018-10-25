@@ -1,14 +1,21 @@
 {
-  "rdfs:label": "",
-  "rdfs:comment": "NottingHack maker",
-  "entity:seeAlso_r": [],
-  "annal:type_id": "Person",
-  "foaf:name": "Rob Miles",
-  "annal:id": "Rob_Miles",
-  "@id": "./",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Person/Rob_Miles",
   "@type": [
     "prov:Agent",
+    "prov:Entity",
     "annal:EntityData"
   ],
-  "annal:type": "annal:EntityData"
+  "annal:id": "Rob_Miles",
+  "annal:type": "prov:Agent",
+  "annal:type_id": "Person",
+  "entity:seeAlso_r": [],
+  "foaf:name": "Rob Miles",
+  "rdfs:comment": "NottingHack maker",
+  "rdfs:label": "Rob Miles"
 }

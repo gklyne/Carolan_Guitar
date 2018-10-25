@@ -1,32 +1,18 @@
 {
-  "rdfs:label": "Coquette",
-  "rdfs:comment": "\"Coquette\" is a 1928 jazz standard. It was composed by Johnny Green and Carmen Lombardo, with lyrics by Gus Kahn.",
-  "entity:seeAlso_r": [
+  "@context": [
     {
-      "rdfs:seeAlso": "https://en.wikipedia.org/wiki/Coquette_(song)"
-    }
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
   ],
-  "annal:type_id": "Work",
-  "annal:member__2": [
-    {
-      "crm:P12i_was_present_at": "Performance/Coquette"
-    }
-  ],
-  "annal:type": "annal:EntityData",
-  "annal:id": "Coquette",
-  "@id": "./",
+  "@id": "Work/Coquette",
   "@type": [
     "frbroo:F25_Performance_Plan",
-    "prov:Entity",
     "crm:E29_Design_or_Procedure",
-    "crm:E73_Information_Object",
-    "crm:E28_Conceptual_Object",
-    "crm:E71_Man-Made_Thing",
-    "crm:E70_Thing",
-    "crm:E77_Persistent_Item",
-    "crm:E1_CRM_Entity",
+    "prov:Entity",
     "annal:EntityData"
   ],
+  "annal:id": "Coquette",
   "annal:member": [
     {
       "prov:wasAttributedTo": "Person/Johnny_Green"
@@ -37,5 +23,19 @@
     {
       "prov:wasAttributedTo": "Person/Gus_Kahn"
     }
-  ]
+  ],
+  "annal:member__2": [
+    {
+      "crm:P12i_was_present_at": "Performance/Coquette"
+    }
+  ],
+  "annal:type": "frbroo:F25_Performance_Plan",
+  "annal:type_id": "Work",
+  "entity:seeAlso_r": [
+    {
+      "rdfs:seeAlso": "https://en.wikipedia.org/wiki/Coquette_(song)"
+    }
+  ],
+  "rdfs:comment": "\"Coquette\" is a 1928 jazz standard. It was composed by Johnny Green and Carmen Lombardo, with lyrics by Gus Kahn.",
+  "rdfs:label": "Coquette"
 }

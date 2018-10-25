@@ -1,17 +1,21 @@
 {
-  "rdfs:label": "",
-  "rdfs:comment": "Flute-playing friend of Carolan guitar",
-  "entity:seeAlso_r": [],
-  "annal:type_id": "Person",
-  "foaf:name": "Penny",
   "@context": [
+    {
+      "@base": "../../"
+    },
     "../../coll_context.jsonld"
   ],
-  "annal:id": "Penny",
-  "@id": "./",
+  "@id": "Person/Penny",
   "@type": [
     "prov:Agent",
+    "prov:Entity",
     "annal:EntityData"
   ],
-  "annal:type": "prov:Agent"
+  "annal:id": "Penny",
+  "annal:type": "prov:Agent",
+  "annal:type_id": "Person",
+  "entity:seeAlso_r": [],
+  "foaf:name": "Penny",
+  "rdfs:comment": "Flute-playing friend of Carolan guitar",
+  "rdfs:label": "Penny"
 }

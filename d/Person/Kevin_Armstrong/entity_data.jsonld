@@ -1,18 +1,25 @@
 {
-  "rdfs:label": "",
-  "rdfs:comment": "Kevin Armstrong is a highly experienced guitarist, producer, songwriter, and composer for film and TV.",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Person/Kevin_Armstrong",
+  "@type": [
+    "prov:Agent",
+    "prov:Entity",
+    "annal:EntityData"
+  ],
+  "annal:id": "Kevin_Armstrong",
+  "annal:type": "prov:Agent",
+  "annal:type_id": "Person",
   "entity:seeAlso_r": [
     {
       "rdfs:seeAlso": "http://www.kevin-armstrong.com/"
     }
   ],
-  "annal:type_id": "Person",
   "foaf:name": "Kevin Armstrong",
-  "annal:id": "Kevin_Armstrong",
-  "@id": "./",
-  "@type": [
-    "prov:Agent",
-    "annal:EntityData"
-  ],
-  "annal:type": "annal:EntityData"
+  "rdfs:comment": "Kevin Armstrong is a highly experienced guitarist, producer, songwriter, and composer for film and TV.",
+  "rdfs:label": "Kevin Armstrong"
 }

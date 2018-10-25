@@ -1,35 +1,35 @@
 {
-  "rdfs:label": "Meeting by the River",
-  "rdfs:comment": "Phil Langran composition, from his his 2014 album \u2018Still the Heart\u2019.\r\n\r\n",
-  "entity:seeAlso_r": [
+  "@context": [
     {
-      "rdfs:seeAlso": "https://youtu.be/WZFgBdLMavU"
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Work/Meeting_by_the_River",
+  "@type": [
+    "frbroo:F25_Performance_Plan",
+    "crm:E29_Design_or_Procedure",
+    "prov:Entity",
+    "annal:EntityData"
+  ],
+  "annal:id": "Meeting_by_the_River",
+  "annal:member": [
+    {
+      "prov:wasAttributedTo": "Person/Phil_Langran"
     }
   ],
-  "annal:type_id": "Work",
   "annal:member__2": [
     {
       "crm:P12i_was_present_at": "Performance/Songsters"
     }
   ],
-  "annal:type": "annal:EntityData",
-  "annal:id": "Meeting_by_the_River",
-  "@id": "./",
-  "@type": [
-    "frbroo:F25_Performance_Plan",
-    "prov:Entity",
-    "crm:E29_Design_or_Procedure",
-    "crm:E73_Information_Object",
-    "crm:E28_Conceptual_Object",
-    "crm:E71_Man-Made_Thing",
-    "crm:E70_Thing",
-    "crm:E77_Persistent_Item",
-    "crm:E1_CRM_Entity",
-    "annal:EntityData"
-  ],
-  "annal:member": [
+  "annal:type": "frbroo:F25_Performance_Plan",
+  "annal:type_id": "Work",
+  "entity:seeAlso_r": [
     {
-      "prov:wasAttributedTo": "Person/Phil_Langran"
+      "rdfs:seeAlso": "https://youtu.be/WZFgBdLMavU"
     }
-  ]
+  ],
+  "rdfs:comment": "Phil Langran composition, from his his 2014 album \u2018Still the Heart\u2019.\r\n\r\n",
+  "rdfs:label": "Meeting by the River"
 }

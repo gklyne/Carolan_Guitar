@@ -1,14 +1,18 @@
 {
-  "rdfs:label": "The View from Inside: travelling",
-  "rdfs:comment": "We\u2019ve been experimenting with adding sensors to Carolan\u2019s kit of accessories to help document it\u2019s life on the road, offering a guitar\u2019s eye view of its travels. The first is a small Autographer camera that can automatically capture thousands of photos, along with GPS coordinates, automatically triggered by movement and light levels. The second is an Affectiva Q Sensor that can be strapped on to the guitar so as to record accelerometer, gyroscope and temperature data for up to thirty hours at a time.",
-  "entity:seeAlso_r": [
+  "@context": [
     {
-      "rdfs:seeAlso": "http://carolanguitar.com/2015/09/07/49-the-view-from-inside/"
-    }
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
   ],
+  "@id": "Event/Travelling",
+  "@type": [
+    "prov:Activity",
+    "annal:EntityData"
+  ],
+  "annal:id": "Travelling",
+  "annal:type": "prov:Activity",
   "annal:type_id": "Event",
-  "crm:P7_took_place_at": "",
-  "prov:qualifiedAssociation": [],
   "crm:P126_employed_r": [
     {
       "crm:P126_employed": "Material/Autographer_camera"
@@ -17,16 +21,18 @@
       "crm:P126_employed": "Material/Affectiva_Q_Sensor"
     }
   ],
+  "crm:P7_took_place_at": "",
+  "entity:seeAlso_r": [
+    {
+      "rdfs:seeAlso": "http://carolanguitar.com/2015/09/07/49-the-view-from-inside/"
+    }
+  ],
+  "prov:qualifiedAssociation": [],
   "prov:used_r": [
     {
       "prov:used": "Artifact/Carolan_Guitar"
     }
   ],
-  "annal:id": "Travelling",
-  "@id": "./",
-  "@type": [
-    "prov:Activity",
-    "annal:EntityData"
-  ],
-  "annal:type": "annal:EntityData"
+  "rdfs:comment": "We\u2019ve been experimenting with adding sensors to Carolan\u2019s kit of accessories to help document it\u2019s life on the road, offering a guitar\u2019s eye view of its travels. The first is a small Autographer camera that can automatically capture thousands of photos, along with GPS coordinates, automatically triggered by movement and light levels. The second is an Affectiva Q Sensor that can be strapped on to the guitar so as to record accelerometer, gyroscope and temperature data for up to thirty hours at a time.",
+  "rdfs:label": "The View from Inside: travelling"
 }

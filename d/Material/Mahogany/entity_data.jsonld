@@ -1,13 +1,19 @@
 {
-  "rdfs:label": "Reclaimed mahogany",
-  "rdfs:comment": "Used for neck of Carolan Guitar",
-  "entity:seeAlso_r": [],
-  "annal:type_id": "Material",
-  "annal:id": "Mahogany",
-  "@id": "./",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Material/Mahogany",
   "@type": [
     "crm:E57_Material",
     "annal:EntityData"
   ],
-  "annal:type": "annal:EntityData"
+  "annal:id": "Mahogany",
+  "annal:type": "crm:E57_Material",
+  "annal:type_id": "Material",
+  "entity:seeAlso_r": [],
+  "rdfs:comment": "Used for neck of Carolan Guitar",
+  "rdfs:label": "Reclaimed mahogany"
 }

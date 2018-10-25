@@ -1,14 +1,20 @@
 {
-  "rdfs:label": "Plywood",
-  "rdfs:comment": "Plywood",
-  "entity:seeAlso_r": [],
-  "annal:type_id": "Material",
-  "annal:type": "annal:EntityData",
-  "annal:id": "Plywood",
-  "@id": "./",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Material/Plywood",
   "@type": [
     "crm:E57_Material",
     "annal:EntityData"
   ],
-  "annal:member": []
+  "annal:id": "Plywood",
+  "annal:member": [],
+  "annal:type": "crm:E57_Material",
+  "annal:type_id": "Material",
+  "entity:seeAlso_r": [],
+  "rdfs:comment": "Plywood",
+  "rdfs:label": "Plywood"
 }

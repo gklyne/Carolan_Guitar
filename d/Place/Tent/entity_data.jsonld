@@ -1,17 +1,23 @@
 {
-  "rdfs:label": "The Tent, London",
-  "rdfs:comment": "Exhibition venue in London\r\n\r\nOld Truman Brewery\r\nHanbury Street\r\nLondon E1 6QR\r\nUK\r\n",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Place/Tent",
+  "@type": [
+    "crm:E53_Place",
+    "annal:EntityData"
+  ],
+  "annal:id": "Tent",
+  "annal:type": "crm:E53_Place",
+  "annal:type_id": "Place",
   "entity:seeAlso_r": [
     {
       "rdfs:seeAlso": "http://www.tentlondon.co.uk/"
     }
   ],
-  "annal:type_id": "Place",
-  "annal:id": "Tent",
-  "@id": "./",
-  "@type": [
-    "crm:E53_Place",
-    "annal:EntityData"
-  ],
-  "annal:type": "annal:EntityData"
+  "rdfs:comment": "Exhibition venue in London\r\n\r\nOld Truman Brewery\r\nHanbury Street\r\nLondon E1 6QR\r\nUK\r\n",
+  "rdfs:label": "The Tent, London"
 }

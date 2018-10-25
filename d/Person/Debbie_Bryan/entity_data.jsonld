@@ -1,18 +1,25 @@
 {
-  "rdfs:label": "",
-  "rdfs:comment": "Artist/Designer from Nottingham",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Person/Debbie_Bryan",
+  "@type": [
+    "prov:Agent",
+    "prov:Entity",
+    "annal:EntityData"
+  ],
+  "annal:id": "Debbie_Bryan",
+  "annal:type": "prov:Agent",
+  "annal:type_id": "Person",
   "entity:seeAlso_r": [
     {
       "rdfs:seeAlso": "http://www.debbiebryan.co.uk/"
     }
   ],
-  "annal:type_id": "Person",
   "foaf:name": "Debbie Bryan",
-  "annal:id": "Debbie_Bryan",
-  "@id": "./",
-  "@type": [
-    "prov:Agent",
-    "annal:EntityData"
-  ],
-  "annal:type": "annal:EntityData"
+  "rdfs:comment": "Artist/Designer from Nottingham",
+  "rdfs:label": "Debbie Bryan"
 }

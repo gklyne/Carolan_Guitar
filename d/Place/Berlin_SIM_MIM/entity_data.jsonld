@@ -1,17 +1,23 @@
 {
-  "rdfs:label": "Staatliches Institut f\u00fcr Musikforschung",
-  "rdfs:comment": "\"Staatliches Institut f\u00fcr Musikforschung\" (Berlin Musical Instrument Museum)\r\n\r\nA research institution for musicology with wide-reaching fields of activity.  The institute is a place of historical and theoretical reflection and a place where both music performance and its study are conveyed to a broad audience.\r\n\r\nThe Musical Instrument Museum hosts events from academic symposia, to lecture recitals with Early Music performances on period instruments of the museum\u2019s collection, to interactive sound installations.\r\n",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Place/Berlin_SIM_MIM",
+  "@type": [
+    "crm:E53_Place",
+    "annal:EntityData"
+  ],
+  "annal:id": "Berlin_SIM_MIM",
+  "annal:type": "crm:E53_Place",
+  "annal:type_id": "Place",
   "entity:seeAlso_r": [
     {
       "rdfs:seeAlso": "http://www.sim.spk-berlin.de/en/"
     }
   ],
-  "annal:type_id": "Place",
-  "annal:id": "Berlin_SIM_MIM",
-  "@id": "./",
-  "@type": [
-    "crm:E53_Place",
-    "annal:EntityData"
-  ],
-  "annal:type": "annal:EntityData"
+  "rdfs:comment": "\"Staatliches Institut f\u00fcr Musikforschung\" (Berlin Musical Instrument Museum)\r\n\r\nA research institution for musicology with wide-reaching fields of activity.  The institute is a place of historical and theoretical reflection and a place where both music performance and its study are conveyed to a broad audience.\r\n\r\nThe Musical Instrument Museum hosts events from academic symposia, to lecture recitals with Early Music performances on period instruments of the museum\u2019s collection, to interactive sound installations.\r\n",
+  "rdfs:label": "Staatliches Institut f\u00fcr Musikforschung"
 }

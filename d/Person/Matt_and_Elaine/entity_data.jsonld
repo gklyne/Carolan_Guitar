@@ -1,14 +1,21 @@
 {
-  "rdfs:label": "",
-  "rdfs:comment": "Matt and Elaine from Pop Orchestra played Carolan in The Guitar Spot shop during Beeston\u2019s Oxjam Takeover music festival in October 2014.",
-  "entity:seeAlso_r": [],
-  "annal:type_id": "Person",
-  "foaf:name": "Matt and Elaine from Pop Orchestra",
-  "annal:id": "Matt_and_Elaine",
-  "@id": "./",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Person/Matt_and_Elaine",
   "@type": [
     "prov:Agent",
+    "prov:Entity",
     "annal:EntityData"
   ],
-  "annal:type": "annal:EntityData"
+  "annal:id": "Matt_and_Elaine",
+  "annal:type": "prov:Agent",
+  "annal:type_id": "Person",
+  "entity:seeAlso_r": [],
+  "foaf:name": "Matt and Elaine from Pop Orchestra",
+  "rdfs:comment": "Matt and Elaine from Pop Orchestra played Carolan in The Guitar Spot shop during Beeston\u2019s Oxjam Takeover music festival in October 2014.",
+  "rdfs:label": "Matt and Elaine from Pop Orchestra"
 }

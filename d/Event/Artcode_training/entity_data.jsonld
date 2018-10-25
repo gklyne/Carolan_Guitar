@@ -1,34 +1,18 @@
 {
-  "rdfs:label": "Artcode training",
-  "rdfs:comment": "Running Aestheticode craft sessions at the Tent venue during the London Design Festival.\r\n\r\nLaunch of \"Artcodes\" as name for aestheticodes, and upgraded version of the scanning app.\r\n",
-  "entity:seeAlso_r": [
+  "@context": [
     {
-      "rdfs:seeAlso": "http://carolanguitar.com/2014/09/23/18-tent/"
+      "@base": "../../"
     },
-    {
-      "rdfs:seeAlso": "http://lizjeal.blogspot.co.uk/2014/09/london-design-festival.html"
-    }
+    "../../coll_context.jsonld"
   ],
+  "@id": "Event/Artcode_training",
+  "@type": [
+    "prov:Activity",
+    "annal:EntityData"
+  ],
+  "annal:id": "Artcode_training",
+  "annal:type": "prov:Activity",
   "annal:type_id": "Event",
-  "crm:P7_took_place_at": "Tent",
-  "prov:qualifiedAssociation": [
-    {
-      "prov:hadRole": "Designer",
-      "prov:agent": "Debbie_Bryan"
-    },
-    {
-      "prov:hadRole": "Designer",
-      "prov:agent": "Alice_Angus"
-    },
-    {
-      "prov:hadRole": "Designer",
-      "prov:agent": "Lilli_Cowley_Wood"
-    },
-    {
-      "prov:hadRole": "Designer",
-      "prov:agent": "Liz_Jeal"
-    }
-  ],
   "crm:P126_employed_r": [
     {
       "crm:P126_employed": "Cardboard"
@@ -40,12 +24,34 @@
       "crm:P126_employed": "Paper"
     }
   ],
-  "prov:used_r": [],
-  "annal:id": "Artcode_training",
-  "@id": "./",
-  "@type": [
-    "prov:Activity",
-    "annal:EntityData"
+  "crm:P7_took_place_at": "Tent",
+  "entity:seeAlso_r": [
+    {
+      "rdfs:seeAlso": "http://carolanguitar.com/2014/09/23/18-tent/"
+    },
+    {
+      "rdfs:seeAlso": "http://lizjeal.blogspot.co.uk/2014/09/london-design-festival.html"
+    }
   ],
-  "annal:type": "annal:EntityData"
+  "prov:qualifiedAssociation": [
+    {
+      "prov:agent": "Debbie_Bryan",
+      "prov:hadRole": "Designer"
+    },
+    {
+      "prov:agent": "Alice_Angus",
+      "prov:hadRole": "Designer"
+    },
+    {
+      "prov:agent": "Lilli_Cowley_Wood",
+      "prov:hadRole": "Designer"
+    },
+    {
+      "prov:agent": "Liz_Jeal",
+      "prov:hadRole": "Designer"
+    }
+  ],
+  "prov:used_r": [],
+  "rdfs:comment": "Running Aestheticode craft sessions at the Tent venue during the London Design Festival.\r\n\r\nLaunch of \"Artcodes\" as name for aestheticodes, and upgraded version of the scanning app.\r\n",
+  "rdfs:label": "Artcode training"
 }

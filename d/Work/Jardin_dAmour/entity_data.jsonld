@@ -1,35 +1,35 @@
 {
-  "rdfs:label": "Jardin d'Amour",
-  "rdfs:comment": "Jardin d'Amour by Pierre Bensusan.",
-  "entity:seeAlso_r": [
+  "@context": [
     {
-      "rdfs:seeAlso": "http://www.pierrebensusan.com/pierre-bensusan-lyrics.asp?ID=262"
-    }
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
   ],
-  "annal:type_id": "Work",
-  "annal:member__2": [
-    {
-      "crm:P12i_was_present_at": "Performance/Things"
-    }
+  "@id": "Work/Jardin_dAmour",
+  "@type": [
+    "frbroo:F25_Performance_Plan",
+    "crm:E29_Design_or_Procedure",
+    "prov:Entity",
+    "annal:EntityData"
   ],
+  "annal:id": "Jardin_dAmour",
   "annal:member": [
     {
       "prov:wasAttributedTo": "Person/Pierre_Bensusan"
     }
   ],
-  "annal:id": "Jardin_dAmour",
-  "@id": "./",
-  "@type": [
-    "frbroo:F25_Performance_Plan",
-    "prov:Entity",
-    "crm:E29_Design_or_Procedure",
-    "crm:E73_Information_Object",
-    "crm:E28_Conceptual_Object",
-    "crm:E71_Man-Made_Thing",
-    "crm:E70_Thing",
-    "crm:E77_Persistent_Item",
-    "crm:E1_CRM_Entity",
-    "annal:EntityData"
+  "annal:member__2": [
+    {
+      "crm:P12i_was_present_at": "Performance/Things"
+    }
   ],
-  "annal:type": "annal:EntityData"
+  "annal:type": "frbroo:F25_Performance_Plan",
+  "annal:type_id": "Work",
+  "entity:seeAlso_r": [
+    {
+      "rdfs:seeAlso": "http://www.pierrebensusan.com/pierre-bensusan-lyrics.asp?ID=262"
+    }
+  ],
+  "rdfs:comment": "Jardin d'Amour by Pierre Bensusan.",
+  "rdfs:label": "Jardin d'Amour"
 }

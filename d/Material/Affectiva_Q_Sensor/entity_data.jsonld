@@ -1,13 +1,19 @@
 {
-  "rdfs:label": "Affectiva Q Sensor",
-  "rdfs:comment": "A device that can record accelerometer, gyroscope and temperature data for up to thirty hours at a time.",
-  "entity:seeAlso_r": [],
-  "annal:type_id": "Material",
-  "annal:id": "Affectiva_Q_Sensor",
-  "@id": "./",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Material/Affectiva_Q_Sensor",
   "@type": [
     "crm:E57_Material",
     "annal:EntityData"
   ],
-  "annal:type": "annal:EntityData"
+  "annal:id": "Affectiva_Q_Sensor",
+  "annal:type": "crm:E57_Material",
+  "annal:type_id": "Material",
+  "entity:seeAlso_r": [],
+  "rdfs:comment": "A device that can record accelerometer, gyroscope and temperature data for up to thirty hours at a time.",
+  "rdfs:label": "Affectiva Q Sensor"
 }

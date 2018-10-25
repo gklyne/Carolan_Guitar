@@ -1,28 +1,34 @@
 {
-  "rdfs:label": "Composition or performed work",
-  "rdfs:comment": "A work that is presented through a performance",
-  "entity:seeAlso_r": [],
-  "annal:group_ref": "",
-  "annal:type_id": "Entity",
-  "annal:placeholder": "",
-  "annal:property_uri": "frbroo:F25_Performance_Plan",
-  "annal:field_ref_type": "",
-  "annal:field_entity_type": "",
-  "@id": "./",
-  "annal:repeat_label_delete": "",
-  "annal:member": [],
-  "annal:field_ref_restriction": "",
-  "annal:field_placement": "small:0,12",
-  "annal:repeat_label_add": "",
-  "annal:default_value": "",
-  "annal:field_value_type": "annal:Text",
-  "annal:field_value_mode": "Enum_value_mode/Value_direct",
-  "annal:field_render_type": "Enum_render_type/Enum_optional",
-  "annal:field_ref_field": "",
-  "annal:id": "Composition",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Entity/Composition",
   "@type": [
-    "/annalist/c/Carolan_Guitar/d/_type/Entity/",
+    "prov:Entity",
     "annal:EntityData"
   ],
-  "annal:type": "annal:EntityData"
+  "annal:default_value": "",
+  "annal:field_entity_type": "",
+  "annal:field_placement": "small:0,12",
+  "annal:field_ref_field": "",
+  "annal:field_ref_restriction": "",
+  "annal:field_ref_type": "",
+  "annal:field_render_type": "Enum_render_type/Enum_optional",
+  "annal:field_value_mode": "Enum_value_mode/Value_direct",
+  "annal:field_value_type": "annal:Text",
+  "annal:group_ref": "",
+  "annal:id": "Composition",
+  "annal:member": [],
+  "annal:placeholder": "",
+  "annal:property_uri": "frbroo:F25_Performance_Plan",
+  "annal:repeat_label_add": "",
+  "annal:repeat_label_delete": "",
+  "annal:type": "prov:Entity",
+  "annal:type_id": "Entity",
+  "entity:seeAlso_r": [],
+  "rdfs:comment": "A work that is presented through a performance",
+  "rdfs:label": "Composition or performed work"
 }

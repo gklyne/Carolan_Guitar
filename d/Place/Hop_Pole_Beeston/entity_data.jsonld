@@ -1,17 +1,23 @@
 {
-  "rdfs:label": "Hop Pole Beeston",
-  "rdfs:comment": "",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Place/Hop_Pole_Beeston",
+  "@type": [
+    "crm:E53_Place",
+    "annal:EntityData"
+  ],
+  "annal:id": "Hop_Pole_Beeston",
+  "annal:type": "crm:E53_Place",
+  "annal:type_id": "Place",
   "entity:seeAlso_r": [
     {
       "rdfs:seeAlso": "https://www.facebook.com/hop.pole.beeston"
     }
   ],
-  "annal:type_id": "Place",
-  "annal:id": "Hop_Pole_Beeston",
-  "@id": "./",
-  "@type": [
-    "crm:E53_Place",
-    "annal:EntityData"
-  ],
-  "annal:type": "annal:EntityData"
+  "rdfs:comment": "",
+  "rdfs:label": "Hop Pole Beeston"
 }

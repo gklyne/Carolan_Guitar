@@ -1,35 +1,35 @@
 {
-  "rdfs:label": "Baloney Blues",
-  "rdfs:comment": "A Steve Hicks original composition in the Nashville thumb-picking style.\r\n",
-  "entity:seeAlso_r": [
+  "@context": [
     {
-      "rdfs:seeAlso": "https://youtu.be/Yxk-pwYVkww"
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Work/Baloney_Blues",
+  "@type": [
+    "frbroo:F25_Performance_Plan",
+    "crm:E29_Design_or_Procedure",
+    "prov:Entity",
+    "annal:EntityData"
+  ],
+  "annal:id": "Baloney_Blues",
+  "annal:member": [
+    {
+      "prov:wasAttributedTo": "Person/Steve_Hicks"
     }
   ],
-  "annal:type_id": "Work",
   "annal:member__2": [
     {
       "crm:P12i_was_present_at": "Performance/An_Educated_Thumb"
     }
   ],
-  "annal:type": "annal:EntityData",
-  "annal:id": "Baloney_Blues",
-  "@id": "./",
-  "@type": [
-    "frbroo:F25_Performance_Plan",
-    "prov:Entity",
-    "crm:E29_Design_or_Procedure",
-    "crm:E73_Information_Object",
-    "crm:E28_Conceptual_Object",
-    "crm:E71_Man-Made_Thing",
-    "crm:E70_Thing",
-    "crm:E77_Persistent_Item",
-    "crm:E1_CRM_Entity",
-    "annal:EntityData"
-  ],
-  "annal:member": [
+  "annal:type": "frbroo:F25_Performance_Plan",
+  "annal:type_id": "Work",
+  "entity:seeAlso_r": [
     {
-      "prov:wasAttributedTo": "Person/Steve_Hicks"
+      "rdfs:seeAlso": "https://youtu.be/Yxk-pwYVkww"
     }
-  ]
+  ],
+  "rdfs:comment": "A Steve Hicks original composition in the Nashville thumb-picking style.\r\n",
+  "rdfs:label": "Baloney Blues"
 }

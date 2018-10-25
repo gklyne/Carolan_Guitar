@@ -1,14 +1,21 @@
 {
-  "rdfs:label": "",
-  "rdfs:comment": "Marc played Carolan in The Guitar Spot shop during Beeston\u2019s Oxjam Takeover music festival in October 2014.",
-  "entity:seeAlso_r": [],
-  "annal:type_id": "Person",
-  "foaf:name": "Marc Block",
-  "annal:id": "Marc_Block",
-  "@id": "./",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Person/Marc_Block",
   "@type": [
     "prov:Agent",
+    "prov:Entity",
     "annal:EntityData"
   ],
-  "annal:type": "annal:EntityData"
+  "annal:id": "Marc_Block",
+  "annal:type": "prov:Agent",
+  "annal:type_id": "Person",
+  "entity:seeAlso_r": [],
+  "foaf:name": "Marc Block",
+  "rdfs:comment": "Marc played Carolan in The Guitar Spot shop during Beeston\u2019s Oxjam Takeover music festival in October 2014.",
+  "rdfs:label": "Marc Block"
 }

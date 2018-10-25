@@ -1,13 +1,19 @@
 {
-  "rdfs:label": "Wooden struts",
-  "rdfs:comment": "Wood strut material used to brace Carolan Guitar's soundboard",
-  "entity:seeAlso_r": [],
-  "annal:type_id": "Material",
-  "annal:id": "Wooden_struts",
-  "@id": "./",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Material/Wooden_struts",
   "@type": [
     "crm:E57_Material",
     "annal:EntityData"
   ],
-  "annal:type": "annal:EntityData"
+  "annal:id": "Wooden_struts",
+  "annal:type": "crm:E57_Material",
+  "annal:type_id": "Material",
+  "entity:seeAlso_r": [],
+  "rdfs:comment": "Wood strut material used to brace Carolan Guitar's soundboard",
+  "rdfs:label": "Wooden struts"
 }

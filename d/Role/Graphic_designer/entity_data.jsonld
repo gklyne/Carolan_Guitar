@@ -1,12 +1,18 @@
 {
-  "rdfs:label": "Graphic designer",
-  "rdfs:comment": "Providing designs for graphic theme and particular decorations.",
-  "annal:type_id": "Role",
-  "annal:id": "Graphic_designer",
-  "@id": "./",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Role/Graphic_designer",
   "@type": [
     "prov:Role",
     "annal:EntityData"
   ],
-  "annal:type": "annal:EntityData"
+  "annal:id": "Graphic_designer",
+  "annal:type": "prov:Role",
+  "annal:type_id": "Role",
+  "rdfs:comment": "Providing designs for graphic theme and particular decorations.",
+  "rdfs:label": "Graphic designer"
 }

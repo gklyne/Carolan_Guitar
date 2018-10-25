@@ -1,6 +1,19 @@
 {
-  "rdfs:label": "",
-  "rdfs:comment": "\"... there is Myriam Bleau\u2019s Software Revolvers, a performance of four spinning tops that control both music and in-built lighting to deliver a mesmerising performance that conveys the energy required to strive to build and maintain a beat.\"",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Person/Myriam_Bleau",
+  "@type": [
+    "prov:Agent",
+    "prov:Entity",
+    "annal:EntityData"
+  ],
+  "annal:id": "Myriam_Bleau",
+  "annal:type": "prov:Agent",
+  "annal:type_id": "Person",
   "entity:seeAlso_r": [
     {
       "rdfs:seeAlso": "http://www.myriambleau.com/"
@@ -9,13 +22,7 @@
       "rdfs:seeAlso": "https://youtu.be/F1bv_hYjekA"
     }
   ],
-  "annal:type_id": "Person",
   "foaf:name": "Myriam Bleau",
-  "annal:id": "Myriam_Bleau",
-  "@id": "./",
-  "@type": [
-    "prov:Agent",
-    "annal:EntityData"
-  ],
-  "annal:type": "annal:EntityData"
+  "rdfs:comment": "\"... there is Myriam Bleau\u2019s Software Revolvers, a performance of four spinning tops that control both music and in-built lighting to deliver a mesmerising performance that conveys the energy required to strive to build and maintain a beat.\"",
+  "rdfs:label": "Myriam Bleau"
 }

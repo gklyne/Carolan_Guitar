@@ -1,6 +1,19 @@
 {
-  "rdfs:label": "",
-  "rdfs:comment": "Musical friend of Geert De Wilde",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Person/Dylan_Jones",
+  "@type": [
+    "prov:Agent",
+    "prov:Entity",
+    "annal:EntityData"
+  ],
+  "annal:id": "Dylan_Jones",
+  "annal:type": "prov:Agent",
+  "annal:type_id": "Person",
   "entity:seeAlso_r": [
     {
       "rdfs:seeAlso": "http://www.umbrellahead.co.uk/"
@@ -18,13 +31,7 @@
       "rdfs:seeAlso": "https://vimeo.com/dylanjones56"
     }
   ],
-  "annal:type_id": "Person",
   "foaf:name": "Dylan Jones",
-  "annal:id": "Dylan_Jones",
-  "@id": "./",
-  "@type": [
-    "prov:Agent",
-    "annal:EntityData"
-  ],
-  "annal:type": "annal:EntityData"
+  "rdfs:comment": "Musical friend of Geert De Wilde",
+  "rdfs:label": "Dylan Jones"
 }

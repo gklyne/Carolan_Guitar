@@ -1,19 +1,19 @@
 {
-  "rdfs:label": "Preparing for construction",
-  "rdfs:comment": "* Sourcing and preparing piece of reclaimed mahogany (provenance unknown)\r\n* Create templates for back and sides\r\n* Mark up flamed maple\r\n",
-  "entity:seeAlso_r": [
+  "@context": [
     {
-      "rdfs:seeAlso": "http://carolanguitar.com/2014/08/14/mapping/"
-    }
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
   ],
+  "@id": "Construction/Construction_1",
+  "@type": [
+    "crm:E12_Production",
+    "prov:Activity",
+    "annal:EntityData"
+  ],
+  "annal:id": "Construction_1",
+  "annal:type": "crm:E12_Production",
   "annal:type_id": "Construction",
-  "crm:P7_took_place_at": "",
-  "prov:qualifiedAssociation": [
-    {
-      "prov:hadRole": "Role/Luthier",
-      "prov:agent": "Person/Nick_Perez"
-    }
-  ],
   "crm:P126_employed_r": [
     {
       "crm:P126_employed": "Material/Mahogany"
@@ -25,13 +25,19 @@
       "crm:P126_employed": "Material/Flamed_maple"
     }
   ],
-  "prov:used_r": [],
-  "annal:id": "Construction_1",
-  "@id": "./",
-  "@type": [
-    "crm:E12_Production",
-    "prov:Activity",
-    "annal:EntityData"
+  "crm:P7_took_place_at": "",
+  "entity:seeAlso_r": [
+    {
+      "rdfs:seeAlso": "http://carolanguitar.com/2014/08/14/mapping/"
+    }
   ],
-  "annal:type": "annal:EntityData"
+  "prov:qualifiedAssociation": [
+    {
+      "prov:agent": "Person/Nick_Perez",
+      "prov:hadRole": "Role/Luthier"
+    }
+  ],
+  "prov:used_r": [],
+  "rdfs:comment": "* Sourcing and preparing piece of reclaimed mahogany (provenance unknown)\r\n* Create templates for back and sides\r\n* Mark up flamed maple\r\n",
+  "rdfs:label": "Preparing for construction"
 }

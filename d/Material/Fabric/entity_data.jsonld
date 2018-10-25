@@ -1,13 +1,19 @@
 {
-  "rdfs:label": "Fabric",
-  "rdfs:comment": "",
-  "entity:seeAlso_r": [],
-  "annal:type_id": "Material",
-  "annal:id": "Fabric",
-  "@id": "./",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Material/Fabric",
   "@type": [
     "crm:E57_Material",
     "annal:EntityData"
   ],
-  "annal:type": "annal:EntityData"
+  "annal:id": "Fabric",
+  "annal:type": "crm:E57_Material",
+  "annal:type_id": "Material",
+  "entity:seeAlso_r": [],
+  "rdfs:comment": "",
+  "rdfs:label": "Fabric"
 }

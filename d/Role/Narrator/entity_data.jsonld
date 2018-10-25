@@ -1,12 +1,18 @@
 {
-  "rdfs:label": "Narrator",
-  "rdfs:comment": "Narrator of guest post",
-  "annal:type_id": "Role",
-  "annal:id": "Narrator",
-  "@id": "./",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Role/Narrator",
   "@type": [
     "prov:Role",
     "annal:EntityData"
   ],
-  "annal:type": "annal:EntityData"
+  "annal:id": "Narrator",
+  "annal:type": "prov:Role",
+  "annal:type_id": "Role",
+  "rdfs:comment": "Narrator of guest post",
+  "rdfs:label": "Narrator"
 }

@@ -1,12 +1,18 @@
 {
-  "rdfs:label": "Guitarist",
-  "rdfs:comment": "",
-  "annal:type_id": "Role",
-  "annal:id": "Guitarist",
-  "@id": "./",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Role/Guitarist",
   "@type": [
     "prov:Role",
     "annal:EntityData"
   ],
-  "annal:type": "annal:EntityData"
+  "annal:id": "Guitarist",
+  "annal:type": "prov:Role",
+  "annal:type_id": "Role",
+  "rdfs:comment": "",
+  "rdfs:label": "Guitarist"
 }

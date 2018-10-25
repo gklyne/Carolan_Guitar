@@ -1,12 +1,18 @@
 {
-  "rdfs:label": "Luthier",
-  "rdfs:comment": "Performed physical design and construction of the guitar",
-  "annal:type_id": "Role",
-  "annal:id": "Luthier",
-  "@id": "./",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Role/Luthier",
   "@type": [
     "prov:Role",
     "annal:EntityData"
   ],
-  "annal:type": "annal:EntityData"
+  "annal:id": "Luthier",
+  "annal:type": "prov:Role",
+  "annal:type_id": "Role",
+  "rdfs:comment": "Performed physical design and construction of the guitar",
+  "rdfs:label": "Luthier"
 }

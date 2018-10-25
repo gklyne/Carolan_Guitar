@@ -1,12 +1,18 @@
 {
-  "rdfs:label": "Designer",
-  "rdfs:comment": "Contributor the overall design",
-  "annal:type_id": "Role",
-  "annal:id": "Designer",
-  "@id": "./",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Role/Designer",
   "@type": [
     "prov:Role",
     "annal:EntityData"
   ],
-  "annal:type": "annal:EntityData"
+  "annal:id": "Designer",
+  "annal:type": "prov:Role",
+  "annal:type_id": "Role",
+  "rdfs:comment": "Contributor the overall design",
+  "rdfs:label": "Designer"
 }
